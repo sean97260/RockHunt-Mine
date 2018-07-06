@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -530159753, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 3
+  lastUpdatedAtString: 2018-07-04T17:28:33.810-04:00
+  initializedAtString: 2018-07-04T16:14:21.253-04:00
+  log:
+  - commitID: 6a2c57ca92ca85acc194df8a6f136b2e62cd5526
+    mergeA: 
+    mergeB: 
+    authorName: Clemence Koh
+    authorEmail: clemence.koh@mail.utoronto.ca
+    commitEmail: clemence.koh@mail.utoronto.ca
+    commitName: Clemence Koh
+    summary: Initial commit
+    description: Initial commit
+    timeString: 2018-05-26T10:48:54.000-04:00
+    commitTimeString: 2018-05-26T10:48:54.000-04:00
+    changes:
+    - path: .gitattributes
+      fullPath: "C:\\Users\\Cl\xE9mence\\Desktop\\RockHuntCOPY\\RockHunt Mine\\.gitattributes"
+      projectPath: .gitattributes
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: .gitignore
+      fullPath: "C:\\Users\\Cl\xE9mence\\Desktop\\RockHuntCOPY\\RockHunt Mine\\.gitignore"
+      projectPath: .gitignore
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: Assets\.gitignore
+      fullPath: "C:\\Users\\Cl\xE9mence\\Desktop\\RockHuntCOPY\\RockHunt Mine\\Assets\\.gitignore"
+      projectPath: Assets\.gitignore
+      originalPath: 
+      status: 4
+      staged: 0
