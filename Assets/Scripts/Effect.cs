@@ -9,8 +9,9 @@ public class Effect : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		obj = GameObject.Find("SceneGranite");
-		obj.SetActive (false);
-	}
+        if (obj != null) { obj.SetActive(false);
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {

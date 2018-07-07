@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LevelButton : MonoBehaviour {
+public class Level1Button : MonoBehaviour {
 
 	bool activated = true;
 

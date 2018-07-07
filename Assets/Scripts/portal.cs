@@ -12,7 +12,7 @@ public class portal : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D other){
 		if (other.gameObject.tag == "Cowboy") {
-			SceneManager.LoadScene("Map2");
+			SceneManager.LoadScene("Map");
 		}
 	}
 	

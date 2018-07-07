@@ -11,7 +11,11 @@ public class SandScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-		
+        		
 	}
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.name == "Character") { GameObject.Find("Dialog generator").GetComponent<Animator>().SetTrigger("SandFound"); }
+    }
 }
