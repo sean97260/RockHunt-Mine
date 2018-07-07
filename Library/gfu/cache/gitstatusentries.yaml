@@ -12,24 +12,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-06T21:57:57.263-04:00
+  lastUpdatedAtString: 2018-07-07T14:45:34.082-04:00
   initializedAtString: 2018-07-06T21:26:50.407-04:00
   entries:
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\branches.yaml"
-    projectPath: Library\gfu\cache\branches.yaml
+  - path: Assets\Level01.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level01.unity"
+    projectPath: Assets\Level01.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\assetDatabase3"
+    projectPath: Library\assetDatabase3
     originalPath: 
     status: 3
     staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlocks.yaml"
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlog.yaml"
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -42,6 +42,48 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gittrackingstatus.yaml"
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\da\dac1355daca0e4202a3ac13875cd21db
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\da\\dac1355daca0e4202a3ac13875cd21db"
+    projectPath: Library\metadata\da\dac1355daca0e4202a3ac13875cd21db
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll.mdb"
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\obj\\Debug\\Assembly-CSharp.csproj.CoreCompileInputs.cache"
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\obj\\Debug\\DesignTimeResolveAssemblyReferencesInput.cache"
+    projectPath: obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp\__Backupscenes\0.backup
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Temp\\__Backupscenes\\0.backup"
+    projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     status: 3
     staged: 0
