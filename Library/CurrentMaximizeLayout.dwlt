@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 681, y: 492}
+  m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 4476
+  controlID: 89
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -47,9 +47,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 293
-    y: 19
+    y: 93
     width: 673
-    height: 304
+    height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_MaximizeOnPlay: 1
   m_Gizmos: 0
@@ -61,8 +61,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     m_HBaseRangeMin: -168.25
     m_HBaseRangeMax: 168.25
-    m_VBaseRangeMin: -71.75
-    m_VBaseRangeMax: 71.75
+    m_VBaseRangeMin: -81.5
+    m_VBaseRangeMax: 81.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -71,7 +71,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoom: 0
     m_UniformScale: 1
     m_UpDirection: 1
@@ -80,9 +80,9 @@ MonoBehaviour:
       x: 0
       y: 17
       width: 673
-      height: 287
+      height: 326
     m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 336.5, y: 143.5}
+    m_Translation: {x: 336.5, y: 163}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -90,14 +90,14 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -168.25
-      y: -71.75
+      y: -81.5
       width: 336.5
-      height: 143.5
+      height: 163
     m_MinimalGUI: 1
   m_defaultScale: 2
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1346, y: 608}
+  m_LastWindowPixelSize: {x: 1346, y: 686}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -121,10 +121,10 @@ MonoBehaviour:
     y: 0
     width: 968
     height: 635
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 402, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 4477
+  controlID: 90
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,11 +144,11 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 968
-    height: 325
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+    height: 364
+  m_MinSize: {x: 402, y: 221}
+  m_MaxSize: {x: 8002, y: 4021}
   vertical: 0
-  controlID: 4478
+  controlID: 91
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 291
-    height: 325
+    height: 364
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
@@ -196,16 +196,16 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 32
+    x: 0
     y: 93
     width: 289
-    height: 304
+    height: 343
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c8820000
-    m_LastClickedID: 33480
-    m_ExpandedIDs: c041fefffa16ffffd21dffff3228ffffba40ffffdc42ffff3453ffffbe54ffff6456ffff2e5affffee5bffff0260ffff2476ffff8479ffff127bffff8684ffff5687ffff46dfffffa2e1ffff9ae6ffffc6ebffff8aefffff96f1fffffcf3fffff8f5ffffbaf7ffff60faffff0000000042820000
+    m_SelectedIDs: a63d0000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 82f6ffff9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -224,7 +224,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
   m_ExpandedScenes:
-  - Level2
+  - Level01
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
@@ -245,9 +245,9 @@ MonoBehaviour:
     x: 291
     y: 0
     width: 677
-    height: 325
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+    height: 364
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
@@ -278,10 +278,10 @@ MonoBehaviour:
   m_DepthBufferBits: 32
   m_Pos:
     serializedVersion: 2
-    x: 325
-    y: 93
-    width: 673
-    height: 304
+    x: 615
+    y: 100
+    width: 467
+    height: 327
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 0
   lastFramingTime: 1765.9775577504245
@@ -289,9 +289,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 14.674151, y: -6.0225773, z: -0.043608427}
+    m_Target: {x: -2.23, y: -0.79, z: 0}
     speed: 2
-    m_Value: {x: 14.674151, y: -6.0225773, z: -0.043608427}
+    m_Value: {x: -2.23, y: -0.79, z: 0}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -319,9 +319,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 9.781874
+    m_Target: 5.47432
     speed: 2
-    m_Value: 9.781874
+    m_Value: 5.47432
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -404,9 +404,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 325
+    y: 364
     width: 968
-    height: 310
+    height: 271
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 12}
@@ -438,10 +438,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 32
-    y: 418
+    x: 0
+    y: 457
     width: 966
-    height: 289
+    height: 250
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -465,9 +465,9 @@ MonoBehaviour:
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: fa5a0000
-    m_LastClickedID: 23290
-    m_ExpandedIDs: 00000000fa5a0000085b0000345b0000b45b0000d85b0000dc5b00002c5c0000c85c00000064000000ca9a3bffffff7f
+    m_SelectedIDs: fa350000
+    m_LastClickedID: 13818
+    m_ExpandedIDs: 00000000fa350000383600002c39000052420000f4440000304500002a4900006e5200008256000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -495,7 +495,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa5a0000085b0000345b0000b45b0000d85b0000dc5b00002c5c0000c85c00000064000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000fa350000383600002c39000052420000f4440000304500002a4900006e52000082560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,10 +520,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: c8820000
-    m_LastClickedInstanceID: 33480
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c623000000000000ba0e0000e2350000de4a000052500000f05100007e03010054640000426d00001279000084290000fc3c0000300a00005c4e0000020e000034880000
+    m_SelectedInstanceIDs: a63d0000
+    m_LastClickedInstanceID: 15782
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c623000000000000ba0e0000e2350000de4a000052500000f05100007e03010054640000426d00001279000084290000fc3c0000300a00005c4e0000020e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -547,7 +547,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 146.99902}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 166
 --- !u!114 &13
@@ -572,10 +572,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 32
-    y: 418
+    x: 0
+    y: 331
     width: 966
-    height: 289
+    height: 375
   m_PersistentViewDataDictionary: {fileID: 0}
 --- !u!114 &14
 MonoBehaviour:
@@ -950,6 +950,7 @@ MonoBehaviour:
   m_Panes:
   - {fileID: 16}
   - {fileID: 17}
+  - {fileID: 18}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &16
@@ -974,12 +975,12 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 1002
+    x: 970
     y: 93
     width: 396
     height: 614
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 454.00574}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -1018,3 +1019,3399 @@ MonoBehaviour:
   - https://public-cdn.cloud.unity3d.com/editor/production/cloud/hub
   m_RegisteredViewInstances:
   - {fileID: 0}
+--- !u!114 &18
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 363648761, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AutoRepaintOnSceneChange: 0
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: GitHub
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_DepthBufferBits: 0
+  m_Pos:
+    serializedVersion: 2
+    x: 1088
+    y: 92
+    width: 278
+    height: 614
+  m_PersistentViewDataDictionary: {fileID: 0}
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 0
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 2
+  activeTab: 2
+  initProjectView:
+    hasCompletedInitialCheck: 1
+    isUserDataPresent: 1
+    lastCheckUserChangedEvent:
+      updatedTimeString: 2018-05-26T10:48:46.505-04:00
+      cacheType: 7
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 0
+    disableCreate: 0
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 
+      cacheType: 0
+    currentBranch:
+      name: 
+      tracking: 
+    currentRemote:
+      name: 
+      url: 
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches: []
+    remoteBranches: []
+  changesView:
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    commitBody: 
+    commitMessage: 
+    currentBranch: '[master]'
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys:
+        - 00000000000000001000000000000000
+        - 155fd61ca100f1540b9f1f2988979283
+        - ce1104cdcad72b64ba738b146b44b2f6
+        - cad92998c5182496e8b989b406d9f156
+        - d516f2a1bec6a9645a084ef8c9237132
+        - 0188ec438976e5849b40a2c1ce5f20f9
+        - 136dc24f151211d438acee17aff4e934
+        - c743ae24ee231884887054d20ccdd0ae
+        - c5c83d14802e712408f23409f3c59e26
+        - 15ca2bebf173f2d4484686a03a45b56d
+        - 23c8bee69b591054094d32918f98facd
+        - 68c7e4565cde54155bb78d8e935f1dd4
+        - 2590b98e5cafc4e32b61170d7b917ee6
+        - ecfb28d906a32914d956497c8d3b3395
+        - 636d33ae594884e7d80b569f429d245d
+        - 21206c65839f84d0e9ae14bc1fdc68db
+        - ddb8611e748af425a82a497ac5a98c0c
+        - d601ecb6855bb432bae2aa49d8fd82e8
+        - 48c22d5d7479fcb49ab3be0cdd2ccec0
+        - f9fc9b08ecd899944adf9860b4abd6b6
+        - 790749ba7e4b18141953e39cb13f1b79
+        - a0ded7adcc817ce489fec07977f16d13
+        - 868fbb4c41814baebc00f96e24ede2f8
+        - fe5abeadcbe591e4fa9107fbc02f3998
+        - 99b48d4d4f6a66340ab06bd487d70a45
+        - 151a1d946b98deb4b98445400983ba92
+        - a83159a46d87d2a4f8cec651049b9231
+        - 131a6b21c8605f84396be9f6751fb6e3
+        - 2cda990e2423bbf4892e6590ba056729
+        - 00000000000000001000000020000000
+        - 00000000000000006000000000000000
+        - 00000000000000007100000000000000
+        - 00000000000000008000000000000000
+        - 0000000000000000b000000000000000
+        - 0000000000000000c000000000000000
+        - 00000000000000006100000000000000
+        - 00000000000000002000000000000000
+        - 00000000000000004100000000000000
+        - 0000000000000000a000000000000000
+        - 00000000000000005100000000000000
+        - 0000000000000000b100000000000000
+        - 00000000000000004000000000000000
+        - 00000000000000009000000000000000
+        - 00000000000000003000000000000000
+        - 00000000000000007000000000000000
+        - 0000000000000000a100000000000000
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Plugins
+          label: Plugins
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Plugins\GitHub
+          label: GitHub
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor
+          label: Editor
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          label: AsyncBridge.Net35.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\credits.txt
+          label: credits.txt
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\credits.txt
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\credits.txt"
+            projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\eula.txt
+          label: eula.txt
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\eula.txt
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\eula.txt"
+            projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          label: GitHub.Api.dll
+          level: 4
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+          label: GitHub.Api.dll.mdb
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.mdb"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          label: GitHub.Logging.dll
+          level: 4
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+          label: GitHub.Logging.dll.mdb
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.mdb"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          label: GitHub.Unity.dll
+          level: 4
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+          label: GitHub.Unity.dll.mdb
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.mdb"
+            projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+          label: ICSharpCode.SharpZipLib.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\ICSharpCode.SharpZipLib.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+          label: libsfw.bundle
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle"
+            projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\libsfw.so
+          label: libsfw.so
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\libsfw.so
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so"
+            projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          label: Mono.Posix.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          label: QuickGuide.pdf
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf"
+            projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          label: ReadOnlyCollectionsInterfaces.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+          label: sfw.net.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+          label: System.Threading.dll
+          level: 4
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\x64
+          label: x64
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          label: pthreadVC2.dll
+          level: 5
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          label: sfw_x64.dll
+          level: 5
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\x86
+          label: x86
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          label: pthreadVC2.dll
+          level: 5
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          label: sfw_x86.dll
+          level: 5
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll"
+            projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scenes\SampleScene.unity
+          label: SampleScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 1
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\SampleScene.unity
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Scenes\\SampleScene.unity"
+            projectPath: Assets\Scenes\SampleScene.unity
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: ProjectSettings\AudioManager.asset
+          label: AudioManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\AudioManager.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\AudioManager.asset"
+            projectPath: ProjectSettings\AudioManager.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          label: ClusterInputManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ClusterInputManager.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\ClusterInputManager.asset"
+            projectPath: ProjectSettings\ClusterInputManager.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          label: DynamicsManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\DynamicsManager.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\DynamicsManager.asset"
+            projectPath: ProjectSettings\DynamicsManager.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          label: EditorBuildSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\EditorBuildSettings.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\EditorBuildSettings.asset"
+            projectPath: ProjectSettings\EditorBuildSettings.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\EditorSettings.asset
+          label: EditorSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\EditorSettings.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\EditorSettings.asset"
+            projectPath: ProjectSettings\EditorSettings.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          label: GraphicsSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\GraphicsSettings.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\GraphicsSettings.asset"
+            projectPath: ProjectSettings\GraphicsSettings.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\InputManager.asset
+          label: InputManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\InputManager.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\InputManager.asset"
+            projectPath: ProjectSettings\InputManager.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          label: NavMeshAreas.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\NavMeshAreas.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\NavMeshAreas.asset"
+            projectPath: ProjectSettings\NavMeshAreas.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\NetworkManager.asset
+          label: NetworkManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\NetworkManager.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\NetworkManager.asset"
+            projectPath: ProjectSettings\NetworkManager.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          label: Physics2DSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\Physics2DSettings.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\Physics2DSettings.asset"
+            projectPath: ProjectSettings\Physics2DSettings.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\PresetManager.asset
+          label: PresetManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\PresetManager.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\PresetManager.asset"
+            projectPath: ProjectSettings\PresetManager.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          label: ProjectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ProjectSettings.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\ProjectSettings.asset"
+            projectPath: ProjectSettings\ProjectSettings.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\QualitySettings.asset
+          label: QualitySettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\QualitySettings.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\QualitySettings.asset"
+            projectPath: ProjectSettings\QualitySettings.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\TagManager.asset
+          label: TagManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\TagManager.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\TagManager.asset"
+            projectPath: ProjectSettings\TagManager.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\TimeManager.asset
+          label: TimeManager.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\TimeManager.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\TimeManager.asset"
+            projectPath: ProjectSettings\TimeManager.asset
+            originalPath: 
+            status: 1
+            staged: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          label: UnityConnectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\UnityConnectSettings.asset
+            fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\UnityConnectSettings.asset"
+            projectPath: ProjectSettings\UnityConnectSettings.asset
+            originalPath: 
+            status: 1
+            staged: 0
+      folders:
+        keys:
+        - Assets
+        - Assets\Plugins
+        - Assets\Plugins\GitHub
+        - Assets\Plugins\GitHub\Editor
+        - Assets\Plugins\GitHub\Editor\x64
+        - Assets\Plugins\GitHub\Editor\x86
+        - Assets\Scenes
+        - Packages
+        - ProjectSettings
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Plugins
+          label: Plugins
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Plugins\GitHub
+          label: GitHub
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor
+          label: Editor
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\x64
+          label: x64
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Plugins\GitHub\Editor\x86
+          label: x86
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Plugins.meta
+        label: Plugins.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins.meta"
+          projectPath: Assets\Plugins.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins
+        label: Plugins
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Plugins\GitHub.meta
+        label: GitHub.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub.meta"
+          projectPath: Assets\Plugins\GitHub.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub
+        label: GitHub
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor.meta
+        label: Editor.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor.meta"
+          projectPath: Assets\Plugins\GitHub\Editor.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor
+        label: Editor
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+        label: AsyncBridge.Net35.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+        label: AsyncBridge.Net35.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\credits.txt
+        label: credits.txt
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\credits.txt
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\credits.txt"
+          projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+        label: credits.txt.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\credits.txt.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\eula.txt
+        label: eula.txt
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\eula.txt
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\eula.txt"
+          projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+        label: eula.txt.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\eula.txt.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+        label: GitHub.Api.dll
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+        label: GitHub.Api.dll.mdb
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.mdb"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+        label: GitHub.Api.dll.mdb.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.mdb.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+        label: GitHub.Api.dll.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+        label: GitHub.Logging.dll
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+        label: GitHub.Logging.dll.mdb
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.mdb"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+        label: GitHub.Logging.dll.mdb.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.mdb.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+        label: GitHub.Logging.dll.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+        label: GitHub.Unity.dll
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+        label: GitHub.Unity.dll.mdb
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.mdb"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+        label: GitHub.Unity.dll.mdb.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.mdb.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+        label: GitHub.Unity.dll.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+        label: ICSharpCode.SharpZipLib.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\ICSharpCode.SharpZipLib.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+        label: ICSharpCode.SharpZipLib.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\ICSharpCode.SharpZipLib.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+        label: libsfw.bundle
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle"
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+        label: libsfw.bundle.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.so
+        label: libsfw.so
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\libsfw.so
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so"
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+        label: libsfw.so.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+        label: Mono.Posix.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+        label: Mono.Posix.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+        label: QuickGuide.pdf
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf"
+          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+        label: QuickGuide.pdf.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+        label: ReadOnlyCollectionsInterfaces.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+        label: ReadOnlyCollectionsInterfaces.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+        label: sfw.net.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+        label: sfw.net.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+        label: System.Threading.dll
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+        label: System.Threading.dll.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x64.meta
+        label: x64.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x64.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x64
+        label: x64
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+        label: pthreadVC2.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+        label: pthreadVC2.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+        label: sfw_x64.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+        label: sfw_x64.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x86.meta
+        label: x86.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x86.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x86
+        label: x86
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+        label: pthreadVC2.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+        label: pthreadVC2.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+        label: sfw_x86.dll
+        level: 5
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll"
+          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+        label: sfw_x86.dll.meta
+        level: 6
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll.meta"
+          projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Scenes.meta
+        label: Scenes.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Scenes.meta"
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\Scenes\SampleScene.unity
+        label: SampleScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Scenes\\SampleScene.unity"
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        label: SampleScene.unity.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Scenes\\SampleScene.unity.meta"
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Packages\manifest.json
+        label: manifest.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\manifest.json
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Packages\\manifest.json"
+          projectPath: Packages\manifest.json
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: ProjectSettings\AudioManager.asset
+        label: AudioManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\AudioManager.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\AudioManager.asset"
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        label: ClusterInputManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ClusterInputManager.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\ClusterInputManager.asset"
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        label: DynamicsManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\DynamicsManager.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\DynamicsManager.asset"
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        label: EditorBuildSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\EditorBuildSettings.asset"
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\EditorSettings.asset
+        label: EditorSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\EditorSettings.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\EditorSettings.asset"
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        label: GraphicsSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\GraphicsSettings.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\GraphicsSettings.asset"
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\InputManager.asset
+        label: InputManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\InputManager.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\InputManager.asset"
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        label: NavMeshAreas.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\NavMeshAreas.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\NavMeshAreas.asset"
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\NetworkManager.asset
+        label: NetworkManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\NetworkManager.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\NetworkManager.asset"
+          projectPath: ProjectSettings\NetworkManager.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        label: Physics2DSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\Physics2DSettings.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\Physics2DSettings.asset"
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\PresetManager.asset
+        label: PresetManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\PresetManager.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\PresetManager.asset"
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectSettings.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\ProjectSettings.asset"
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        label: ProjectVersion.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectVersion.txt
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\ProjectVersion.txt"
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\QualitySettings.asset
+        label: QualitySettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\QualitySettings.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\QualitySettings.asset"
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\TagManager.asset
+        label: TagManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TagManager.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\TagManager.asset"
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\TimeManager.asset
+        label: TimeManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TimeManager.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\TimeManager.asset"
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        label: UnityConnectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\UnityConnectSettings.asset"
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          status: 1
+          staged: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+    gitStatusEntries:
+    - path: Assets\Plugins.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins.meta"
+      projectPath: Assets\Plugins.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub.meta"
+      projectPath: Assets\Plugins\GitHub.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor.meta"
+      projectPath: Assets\Plugins\GitHub\Editor.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\AsyncBridge.Net35.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\AsyncBridge.Net35.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\credits.txt"
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\credits.txt.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\credits.txt.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\eula.txt"
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\eula.txt.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\eula.txt.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.mdb.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Api.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Api.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.mdb.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Logging.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Logging.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.mdb"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.mdb.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.mdb.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\GitHub.Unity.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\GitHub.Unity.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\ICSharpCode.SharpZipLib.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\ICSharpCode.SharpZipLib.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\ICSharpCode.SharpZipLib.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\libsfw.bundle.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.bundle.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\libsfw.so.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\libsfw.so.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\Mono.Posix.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\Mono.Posix.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf"
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\QuickGuide.pdf.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\QuickGuide.pdf.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\ReadOnlyCollectionsInterfaces.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\ReadOnlyCollectionsInterfaces.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\sfw.net.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\sfw.net.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\System.Threading.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\System.Threading.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64\\pthreadVC2.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\pthreadVC2.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x64\\sfw_x64.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x64\sfw_x64.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86\\pthreadVC2.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\pthreadVC2.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Plugins\\GitHub\\Editor\\x86\\sfw_x86.dll.meta"
+      projectPath: Assets\Plugins\GitHub\Editor\x86\sfw_x86.dll.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Scenes.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Scenes.meta"
+      projectPath: Assets\Scenes.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Scenes\\SampleScene.unity"
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Assets\Scenes\SampleScene.unity.meta
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\Scenes\\SampleScene.unity.meta"
+      projectPath: Assets\Scenes\SampleScene.unity.meta
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: Packages\manifest.json
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Packages\\manifest.json"
+      projectPath: Packages\manifest.json
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\AudioManager.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\AudioManager.asset"
+      projectPath: ProjectSettings\AudioManager.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\ClusterInputManager.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\ClusterInputManager.asset"
+      projectPath: ProjectSettings\ClusterInputManager.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\DynamicsManager.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\DynamicsManager.asset"
+      projectPath: ProjectSettings\DynamicsManager.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\EditorBuildSettings.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\EditorBuildSettings.asset"
+      projectPath: ProjectSettings\EditorBuildSettings.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\EditorSettings.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\EditorSettings.asset"
+      projectPath: ProjectSettings\EditorSettings.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\GraphicsSettings.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\GraphicsSettings.asset"
+      projectPath: ProjectSettings\GraphicsSettings.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\InputManager.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\InputManager.asset"
+      projectPath: ProjectSettings\InputManager.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\NavMeshAreas.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\NavMeshAreas.asset"
+      projectPath: ProjectSettings\NavMeshAreas.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\NetworkManager.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\NetworkManager.asset"
+      projectPath: ProjectSettings\NetworkManager.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\Physics2DSettings.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\Physics2DSettings.asset"
+      projectPath: ProjectSettings\Physics2DSettings.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\PresetManager.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\PresetManager.asset"
+      projectPath: ProjectSettings\PresetManager.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\ProjectSettings.asset"
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\ProjectVersion.txt
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\ProjectVersion.txt"
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\QualitySettings.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\QualitySettings.asset"
+      projectPath: ProjectSettings\QualitySettings.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\TagManager.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\TagManager.asset"
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\TimeManager.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\TimeManager.asset"
+      projectPath: ProjectSettings\TimeManager.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    - path: ProjectSettings\UnityConnectSettings.asset
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\ProjectSettings\\UnityConnectSettings.asset"
+      projectPath: ProjectSettings\UnityConnectSettings.asset
+      originalPath: 
+      status: 1
+      staged: 0
+    changedFilesText: 68 changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2018-05-26T10:49:06.206-04:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2018-05-26T10:49:06.430-04:00
+      cacheType: 5
+    lastLocksChangedEvent:
+      updatedTimeString: 2018-05-26T10:49:06.737-04:00
+      cacheType: 6
+  historyView:
+    currentLogHasUpdate: 1
+    currentTrackingStatusHasUpdate: 1
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 6a2c57ca92ca85acc194df8a6f136b2e62cd5526
+        mergeA: 
+        mergeB: 
+        authorName: Clemence Koh
+        authorEmail: clemence.koh@mail.utoronto.ca
+        commitEmail: clemence.koh@mail.utoronto.ca
+        commitName: Clemence Koh
+        summary: Initial commit
+        description: Initial commit
+        timeString: 2018-05-26T10:48:54.000-04:00
+        commitTimeString: 2018-05-26T10:48:54.000-04:00
+        changes:
+        - path: .gitattributes
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\.gitattributes"
+          projectPath: .gitattributes
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: .gitignore
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\.gitignore"
+          projectPath: .gitignore
+          originalPath: 
+          status: 4
+          staged: 0
+        - path: Assets\.gitignore
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\.gitignore"
+          projectPath: Assets\.gitignore
+          originalPath: 
+          status: 4
+          staged: 0
+      statusAhead: 0
+      selectedIndex: 0
+    selectedEntry:
+      commitID: 6a2c57ca92ca85acc194df8a6f136b2e62cd5526
+      mergeA: 
+      mergeB: 
+      authorName: Clemence Koh
+      authorEmail: clemence.koh@mail.utoronto.ca
+      commitEmail: clemence.koh@mail.utoronto.ca
+      commitName: Clemence Koh
+      summary: Initial commit
+      description: Initial commit
+      timeString: 2018-05-26T10:48:54.000-04:00
+      commitTimeString: 2018-05-26T10:48:54.000-04:00
+      changes:
+      - path: .gitattributes
+        fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\.gitattributes"
+        projectPath: .gitattributes
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: .gitignore
+        fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\.gitignore"
+        projectPath: .gitignore
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\.gitignore
+        fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\.gitignore"
+        projectPath: Assets\.gitignore
+        originalPath: 
+        status: 4
+        staged: 0
+    detailsScroll: {x: 0, y: 0}
+    logEntries:
+    - commitID: 6a2c57ca92ca85acc194df8a6f136b2e62cd5526
+      mergeA: 
+      mergeB: 
+      authorName: Clemence Koh
+      authorEmail: clemence.koh@mail.utoronto.ca
+      commitEmail: clemence.koh@mail.utoronto.ca
+      commitName: Clemence Koh
+      summary: Initial commit
+      description: Initial commit
+      timeString: 2018-05-26T10:48:54.000-04:00
+      commitTimeString: 2018-05-26T10:48:54.000-04:00
+      changes:
+      - path: .gitattributes
+        fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\.gitattributes"
+        projectPath: .gitattributes
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: .gitignore
+        fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\.gitignore"
+        projectPath: .gitignore
+        originalPath: 
+        status: 4
+        staged: 0
+      - path: Assets\.gitignore
+        fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\.gitignore"
+        projectPath: Assets\.gitignore
+        originalPath: 
+        status: 4
+        staged: 0
+    statusAhead: 0
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys:
+        - Assets
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            status: 0
+            staged: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 0
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: .gitattributes
+        label: .gitattributes
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .gitattributes
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\.gitattributes"
+          projectPath: .gitattributes
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: .gitignore
+        label: .gitignore
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .gitignore
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\.gitignore"
+          projectPath: .gitignore
+          originalPath: 
+          status: 4
+          staged: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+      - path: Assets\.gitignore
+        label: .gitignore
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\.gitignore
+          fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\UnityProjects\\Rock Hunt\\Assets\\.gitignore"
+          projectPath: Assets\.gitignore
+          originalPath: 
+          status: 4
+          staged: 0
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          status: 0
+          staged: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2018-07-06T21:50:24.890-04:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2018-07-06T21:50:23.208-04:00
+      cacheType: 4
+  settingsView:
+    gitPathView:
+      gitPath: 
+      gitLfsPath: 
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 0
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    metricsEnabled: 0
+    newRepositoryRemoteUrl: 
+    repositoryRemoteName: 
+    repositoryRemoteUrl: 
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: 
+      gitEmail: 
+      newGitName: 
+      newGitEmail: 
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 
+        cacheType: 0
+    webTimeout: 0
+  locksView:
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    currentUserHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 
+    lastLocksChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastUserChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lockedFiles: []
+    gitStatusEntries: []
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 0
+  currentRemoteName: 
+  currentBranch: master
+  currentRemoteUrl: No remote configured
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 1
+  currentBranchContent:
+    m_Text: master
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: No remote configured
+    m_Image: {fileID: 0}
+    m_Tooltip: Add a remote in the Settings tab
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2018-05-26T15:28:29.982-04:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 2018-05-26T16:23:39.997-04:00
+    cacheType: 4
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 2018-05-26T16:23:39.875-04:00
+    cacheType: 5
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
