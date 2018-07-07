@@ -7,73 +7,37 @@ public class Dialog : MonoBehaviour {
 	private Animator dialogAnimator;
 	private UnityEngine.AnimatorStateInfo indicator;
 	GameObject portal;
-    public GameObject cloud;
+	GameObject character;
+	bool windgone = false;
+	bool windgone_told = false;
+	bool windtold;
 
 	// Use this for initialization
 	void Start () {
 		dialogAnimator = GameObject.Find ("Dialog generator").GetComponent<Animator> ();
 		portal = GameObject.Find ("Portal");
 		portal.SetActive (false);
+		character = GameObject.Find ("Character");
+		windtold = false;
 	}
-	
-	// Update is called once per frame
-	void Update () {
 
-        if (GameObject.Find("SceneSand (1)") == null) {
-            dialogAnimator.SetBool("SandInBag", true);
-        }
+	// Update is called once per frame
+	void LateUpdate () {
+		if (character.transform.position.x >= 16.8 && character.transform.position.x <= 22 && windtold == false) {
+			windtold = true;
+			print ("wind should go");
+			dialogAnimator.SetBool ("wind", true);
+		}
+
+		if (windgone = true && windgone_told == false) {
+			windgone_told = true;
+			dialogAnimator.SetBool ("windgone", true);	
+		}
 
 		if (dialogAnimator.GetCurrentAnimatorStateInfo(0).IsName("portal")) {
 			portal.SetActive (true);
 		}
-        if (Input.GetKeyDown("space"))
-        {
-            dialogAnimator.SetTrigger("Space");
-            indicator = dialogAnimator.GetCurrentAnimatorStateInfo(0);
-            if (indicator.IsName("HelloThereWait"))
-            {
-                dialogAnimator.SetBool("gap1", true);
-            }
-            else if (indicator.IsName("SelfIntroductionWait"))
-            {
-                dialogAnimator.SetBool("gap2", true);
-            }
-            else if (indicator.IsName("HelpMeWait"))
-            {
-                dialogAnimator.SetBool("gap3", true);
-            }
-            else if (indicator.IsName("TryThisWait"))
-            {
-                dialogAnimator.SetBool("gap4", true);
-            }
-            else if (indicator.IsName("Rain"))
-            {
-                dialogAnimator.SetBool("getRain", true);
-                if (cloud != null)
-                {
-                    cloud.SetActive(true);
-                }
-            }
-            else if (dialogAnimator.GetBool("granite") == true && indicator.IsName("GraniteGot"))
-            {
-                dialogAnimator.SetBool("gap5", true);
-            }
-            else if (indicator.IsName("rememberWait"))
-            {
-                dialogAnimator.SetBool("remember", true);
-            }
-            else if (dialogAnimator.GetBool("gotSand") == true && indicator.IsName("gotSand"))
-            {
-                dialogAnimator.SetBool("gap6", true);
-            }
-            else if (indicator.IsName("endWait"))
-            {
-                dialogAnimator.SetBool("gap7", true);
-            }
-        }
-        else {
-            dialogAnimator.ResetTrigger("Space");
-        }
+
 		
 	}
 }
