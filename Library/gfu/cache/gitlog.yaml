@@ -12,9 +12,58 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-07-06T20:46:18.201-04:00
-  initializedAtString: 2018-07-06T20:09:57.994-04:00
+  lastUpdatedAtString: 2018-07-06T21:30:12.460-04:00
+  initializedAtString: 2018-07-06T21:30:12.460-04:00
   log:
+  - commitID: ed51a767bd133b5f10b7f91a77f74932b387f906
+    mergeA: 
+    mergeB: 
+    authorName: Clemence Koh
+    authorEmail: kohclemence@gmail.com
+    commitEmail: kohclemence@gmail.com
+    commitName: Clemence Koh
+    summary: .yaml files
+    description: ".yaml files\r\n\r\nI can't switch branches unless I commit these
+      files."
+    timeString: 2018-07-06T20:54:36.000-04:00
+    commitTimeString: 2018-07-06T20:54:36.000-04:00
+    changes:
+    - path: Library\gfu\cache\branches.yaml
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\branches.yaml"
+      projectPath: Library\gfu\cache\branches.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gittrackingstatus.yaml
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+      projectPath: Library\gfu\cache\gittrackingstatus.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 532aaa6b70362ce7387d0b9c5ba59f0036ff334e
+    mergeA: 
+    mergeB: 
+    authorName: Clemence Koh
+    authorEmail: kohclemence@gmail.com
+    commitEmail: kohclemence@gmail.com
+    commitName: Clemence Koh
+    summary: .yaml files
+    description: .yaml files
+    timeString: 2018-07-06T20:53:41.000-04:00
+    commitTimeString: 2018-07-06T20:53:41.000-04:00
+    changes:
+    - path: Library\gfu\cache\gitlocks.yaml
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlocks.yaml"
+      projectPath: Library\gfu\cache\gitlocks.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: Library\gfu\cache\gitlog.yaml
+      fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlog.yaml"
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 9ea881923227a5ec5056104e775fced7b1db4289
     mergeA: 
     mergeB: 
