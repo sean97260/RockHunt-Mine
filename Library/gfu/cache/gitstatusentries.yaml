@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-06T22:02:40.626-04:00
   initializedAtString: 2018-07-06T22:02:11.575-04:00
+=======
+  lastUpdatedAtString: 2018-07-06T21:57:57.263-04:00
+  initializedAtString: 2018-07-06T21:26:50.407-04:00
+>>>>>>> level1
   entries:
   - path: Assembly-CSharp.csproj
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assembly-CSharp.csproj
@@ -21,9 +26,27 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
   - path: Assets/Level01.unity
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Level01.unity
     projectPath: Assets/Level01.unity
+=======
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlocks.yaml"
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlog.yaml"
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitstatusentries.yaml"
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+>>>>>>> level1
     originalPath: 
     status: 3
     staged: 0
