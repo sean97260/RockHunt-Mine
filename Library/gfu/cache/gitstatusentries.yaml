@@ -12,126 +12,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-<<<<<<< HEAD
-  lastUpdatedAtString: 2018-07-06T22:02:40.626-04:00
+  lastUpdatedAtString: 2018-07-06T22:09:19.129-04:00
   initializedAtString: 2018-07-06T22:02:11.575-04:00
-=======
-  lastUpdatedAtString: 2018-07-06T21:57:57.263-04:00
-  initializedAtString: 2018-07-06T21:26:50.407-04:00
->>>>>>> level1
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 3
-    staged: 0
-<<<<<<< HEAD
-  - path: Assets/Level01.unity
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Level01.unity
-    projectPath: Assets/Level01.unity
-=======
-  - path: Library\gfu\cache\gitlocks.yaml
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlocks.yaml"
-    projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlog.yaml"
-    projectPath: Library\gfu\cache\gitlog.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitstatusentries.yaml
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitstatusentries.yaml"
-    projectPath: Library\gfu\cache\gitstatusentries.yaml
->>>>>>> level1
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/CloudScript.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Scripts/CloudScript.cs
-    projectPath: Assets/Scripts/CloudScript.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/ControllerScript.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Scripts/ControllerScript.cs
-    projectPath: Assets/Scripts/ControllerScript.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/Dialog.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Scripts/Dialog.cs
-    projectPath: Assets/Scripts/Dialog.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/Effect.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Scripts/Effect.cs
-    projectPath: Assets/Scripts/Effect.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/LevelButton.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Scripts/LevelButton.cs
-    projectPath: Assets/Scripts/LevelButton.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/portal.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Scripts/portal.cs
-    projectPath: Assets/Scripts/portal.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/SandScript.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Scripts/SandScript.cs
-    projectPath: Assets/Scripts/SandScript.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/SceneGranite.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Scripts/SceneGranite.cs
-    projectPath: Assets/Scripts/SceneGranite.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Sprites/Level 1/Dialog/hi there/Dialog generator.controller
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Sprites/Level 1/Dialog/hi
-      there/Dialog generator.controller
-    projectPath: Assets/Sprites/Level 1/Dialog/hi there/Dialog generator.controller
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/assetDatabase3
     projectPath: Library/assetDatabase3
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/CurrentLayout.dwlt
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/CurrentLayout.dwlt
-    projectPath: Library/CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/CurrentMaximizeLayout.dwlt
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/CurrentMaximizeLayout.dwlt
-    projectPath: Library/CurrentMaximizeLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/gfu/cache/gitlocks.yaml
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gitlocks.yaml
-    projectPath: Library/gfu/cache/gitlocks.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/gfu/cache/gitlog.yaml
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gitlog.yaml
-    projectPath: Library/gfu/cache/gitlog.yaml
+  - path: Library/gfu/cache/branches.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -153,9 +45,45 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library/metadata/01/01deb9ba0b4e2314a8d30a2990c604f6
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/01/01deb9ba0b4e2314a8d30a2990c604f6
+    projectPath: Library/metadata/01/01deb9ba0b4e2314a8d30a2990c604f6
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/metadata/05/0553585223ac1cc428c7aefaa35b7b47
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/05/0553585223ac1cc428c7aefaa35b7b47
     projectPath: Library/metadata/05/0553585223ac1cc428c7aefaa35b7b47
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/15/15efc710f7978f04297ad556e83a25ca
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/15/15efc710f7978f04297ad556e83a25ca
+    projectPath: Library/metadata/15/15efc710f7978f04297ad556e83a25ca
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/19/19962cd16e2024c599ddac54749381a8
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/19/19962cd16e2024c599ddac54749381a8
+    projectPath: Library/metadata/19/19962cd16e2024c599ddac54749381a8
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/24/24d062dee098b4db6b8d78bec461668c
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/24/24d062dee098b4db6b8d78bec461668c
+    projectPath: Library/metadata/24/24d062dee098b4db6b8d78bec461668c
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/28/28871c4f3bf2c4111b4195b41d266433
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/28/28871c4f3bf2c4111b4195b41d266433
+    projectPath: Library/metadata/28/28871c4f3bf2c4111b4195b41d266433
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/3e/3ec4bbb94923f2d4dbdc119ee7ec5ae0
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/3e/3ec4bbb94923f2d4dbdc119ee7ec5ae0
+    projectPath: Library/metadata/3e/3ec4bbb94923f2d4dbdc119ee7ec5ae0
     originalPath: 
     status: 3
     staged: 0
@@ -171,9 +99,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library/metadata/71/71e802fd441cf02469f388baf38efed0
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/71/71e802fd441cf02469f388baf38efed0
+    projectPath: Library/metadata/71/71e802fd441cf02469f388baf38efed0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/76/76e768c021bc74429ad92c28bb4ce4d3
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/76/76e768c021bc74429ad92c28bb4ce4d3
+    projectPath: Library/metadata/76/76e768c021bc74429ad92c28bb4ce4d3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/97/97b9ff089054be242963eaaf1d1854cf
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/97/97b9ff089054be242963eaaf1d1854cf
+    projectPath: Library/metadata/97/97b9ff089054be242963eaaf1d1854cf
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/metadata/9b/9bfbd2ccfb0945c4f8c6c1c7df7a26e2
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/9b/9bfbd2ccfb0945c4f8c6c1c7df7a26e2
     projectPath: Library/metadata/9b/9bfbd2ccfb0945c4f8c6c1c7df7a26e2
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/b0/b06f1343515ad854baa6172ea0935e37
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/b0/b06f1343515ad854baa6172ea0935e37
+    projectPath: Library/metadata/b0/b06f1343515ad854baa6172ea0935e37
     originalPath: 
     status: 3
     staged: 0
@@ -183,9 +135,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library/metadata/b5/b52e5d2f1ccd64611979c390796c685b
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/b5/b52e5d2f1ccd64611979c390796c685b
+    projectPath: Library/metadata/b5/b52e5d2f1ccd64611979c390796c685b
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/b8/b8a35deec1e3b49a98f59d2472c8d8bd
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/b8/b8a35deec1e3b49a98f59d2472c8d8bd
+    projectPath: Library/metadata/b8/b8a35deec1e3b49a98f59d2472c8d8bd
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/metadata/bf/bf868ebd2826e486ea8593085e864cc0
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/bf/bf868ebd2826e486ea8593085e864cc0
     projectPath: Library/metadata/bf/bf868ebd2826e486ea8593085e864cc0
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/d2/d2b7fcd7d1c28476b9ab59c213a99977
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/d2/d2b7fcd7d1c28476b9ab59c213a99977
+    projectPath: Library/metadata/d2/d2b7fcd7d1c28476b9ab59c213a99977
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/metadata/d3/d34aad282dbd9ec4d8549d44da5f4bcc
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/d3/d34aad282dbd9ec4d8549d44da5f4bcc
+    projectPath: Library/metadata/d3/d34aad282dbd9ec4d8549d44da5f4bcc
     originalPath: 
     status: 3
     staged: 0
@@ -201,21 +177,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
-    projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+  - path: Library/metadata/f7/f7ba2fcfbf7c64aa28ce628118fb0971
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/f7/f7ba2fcfbf7c64aa28ce628118fb0971
+    projectPath: Library/metadata/f7/f7ba2fcfbf7c64aa28ce628118fb0971
     originalPath: 
     status: 3
-    staged: 0
-  - path: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    projectPath: Library/ScriptAssemblies/BuiltinAssemblies.stamp
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Temp/__Backupscenes/0.backup
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Temp/__Backupscenes/0.backup
-    projectPath: Temp/__Backupscenes/0.backup
-    originalPath: 
-    status: 5
     staged: 0
