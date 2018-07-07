@@ -12,18 +12,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-06T21:29:36.723-04:00
-  initializedAtString: 2018-07-06T18:03:29.987-04:00
+  lastUpdatedAtString: 2018-07-06T21:36:56.294-04:00
+  initializedAtString: 2018-07-06T21:36:55.991-04:00
   entries:
-  - path: Assets/Level04.unity
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine/Assets/Level04.unity
-    projectPath: Assets/Level04.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/assetDatabase3
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine/Library/assetDatabase3
-    projectPath: Library/assetDatabase3
+  - path: Library/EditorInstance.json
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine/Library/EditorInstance.json
+    projectPath: Library/EditorInstance.json
     originalPath: 
     status: 3
     staged: 0
@@ -56,4 +50,16 @@ MonoBehaviour:
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
     originalPath: 
     status: 3
+    staged: 0
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine/Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Temp/__Backupscenes/0.backup
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine/Temp/__Backupscenes/0.backup
+    projectPath: Temp/__Backupscenes/0.backup
+    originalPath: 
+    status: 5
     staged: 0
