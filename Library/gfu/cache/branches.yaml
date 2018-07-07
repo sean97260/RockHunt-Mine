@@ -12,34 +12,103 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-07-04T17:28:31.892-04:00
-  initializedAtString: 2018-07-04T16:43:33.259-04:00
+  lastUpdatedAtString: 2018-07-06T20:56:25.728-04:00
+  initializedAtString: 2018-07-06T20:22:29.802-04:00
   localBranches:
-  - name: ._master
-    tracking: '[None]'
+  - name: level1
+    tracking: origin/level1
+  - name: level2
+    tracking: origin/level2
+  - name: level4
+    tracking: origin/level4
   - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/HEAD
     tracking: '[None]'
-  remoteBranches: []
-  remotes: []
+  - name: origin/level1
+    tracking: '[None]'
+  - name: origin/level2
+    tracking: '[None]'
+  - name: origin/level4
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/sean97260/RockHunt-Mine.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
   localConfigBranches:
     keys:
-    - ._master
+    - level1
+    - level2
+    - level4
     - master
     values:
-    - name: ._master
+    - name: level1
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/sean97260/RockHunt-Mine.git
+      trackingBranch: level1
+    - name: level2
+      remote:
+        name: origin
+        url: https://github.com/sean97260/RockHunt-Mine.git
+      trackingBranch: level2
+    - name: level4
+      remote:
+        name: origin
+        url: https://github.com/sean97260/RockHunt-Mine.git
+      trackingBranch: level4
     - name: master
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/sean97260/RockHunt-Mine.git
+      trackingBranch: master
   remoteConfigBranches:
-    keys: []
-    subKeys: []
-    subKeyValues: []
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - HEAD
+      - level1
+      - level2
+      - level4
+      - master
+    subKeyValues:
+    - Values:
+      - name: HEAD
+        remote:
+          name: origin
+          url: https://github.com/sean97260/RockHunt-Mine.git
+        trackingBranch: 
+      - name: level1
+        remote:
+          name: origin
+          url: https://github.com/sean97260/RockHunt-Mine.git
+        trackingBranch: 
+      - name: level2
+        remote:
+          name: origin
+          url: https://github.com/sean97260/RockHunt-Mine.git
+        trackingBranch: 
+      - name: level4
+        remote:
+          name: origin
+          url: https://github.com/sean97260/RockHunt-Mine.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/sean97260/RockHunt-Mine.git
+        trackingBranch: 
   configRemotes:
-    keys: []
-    values: []
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/sean97260/RockHunt-Mine.git
