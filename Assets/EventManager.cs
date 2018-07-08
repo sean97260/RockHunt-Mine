@@ -13,6 +13,8 @@ public class EventManager : MonoBehaviour
     GameObject sand_2;
     Animator anim;
 
+    float offset;
+
     public bool waterUsed;
     public bool windUsed;
 
@@ -77,28 +79,38 @@ public class EventManager : MonoBehaviour
 
     public void takeFromBag(GameObject item)
     {
+        if (character.GetComponent<ControllerScript>().facingRight == true)
+        {
+            offset = -2.3f;
+        }
+        else
+        {
+            offset = 2.3f;
+        }
+
         if (item.name == "GraniteIcon_1")
         {
-            granite_1.transform.position = new Vector3(character.transform.position.x + 2.3f, character.transform.position.y + 4f, character.transform.position.z);
+            granite_1.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
             granite_1.SetActive(true);
         }
 
         if (item.name == "GraniteIcon_2")
         {
-            granite_2.transform.position = new Vector3(character.transform.position.x + 2.3f, character.transform.position.y + 4f, character.transform.position.z);
+            granite_2.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
             granite_2.SetActive(true);
         }
 
         if (item.name == "SandIcon_1")
         {
-            sand_1.transform.position = new Vector3(character.transform.position.x + 2.3f, character.transform.position.y + 4f, character.transform.position.z);
+            sand_1.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
             sand_1.SetActive(true);
         }
 
         if (item.name == "SandIcon_2")
         {
-            sand_2.transform.position = new Vector3(character.transform.position.x + 2.3f, character.transform.position.y + 4f, character.transform.position.z);
+            sand_2.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
             sand_2.SetActive(true);
         }
+
     }
 }
