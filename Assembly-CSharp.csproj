@@ -96,6 +96,7 @@
     <Compile Include="Assets\Scripts\SceneGranite04.cs" />
     <Compile Include="Assets\Scripts\Spell.cs" />
     <Compile Include="Assets\Scripts\useScript.cs" />
+    <Compile Include="Assets\SignScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Clémence/Documents/GitHub/RockHunt-Mine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
