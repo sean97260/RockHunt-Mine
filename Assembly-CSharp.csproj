@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{A0B5D42B-ABFB-D90F-861A-9A4D98D86008}</ProjectGuid>
+    <ProjectGuid>{AD74DB47-2832-AF8A-E1B5-7B3839211AE4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -94,11 +94,12 @@
     <Compile Include="Assets\Scripts\SceneGranite04.cs" />
     <Compile Include="Assets\Scripts\Spell.cs" />
     <Compile Include="Assets\Scripts\useScript.cs" />
+    <Compile Include="Assets\SignScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Clémence/Desktop/RockHuntCOPY/RockHunt Mine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Clémence/Documents/GitHub/RockHunt-Mine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Clémence/Desktop/RockHuntCOPY/RockHunt Mine/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Clémence/Documents/GitHub/RockHunt-Mine/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
