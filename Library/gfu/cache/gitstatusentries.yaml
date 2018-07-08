@@ -12,12 +12,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-08T10:56:28.928-04:00
   initializedAtString: 2018-07-08T10:56:26.873-04:00
   entries:
   - path: Library\assetDatabase3
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\assetDatabase3"
     projectPath: Library\assetDatabase3
+=======
+  lastUpdatedAtString: 2018-07-06T21:57:57.263-04:00
+  initializedAtString: 2018-07-06T21:26:50.407-04:00
+  entries:
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\branches.yaml"
+    projectPath: Library\gfu\cache\branches.yaml
+>>>>>>> parent of 8a07342c... Character and side colliders
     originalPath: 
     status: 3
     staged: 0
@@ -33,6 +42,12 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlog.yaml"
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitstatusentries.yaml"
     projectPath: Library\gfu\cache\gitstatusentries.yaml
@@ -45,6 +60,7 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\repoinfo.yaml"
     projectPath: Library\gfu\cache\repoinfo.yaml
@@ -237,3 +253,5 @@ MonoBehaviour:
     originalPath: 
     status: 5
     staged: 0
+=======
+>>>>>>> parent of 8a07342c... Character and side colliders
