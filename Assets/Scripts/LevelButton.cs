@@ -9,6 +9,8 @@ public class LevelButton : MonoBehaviour
     bool activated = true;
     public string CurrentScene;
 
+    public string CurrentLevelName;
+
     // Use this for initialization
     void Start()
     {
@@ -18,7 +20,16 @@ public class LevelButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        CurrentLevelName = "N" + Map.CurrLevel.ToString();
+        Debug.Log(CurrentLevelName);
+        Debug.Log(this.name);
+        if (this.name != CurrentLevelName)
+        {
+            this.GetComponent<Animator>().enabled = false;
+        }
+        else {
+            this.GetComponent<Animator>().enabled = true;
+        }
     }
 
     void OnMouseDown()
