@@ -41,13 +41,11 @@ public class Bag : MonoBehaviour {
 
 	public void CloseBook(){
 		grid.SetActive (false);
-		alchemistBackground.SetActive (false);
 //		rain.SetActive (false);
 	}
 
 	public void OpenBook(){
 		grid.SetActive (true);
-		alchemistBackground.SetActive(true);
 	//	rain.SetActive (true);
 	}
 

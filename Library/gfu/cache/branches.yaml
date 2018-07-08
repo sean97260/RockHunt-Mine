@@ -13,31 +13,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cacheType: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-06T20:56:25.728-04:00
   initializedAtString: 2018-07-06T20:22:29.802-04:00
 =======
   lastUpdatedAtString: 2018-07-06T22:13:37.993-04:00
   initializedAtString: 2018-07-06T21:30:05.596-04:00
 >>>>>>> master
+=======
+  lastUpdatedAtString: 2018-07-08T11:16:20.889-04:00
+  initializedAtString: 2018-07-08T11:12:02.098-04:00
+>>>>>>> level1
   localBranches:
   - name: level1
     tracking: origin/level1
-  - name: level2
-    tracking: origin/level2
-  - name: level4
-    tracking: origin/level4
   - name: master
     tracking: origin/master
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
   - name: origin/level1
-    tracking: '[None]'
-  - name: origin/level2
-    tracking: '[None]'
-  - name: origin/level4
-    tracking: '[None]'
-  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
@@ -50,8 +45,6 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - level1
-    - level2
-    - level4
     - master
     values:
     - name: level1
@@ -59,16 +52,6 @@ MonoBehaviour:
         name: origin
         url: https://github.com/sean97260/RockHunt-Mine.git
       trackingBranch: level1
-    - name: level2
-      remote:
-        name: origin
-        url: https://github.com/sean97260/RockHunt-Mine.git
-      trackingBranch: level2
-    - name: level4
-      remote:
-        name: origin
-        url: https://github.com/sean97260/RockHunt-Mine.git
-      trackingBranch: level4
     - name: master
       remote:
         name: origin
@@ -81,9 +64,6 @@ MonoBehaviour:
     - Values:
       - HEAD
       - level1
-      - level2
-      - level4
-      - master
     subKeyValues:
     - Values:
       - name: HEAD
@@ -92,21 +72,6 @@ MonoBehaviour:
           url: https://github.com/sean97260/RockHunt-Mine.git
         trackingBranch: 
       - name: level1
-        remote:
-          name: origin
-          url: https://github.com/sean97260/RockHunt-Mine.git
-        trackingBranch: 
-      - name: level2
-        remote:
-          name: origin
-          url: https://github.com/sean97260/RockHunt-Mine.git
-        trackingBranch: 
-      - name: level4
-        remote:
-          name: origin
-          url: https://github.com/sean97260/RockHunt-Mine.git
-        trackingBranch: 
-      - name: master
         remote:
           name: origin
           url: https://github.com/sean97260/RockHunt-Mine.git
