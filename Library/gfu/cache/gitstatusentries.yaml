@@ -12,32 +12,68 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-09T16:15:41.167-04:00
-  initializedAtString: 2018-07-09T15:51:59.976-04:00
+  lastUpdatedAtString: 2018-07-09T19:16:01.860-04:00
+  initializedAtString: 2018-07-09T16:21:52.293-04:00
   entries:
-  - path: Assets\Level01.unity
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level01.unity"
-    projectPath: Assets\Level01.unity
+  - path: Assembly-CSharp.csproj
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assembly-CSharp.csproj"
+    projectPath: Assembly-CSharp.csproj
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Level02.unity
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level02.unity"
-    projectPath: Assets\Level02.unity
+  - path: Assets\EventManager05.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\EventManager05.cs"
+    projectPath: Assets\EventManager05.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Level05.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level05.unity"
+    projectPath: Assets\Level05.unity
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Map.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Map.cs"
+    projectPath: Assets\Map.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Level03.unity
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level03.unity"
-    projectPath: Assets\Level03.unity
+  - path: Assets\Scripts\BagScript.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\BagScript.cs"
+    projectPath: Assets\Scripts\BagScript.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\SignScript.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\SignScript.cs"
-    projectPath: Assets\SignScript.cs
+  - path: Assets\Scripts\portal.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\portal.cs"
+    projectPath: Assets\Scripts\portal.cs
     originalPath: 
     status: 3
+    staged: 0
+  - path: Assets\Sprites\Level05Background.png
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05Background.png"
+    projectPath: Assets\Sprites\Level05Background.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\PitSand.png
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\PitSand.png"
+    projectPath: Assets\Sprites\PitSand.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Sandstone.png
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Sandstone.png"
+    projectPath: Assets\Sprites\Sandstone.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Underground.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Underground.jpg"
+    projectPath: Assets\Sprites\Underground.jpg
+    originalPath: 
+    status: 1
     staged: 0
   - path: Library\assetDatabase3
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\assetDatabase3"
@@ -45,9 +81,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\branches.yaml"
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlocks.yaml"
     projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlog.yaml"
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -69,9 +117,15 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\InspectorExpandedItems.asset"
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Library\metadata\87\87d76bdfd7f79bf47ace357433a1c864
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\87\\87d76bdfd7f79bf47ace357433a1c864"
+    projectPath: Library\metadata\87\87d76bdfd7f79bf47ace357433a1c864
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\f5\f5876a1c154ad49fd874bae585551301
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\f5\\f5876a1c154ad49fd874bae585551301"
+    projectPath: Library\metadata\f5\f5876a1c154ad49fd874bae585551301
     originalPath: 
     status: 3
     staged: 0
@@ -90,6 +144,12 @@ MonoBehaviour:
   - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\obj\\Debug\\Assembly-CSharp.csproj.CoreCompileInputs.cache"
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
     originalPath: 
     status: 3
     staged: 0
