@@ -12,105 +12,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-08T18:26:02.649-04:00
-  initializedAtString: 2018-07-08T17:39:08.882-04:00
+  lastUpdatedAtString: 2018-07-09T16:15:41.167-04:00
+  initializedAtString: 2018-07-09T15:51:59.976-04:00
   entries:
-  - path: Assets\Animation _ Animator\N1.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\N1.anim"
-    projectPath: Assets\Animation _ Animator\N1.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\N1.controller
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\N1.controller"
-    projectPath: Assets\Animation _ Animator\N1.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\N2.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\N2.anim"
-    projectPath: Assets\Animation _ Animator\N2.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\N2.controller
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\N2.controller"
-    projectPath: Assets\Animation _ Animator\N2.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\N3.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\N3.anim"
-    projectPath: Assets\Animation _ Animator\N3.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\N3.controller
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\N3.controller"
-    projectPath: Assets\Animation _ Animator\N3.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\N4.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\N4.anim"
-    projectPath: Assets\Animation _ Animator\N4.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\N4.controller
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\N4.controller"
-    projectPath: Assets\Animation _ Animator\N4.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Level04.unity
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level04.unity"
-    projectPath: Assets\Level04.unity
+  - path: Assets\Level01.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level01.unity"
+    projectPath: Assets\Level01.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Map.unity
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Map.unity"
-    projectPath: Assets\Map.unity
+  - path: Assets\Level02.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level02.unity"
+    projectPath: Assets\Level02.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\LevelButton.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\LevelButton.cs"
-    projectPath: Assets\Scripts\LevelButton.cs
+  - path: Assets\Level03.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level03.unity"
+    projectPath: Assets\Level03.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Sprites\Level 1\N1_larger.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level
-      1\\N1_larger.png"
-    projectPath: Assets\Sprites\Level 1\N1_larger.png
+  - path: Assets\SignScript.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\SignScript.cs"
+    projectPath: Assets\SignScript.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\NumbersLarger.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\NumbersLarger.png"
-    projectPath: Assets\Sprites\NumbersLarger.png
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Library\assetDatabase3
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\assetDatabase3"
     projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\branches.yaml"
-    projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -144,12 +75,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\b2\b28b0e16306fb4991b496160bb4fccbe
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\b2\\b28b0e16306fb4991b496160bb4fccbe"
-    projectPath: Library\metadata\b2\b28b0e16306fb4991b496160bb4fccbe
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -171,12 +96,6 @@ MonoBehaviour:
   - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
     projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Temp\__Backupscenes\0.backup
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Temp\\__Backupscenes\\0.backup"
-    projectPath: Temp\__Backupscenes\0.backup
     originalPath: 
     status: 3
     staged: 0

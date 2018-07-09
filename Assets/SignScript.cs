@@ -23,7 +23,7 @@ public class SignScript : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (character.transform.position.x >= 11.2 && character.transform.position.x <= 12.3) {
+		if (character.transform.position.x >= this.transform.position.x - 1 && character.transform.position.x <= this.transform.position.x + 1) {
 			moveInfo.SetActive (true);	
 			spaceInfo.SetActive (true);		
 			shiftInfo.SetActive (true);	
