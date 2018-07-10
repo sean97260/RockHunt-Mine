@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\camera.cs" />
     <Compile Include="Assets\camera_4.cs" />
+    <Compile Include="Assets\camera_5.cs" />
     <Compile Include="Assets\Drill.cs" />
     <Compile Include="Assets\EventManager.cs" />
     <Compile Include="Assets\EventManager03.cs" />

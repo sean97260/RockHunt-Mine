@@ -55,6 +55,9 @@ public class EventManager05 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence")) {
+            GameObject.Find("Dialog generator").GetComponent<Animator>().ResetTrigger("Space");
+        }
         CheckSandPit(sand_1, bottomCollider, pitSand_1);
         CheckSandPit(sand_2, bottomCollider, pitSand_1);
         CheckSandPit(sand_3, bottomCollider, pitSand_1);
@@ -104,6 +107,7 @@ public class EventManager05 : MonoBehaviour
 
     void PutSandstone() {
         sandstone.SetActive(true);
+        GameObject.Find("Dialog generator").GetComponent<Animator>().SetTrigger("Sandstone");
     }
 
     public void takeFromBag(GameObject item)
