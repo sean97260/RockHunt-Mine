@@ -855,7 +855,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 394021297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34de3e55e467d47d3b5efab6a6063760, type: 3}
+  m_Script: {fileID: 11500000, guid: f5876a1c154ad49fd874bae585551301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!61 &394021302
@@ -1269,7 +1269,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 18
+  m_SortingOrder: 4
   m_Sprite: {fileID: 21300000, guid: 4d95b849659ae4b2983bf5272183121a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1893,8 +1893,8 @@ GameObject:
   - component: {fileID: 1280922875}
   - component: {fileID: 1280922874}
   - component: {fileID: 1280922873}
-  - component: {fileID: 1280922872}
   - component: {fileID: 1280922871}
+  - component: {fileID: 1280922872}
   m_Layer: 0
   m_Name: SceneGranite (1)
   m_TagString: Untagged
@@ -1928,7 +1928,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1280922870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbd2ccfb0945c4f8c6c1c7df7a26e2, type: 3}
+  m_Script: {fileID: 11500000, guid: c726f401b21c4224d913d8c686d9ad94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 0}
@@ -2144,8 +2144,8 @@ GameObject:
   - component: {fileID: 1347609371}
   - component: {fileID: 1347609374}
   - component: {fileID: 1347609373}
-  - component: {fileID: 1347609375}
   - component: {fileID: 1347609376}
+  - component: {fileID: 1347609375}
   m_Layer: 0
   m_Name: SceneGranite
   m_TagString: Untagged
@@ -2264,7 +2264,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1347609370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbd2ccfb0945c4f8c6c1c7df7a26e2, type: 3}
+  m_Script: {fileID: 11500000, guid: c726f401b21c4224d913d8c686d9ad94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   obj: {fileID: 0}
@@ -3102,7 +3102,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: a1d5dbbd0782741f8b4e80960ee88528, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

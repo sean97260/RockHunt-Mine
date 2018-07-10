@@ -71,7 +71,7 @@ AnimatorStateTransition:
     m_ConditionEvent: windgone
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
-  m_DstState: {fileID: 1102650443706944036}
+  m_DstState: {fileID: 0}
   m_Solo: 0
   m_Mute: 0
   m_IsExit: 0
@@ -3196,7 +3196,7 @@ AnimatorStateMachine:
     m_Position: {x: -336, y: -216, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102932779610898808}
-    m_Position: {x: -48, y: 0, z: 0}
+    m_Position: {x: -48, y: 84, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102197582034364718}
     m_Position: {x: -324, y: -120, z: 0}
@@ -3268,7 +3268,7 @@ AnimatorStateMachine:
     m_Position: {x: -12, y: -108, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102648500633064274}
-    m_Position: {x: 0, y: 0, z: 0}
+    m_Position: {x: -132, y: -60, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102705972100782586}
     m_Position: {x: -24, y: -192, z: 0}
