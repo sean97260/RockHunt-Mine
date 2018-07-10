@@ -41,7 +41,13 @@ public class ControllerScript : MonoBehaviour
             anim.SetFloat("Speed", Mathf.Abs(move));
         }
 
-        Body.velocity = new Vector2(move * maxSpeed, Body.velocity.y);
+        if (GameObject.Find("bag").GetComponent<BagScript>() == null || !GameObject.Find("bag").GetComponent<BagScript>().bookOpened)
+        {
+            Body.velocity = new Vector2(move * maxSpeed, Body.velocity.y);
+        }
+        else {
+            move = 0;
+        }
 
         if (move > 0 && facingRight)
         {
