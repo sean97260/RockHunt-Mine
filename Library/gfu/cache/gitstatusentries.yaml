@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-06T22:16:51.623-04:00
   initializedAtString: 2018-07-06T22:16:51.471-04:00
   entries:
@@ -42,6 +43,44 @@ MonoBehaviour:
   - path: Library/gfu/cache/gittrackingstatus.yaml
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gittrackingstatus.yaml
     projectPath: Library/gfu/cache/gittrackingstatus.yaml
+=======
+  lastUpdatedAtString: 2018-07-09T16:15:41.167-04:00
+  initializedAtString: 2018-07-09T15:51:59.976-04:00
+  entries:
+  - path: Assets\Level01.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level01.unity"
+    projectPath: Assets\Level01.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Level02.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level02.unity"
+    projectPath: Assets\Level02.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Level03.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level03.unity"
+    projectPath: Assets\Level03.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\SignScript.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\SignScript.cs"
+    projectPath: Assets\SignScript.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\assetDatabase3"
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlocks.yaml"
+    projectPath: Library\gfu\cache\gitlocks.yaml
+>>>>>>> master
     originalPath: 
     status: 3
     staged: 0
@@ -51,9 +90,51 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
   - path: Library/metadata/65/651902019ad9fee4fb967b56b944d3b0
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/65/651902019ad9fee4fb967b56b944d3b0
     projectPath: Library/metadata/65/651902019ad9fee4fb967b56b944d3b0
+=======
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\repoinfo.yaml"
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\InspectorExpandedItems.asset"
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll.mdb"
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+>>>>>>> master
     originalPath: 
     status: 3
     staged: 0

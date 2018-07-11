@@ -3,25 +3,41 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Level1Button : MonoBehaviour {
+public class LevelButton : MonoBehaviour
+{
 
-	bool activated = true;
+    bool activated = true;
+    public string CurrentScene;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public string CurrentLevelName;
 
-	void OnMouseDown()
-	{
-		if (activated == true) {
-			SceneManager.LoadScene("Level1");
-		}
-		
-	}
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        CurrentLevelName = "N" + Map.CurrLevel.ToString();
+        Debug.Log(CurrentLevelName);
+        Debug.Log(this.name);
+        if (this.name != CurrentLevelName)
+        {
+            this.GetComponent<Animator>().enabled = false;
+        }
+        else {
+            this.GetComponent<Animator>().enabled = true;
+        }
+    }
+
+    void OnMouseDown()
+    {
+        if (activated == true)
+        {
+            SceneManager.LoadScene(CurrentScene);
+        }
+
+    }
 }

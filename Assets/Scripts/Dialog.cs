@@ -19,6 +19,10 @@ public class Dialog : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        if (GameObject.Find("SceneSand (1)") == null) {
+            dialogAnimator.SetBool("SandInBag", true);
+        }
+
 		if (dialogAnimator.GetCurrentAnimatorStateInfo(0).IsName("portal")) {
 			portal.SetActive (true);
 		}

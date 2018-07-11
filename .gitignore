@@ -422,9 +422,16 @@ ASALocalRun/
 
 # End of https://www.gitignore.io/api/unity,macos,windows,visualstudio
 Library/gfu/cache/branches.yaml
+<<<<<<< HEAD
+Library/gfu/cache/gitlog.yaml
+Library/gfu/cache/branches.yaml
+Library/gfu/cache/gittrackingstatus.yaml
+Library/gfu/cache/branches.yaml
+=======
 Library/gfu/cache/branches.yaml
 Library/gfu/cache/gittrackingstatus.yaml
 Library/shadercompiler-UnityShaderCompiler.exe0.log
 Library/shadercompiler-UnityShaderCompiler.exe0.log
 Library/gfu/cache/branches.yaml
 *.yaml
+>>>>>>> master
