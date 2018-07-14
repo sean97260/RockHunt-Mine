@@ -11,7 +11,11 @@ public class EventManager : MonoBehaviour
     GameObject granite_2;
     GameObject sand_1;
     GameObject sand_2;
-    Animator anim;
+    Animator dialogAnim;
+	Animator minerAnim;
+	Animator minerDialogAnim;
+	Animator researcherAnim;
+	Animator researcherDialogAnim;
 
     float offset;
 
@@ -21,7 +25,11 @@ public class EventManager : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        anim = GameObject.Find("Dialog generator").GetComponent<Animator>();
+        dialogAnim = GameObject.Find("Dialog generator").GetComponent<Animator>();
+		minerAnim = GameObject.Find("Miner").GetComponent<Animator>();
+		minerDialogAnim = GameObject.Find("MinerDialog").GetComponent<Animator>();
+		researcherAnim = GameObject.Find("Researcher").GetComponent<Animator>();
+		researcherDialogAnim = GameObject.Find("ResearcherDialog").GetComponent<Animator>();
         bag = GameObject.Find("bag");
         character = GameObject.Find("Character");
         granite_1 = GameObject.Find("SceneGranite");
@@ -66,14 +74,16 @@ public class EventManager : MonoBehaviour
             {
                 GameObject.Find("Wind").SetActive(false);
             }
-            anim.SetBool("windgone", true);
-            print("windUsed");
+            dialogAnim.SetBool("windgone", true);
+			minerAnim.SetBool("windgone", true);
+			minerDialogAnim.SetBool("windgone", true);
         }
 
         if (waterUsed == true)
         {
-            anim.SetBool("watergone", true);
-            print("waterUsed");
+			dialogAnim.SetBool("watergone", true);
+			researcherAnim.SetBool("watergone", true);
+			researcherDialogAnim.SetBool("watergone", true);
         }
     }
 

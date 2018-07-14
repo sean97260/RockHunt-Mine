@@ -12,18 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-<<<<<<< HEAD
-  lastUpdatedAtString: 2018-07-10T17:24:00.722-04:00
-  initializedAtString: 2018-07-10T16:59:26.865-04:00
-=======
-<<<<<<< HEAD
-  lastUpdatedAtString: 2018-07-08T18:34:27.021-04:00
-  initializedAtString: 2018-07-06T22:16:51.319-04:00
-=======
-  lastUpdatedAtString: 2018-07-09T15:51:59.525-04:00
-  initializedAtString: 2018-07-09T15:51:59.525-04:00
->>>>>>> master
->>>>>>> level4
+  lastUpdatedAtString: 2018-07-14T19:37:26.656-04:00
+  initializedAtString: 2018-07-14T19:37:26.656-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/sean97260/RockHunt-Mine.git
@@ -33,34 +23,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-<<<<<<< HEAD
-    name: level5
-    tracking: origin/level5
-=======
-<<<<<<< HEAD
-    name: level4
-    tracking: origin/level4
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: level4
+    name: master
     remote:
       name: origin
       url: https://github.com/sean97260/RockHunt-Mine.git
-    trackingBranch: level4
-=======
-    name: level1
-    tracking: origin/level1
->>>>>>> level4
-  currentConfigBranch:
-    name: level5
-    remote:
-      name: origin
-      url: https://github.com/sean97260/RockHunt-Mine.git
-<<<<<<< HEAD
-    trackingBranch: level5
-=======
-    trackingBranch: level1
->>>>>>> master
->>>>>>> level4
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/sean97260/RockHunt-Mine.git

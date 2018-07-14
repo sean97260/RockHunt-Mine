@@ -12,6 +12,7 @@ public class ControllerScript : MonoBehaviour
     public float jump_timer = 0f;
     public float height;
 
+
     Animator anim;
 
     public Vector2 speed = new Vector2(10, 10);
@@ -30,56 +31,48 @@ public class ControllerScript : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
-    }
+		Body = this.GetComponent<Rigidbody2D> ();
+	}
 
     // Update is called once per frame
     void Update()
     {
-        float move = Input.GetAxis("Horizontal");
-        if (HasParam(anim, "Speed"))
-        {
-            anim.SetFloat("Speed", Mathf.Abs(move));
-        }
+		if (GameObject.Find ("bag").GetComponent<BagScript> ().stopMoving == true) {
+			float move = Input.GetAxis ("Horizontal");
+			if (HasParam (anim, "Speed")) {
+				anim.SetFloat ("Speed", Mathf.Abs (move));
+			}
 
-        if (GameObject.Find("bag").GetComponent<BagScript>() == null || !GameObject.Find("bag").GetComponent<BagScript>().bookOpened)
-        {
-            Body.velocity = new Vector2(move * maxSpeed, Body.velocity.y);
-        }
-        else {
-            move = 0;
-        }
+			Body.velocity = new Vector2 (move * maxSpeed, Body.velocity.y);
 
-        if (move > 0 && facingRight)
-        {
-            Flip();
-        }
-        else if (move < 0 && !facingRight)
-        {
-            Flip();
-        }
+			if (move > 0 && facingRight) {
+				Flip ();
+			} else if (move < 0 && !facingRight) {
+				Flip ();
+			}
 
-        float inputX = Input.GetAxis("Horizontal");
-        float inputY = Input.GetAxis("Vertical");
+			float inputX = Input.GetAxis ("Horizontal");
+			float inputY = Input.GetAxis ("Vertical");
 
-        movement = new Vector2(
-            speed.x * inputX,
-            speed.y * inputY);
+			movement = new Vector2 (
+				speed.x * inputX,
+				speed.y * inputY);
 
-        if (Input.GetKeyDown("up") && jump_timer <= 0.5f)
-        {
-            transform.Translate(Vector3.up * 200 * Time.deltaTime, Space.World);
-            jump_timer = 1f;
-            anim.SetBool("Jump", true);
-        }
-        else
-        {
-            anim.SetBool("Jump", false);
-        }
+			if (Input.GetKeyDown ("up") && jump_timer < 0.5f) {
+				transform.Translate (Vector3.up * 200 * Time.fixedDeltaTime, Space.World);
+//				Body.AddForce(Vector2.up * 40f, ForceMode2D.Impulse);
+				jump_timer = 1f;
+				anim.SetBool ("Jump", true);
+			} else {
+				anim.SetBool ("Jump", false);
+			}
+		    
+			Body.velocity = new Vector2(move* maxSpeed, Body.velocity.y);
 
-        if (jump_timer > 0f)
-        {
-            jump_timer -= Time.deltaTime;
-        }
+			if (jump_timer > 0f) {
+				jump_timer -= Time.deltaTime;
+			}
+		}
 
     }
     void Flip()

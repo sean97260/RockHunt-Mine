@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class BagScript : MonoBehaviour
 {
@@ -11,7 +10,6 @@ public class BagScript : MonoBehaviour
     GameObject granite_2;
     GameObject sand_1;
     GameObject sand_2;
-    GameObject sand_3;
 
     GameObject select_1;
     GameObject select_2;
@@ -19,6 +17,13 @@ public class BagScript : MonoBehaviour
     GameObject select_4;
 
     GameObject eventManager;
+
+	GameObject graniteInfo;
+	GameObject sandInfo;
+
+	public bool twosand;
+
+	public bool stopMoving;
 
     int iconLocator = 1;
 
@@ -33,23 +38,28 @@ public class BagScript : MonoBehaviour
         granite_2 = GameObject.Find("GraniteIcon_2");
         sand_1 = GameObject.Find("SandIcon_1");
         sand_2 = GameObject.Find("SandIcon_2");
-        sand_3 = GameObject.Find("SandIcon_3");
         select_1 = GameObject.Find("SelectIcon_1");
         select_2 = GameObject.Find("SelectIcon_2");
         select_3 = GameObject.Find("SelectIcon_3");
         select_4 = GameObject.Find("SelectIcon_4");
 
+		sandInfo = GameObject.Find ("SandInfo");
+		graniteInfo = GameObject.Find("graniteInfo");
+		sandInfo.SetActive (false);
+		graniteInfo.SetActive (false);
+
         Erase(granite_1);
         Erase(granite_2);
         Erase(sand_1);
         Erase(sand_2);
-        Erase(sand_3);
         Erase(select_4);
         Erase(select_2);
         Erase(select_3);
 
         grid = GameObject.Find("InventoryGrid");
         CloseBook();
+
+		stopMoving = false;
     }
 
     void Erase(GameObject obj) {
@@ -86,38 +96,20 @@ public class BagScript : MonoBehaviour
 
     public void CloseBook()
     {
+		stopMoving = false;
         Erase(select_1);
         Erase(select_2);
         Erase(select_3);
         Erase(select_4);
 
         grid.SetActive(false);
-        if (SceneManager.GetActiveScene().name == "Level05")
+        if ((int)objectList.GetValue(0) == 1)
         {
-            if ((int)objectList.GetValue(0) == 1)
-            {
-                Erase(sand_1);
-            }
-            if ((int)objectList.GetValue(1) == 1)
-            {
-                Erase(sand_2);
-            }
-
-            if ((int)objectList.GetValue(2) == 1)
-            {
-                Erase(sand_3);
-            }
+            Erase(granite_1);
         }
-        else
+        if ((int)objectList.GetValue(1) == 1)
         {
-            if ((int)objectList.GetValue(0) == 1)
-            {
-                Erase(granite_1);
-            }
-            if ((int)objectList.GetValue(1) == 1)
-            {
-                Erase(granite_2);
-            }
+            Erase(granite_2);
         }
 
         if ((int)objectList.GetValue(2) == 1)
@@ -134,42 +126,23 @@ public class BagScript : MonoBehaviour
 
     public void OpenBook()
     {
-        print(objectList.GetValue(0));
-        print(objectList.GetValue(1));
+		stopMoving = true;
         grid.SetActive(true);
-        if (SceneManager.GetActiveScene().name == "Level05")
+        if ((int)objectList.GetValue(0) == 1)
         {
-            if ((int)objectList.GetValue(0) == 1)
-            {
-                Put(sand_1);
-            }
-            if ((int)objectList.GetValue(1) == 1)
-            {
-                Put(sand_2);
-            }
-            if ((int)objectList.GetValue(2) == 1)
-            {
-                Put(sand_3);
-            }
+            Put(granite_1);
         }
-        else
+        if ((int)objectList.GetValue(1) == 1)
         {
-            if ((int)objectList.GetValue(0) == 1)
-            {
-                Put(granite_1);
-            }
-            if ((int)objectList.GetValue(1) == 1)
-            {
-                Put(granite_2);
-            }
-            if ((int)objectList.GetValue(2) == 1)
-            {
-                Put(sand_1);
-            }
-            if ((int)objectList.GetValue(3) == 1)
-            {
-                Put(sand_2);
-            }
+            Put(granite_2);
+        }
+        if ((int)objectList.GetValue(2) == 1)
+        {
+            Put(sand_1);
+        }
+        if ((int)objectList.GetValue(3) == 1)
+        {
+            Put(sand_2);
         }
         bookOpened = true;
     }
@@ -177,6 +150,7 @@ public class BagScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		print (stopMoving);
         if (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift))
         {
             if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence")
@@ -193,10 +167,12 @@ public class BagScript : MonoBehaviour
             {
                 if (bookOpened)
                 {
+					stopMoving = false;
                     CloseBook();
                 }
                 else
                 {
+					stopMoving = true;
                     OpenBook();
                 }
             }
@@ -215,6 +191,7 @@ public class BagScript : MonoBehaviour
 
         if (bookOpened == true)
         {
+			stopMoving = false;
             if (Input.GetKeyDown("space"))
             {
                 dropItem();
@@ -228,96 +205,102 @@ public class BagScript : MonoBehaviour
                 moveSelectIcon("right");
             }
 
-            if (iconLocator <= 1)
-            {
+			if (iconLocator <= 1)
+            {   
+				if(GameObject.Find("SceneGranite") == null && granite_1.activeSelf == true){
+					sandInfo.SetActive (false);
+					graniteInfo.SetActive (true);
+				}
                 Put(select_1);
             }
-            else if (iconLocator == 2)
-            {
+			else if (iconLocator == 2)
+			{		
+				if(GameObject.Find("SceneGranite (1)") == null && granite_2.activeSelf == true){
+					sandInfo.SetActive (false);
+					graniteInfo.SetActive (true);
+				}
                 Put(select_2);
             }
-            else if (iconLocator == 3)
+			else if (iconLocator == 3)
             {
+				if(GameObject.Find("SceneSand") == null && sand_1.activeSelf == true){
+					sandInfo.SetActive (true);
+					graniteInfo.SetActive (false);
+				}
+
                 Put(select_3);
             }
-            else if (iconLocator >= 4)
+			else if (iconLocator >= 4)
             {
+				if(GameObject.Find("SceneSand (1)") == null && sand_2.activeSelf == true){
+					sandInfo.SetActive (true);
+					graniteInfo.SetActive (false);
+				}
                 Put(select_4);
             }
         }
         else
         {
+			stopMoving = true;
+			sandInfo.SetActive (false);
+			graniteInfo.SetActive (false);
             Erase(select_1);
             Erase(select_2);
             Erase(select_3);
             Erase(select_4);
         }
+			
+		if ((int)objectList.GetValue(2) == 1 && (int)objectList.GetValue(3) == 1) {
+			twosand = true;
+		} else {
+			twosand = false;
+		}
+
+
     }
 
     public void addObject(GameObject item)
     {
-        if (SceneManager.GetActiveScene().name == "Level05")
+        if (item.name == "SceneGranite")
         {
-            if (item.name == "SceneSand")
+            print("get");
+            if (item.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp"))
+            {
+                objectList.SetValue(0, 0);
+                objectList.SetValue(1, 2);
+            }
+            else
             {
                 objectList.SetValue(1, 0);
-                item.SetActive(false);
             }
-            if (item.name == "SceneSand (1)")
+            item.SetActive(false);
+        }
+        if (item.name == "SceneGranite (1)")
+        {
+            print("get");
+            if (item.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp"))
+            {
+                objectList.SetValue(0, 1);
+                objectList.SetValue(1, 3);
+            }
+            else
             {
                 objectList.SetValue(1, 1);
-                item.SetActive(false);
             }
-
-            if (item.name == "SceneSand (2)")
-            {
-                objectList.SetValue(1, 2);
-                item.SetActive(false);
-            }
+            item.SetActive(false);
         }
-        else
+
+        if (item.name == "SceneSand")
         {
-            if (item.name == "SceneGranite")
-            {
-                print("get");
-                if (item.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp"))
-                {
-                    objectList.SetValue(0, 0);
-                    objectList.SetValue(1, 2);
-                }
-                else
-                {
-                    objectList.SetValue(1, 0);
-                }
-                item.SetActive(false);
-            }
-            if (item.name == "SceneGranite (1)")
-            {
-                print("get");
-                if (item.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp"))
-                {
-                    objectList.SetValue(0, 1);
-                    objectList.SetValue(1, 3);
-                }
-                else
-                {
-                    objectList.SetValue(1, 1);
-                }
-                item.SetActive(false);
-            }
+            print("herehere");
+            objectList.SetValue(1, 2);
+            item.SetActive(false);
+        }
 
-            if (item.name == "SceneSand")
-            {
-                print("herehere");
-                objectList.SetValue(1, 2);
-                item.SetActive(false);
-            }
-
-            if (item.name == "SceneSand (1)")
-            {
-                objectList.SetValue(1, 3);
-                item.SetActive(false);
-            }
+        if (item.name == "SceneSand (1)")
+        {
+            objectList.SetValue(1, 3);
+            item.SetActive(false);
         }
     }
 
@@ -340,12 +323,12 @@ public class BagScript : MonoBehaviour
             select_4.SetActive(false);
         }
 
-        if (direction == "left" && iconLocator >= 1)
+        if (direction == "left" && iconLocator > 1)
         {
             iconLocator -= 1;
         }
 
-        if (direction == "right" && iconLocator <= 4)
+        if (direction == "right" && iconLocator < 4)
         {
             iconLocator += 1;
         }
@@ -353,80 +336,57 @@ public class BagScript : MonoBehaviour
 
     void dropItem()
     {
-        if (SceneManager.GetActiveScene().name == "Level05")
+        print("drop");
+        if (iconLocator <= 1 && GameObject.Find("SceneGranite") == null && granite_1.activeSelf == true)
         {
-            if (iconLocator <= 1 && GameObject.Find("SceneSand") == null && sand_1.activeSelf == true)
+            granite_1.SetActive(false);
+            objectList.SetValue(0, 0);
+            if (eventManager.GetComponent<EventManager03>() != null)
             {
-                sand_1.SetActive(false);
-                objectList.SetValue(0, 0);
-                eventManager.GetComponent<EventManager05>().takeFromBag(sand_1);
+                eventManager.GetComponent<EventManager03>().takeFromBag(granite_1);
             }
-            else if (iconLocator == 2 && GameObject.Find("SceneSand (1)") == null && sand_2.activeSelf == true)
+            else
             {
-                sand_2.SetActive(false);
-                objectList.SetValue(0, 1);
-                eventManager.GetComponent<EventManager05>().takeFromBag(sand_2);
-            }
-            else if (iconLocator == 3 && sand_3.activeSelf == true)
-            {
-                sand_3.SetActive(false);
-                objectList.SetValue(0, 2);
-                eventManager.GetComponent<EventManager05>().takeFromBag(sand_3);
+                eventManager.GetComponent<EventManager>().takeFromBag(granite_1);
             }
         }
-        else
+        else if (iconLocator == 2 && GameObject.Find("SceneGranite (1)") == null && granite_2.activeSelf == true)
         {
-            if (iconLocator <= 1 && GameObject.Find("SceneGranite") == null && granite_1.activeSelf == true)
+            granite_2.SetActive(false);
+            objectList.SetValue(0, 1);
+            if (eventManager.GetComponent<EventManager03>() != null)
             {
-                granite_1.SetActive(false);
-                objectList.SetValue(0, 0);
-                if (eventManager.GetComponent<EventManager03>() != null)
-                {
-                    eventManager.GetComponent<EventManager03>().takeFromBag(granite_1);
-                }
-                else
-                {
-                    eventManager.GetComponent<EventManager>().takeFromBag(granite_1);
-                }
+                eventManager.GetComponent<EventManager03>().takeFromBag(granite_2);
             }
-            else if (iconLocator == 2 && GameObject.Find("SceneGranite (1)") == null && granite_2.activeSelf == true)
+            else
             {
-                granite_2.SetActive(false);
-                objectList.SetValue(0, 1);
-                if (eventManager.GetComponent<EventManager03>() != null)
-                {
-                    eventManager.GetComponent<EventManager03>().takeFromBag(granite_2);
-                }
-                else
-                {
-                    eventManager.GetComponent<EventManager>().takeFromBag(granite_2);
-                }
+                eventManager.GetComponent<EventManager>().takeFromBag(granite_2);
             }
-            else if (iconLocator == 3 && sand_1.activeSelf == true)
+        }
+        else if (iconLocator == 3 && sand_1.activeSelf == true)
+        {
+            sand_1.SetActive(false);
+            objectList.SetValue(0, 2);
+            if (eventManager.GetComponent<EventManager03>() != null)
             {
-                sand_1.SetActive(false);
-                objectList.SetValue(0, 2);
-                if (eventManager.GetComponent<EventManager03>() != null)
-                {
-                    eventManager.GetComponent<EventManager03>().takeFromBag(sand_1);
-                }
-                else
-                {
-                    eventManager.GetComponent<EventManager>().takeFromBag(sand_1);
-                }
+                eventManager.GetComponent<EventManager03>().takeFromBag(sand_1);
             }
-            else if (iconLocator >= 4 && sand_2.activeSelf == true)
+            else
             {
-                sand_2.SetActive(false);
-                objectList.SetValue(0, 3);
-                if (eventManager.GetComponent<EventManager03>() != null)
-                {
-                    eventManager.GetComponent<EventManager03>().takeFromBag(sand_2);
-                }
-                else
-                {
-                    eventManager.GetComponent<EventManager>().takeFromBag(sand_2);
-                }
+                eventManager.GetComponent<EventManager>().takeFromBag(sand_1);
+            }
+        }
+        else if (iconLocator >= 4 && sand_2.activeSelf == true)
+        {
+            sand_2.SetActive(false);
+            objectList.SetValue(0, 3);
+            if (eventManager.GetComponent<EventManager03>() != null)
+            {
+                eventManager.GetComponent<EventManager03>().takeFromBag(sand_2);
+            }
+            else
+            {
+                eventManager.GetComponent<EventManager>().takeFromBag(sand_2);
             }
         }
 

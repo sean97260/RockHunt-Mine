@@ -16,7 +16,6 @@ public class Dialog2 : MonoBehaviour
     {
         dialogAnimator = GameObject.Find("Dialog generator").GetComponent<Animator>();
         portal = GameObject.Find("Portal");
-        portal.SetActive(false);
 		character = GameObject.Find ("Character");
     }
 
