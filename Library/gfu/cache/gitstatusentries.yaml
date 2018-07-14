@@ -12,8 +12,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-10T17:35:04.819-04:00
   initializedAtString: 2018-07-10T16:59:27.216-04:00
+=======
+<<<<<<< HEAD
+  lastUpdatedAtString: 2018-07-06T22:16:51.623-04:00
+  initializedAtString: 2018-07-06T22:16:51.471-04:00
+  entries:
+  - path: Assembly-CSharp.csproj
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/assetDatabase3
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+=======
+  lastUpdatedAtString: 2018-07-09T16:15:41.167-04:00
+  initializedAtString: 2018-07-09T15:51:59.976-04:00
+>>>>>>> level4
   entries:
   - path: Assets\Animation _ Animator\Level02\Dialog generator.controller
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
@@ -75,9 +112,11 @@ MonoBehaviour:
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlocks.yaml"
     projectPath: Library\gfu\cache\gitlocks.yaml
+>>>>>>> master
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
   - path: Library\gfu\cache\gitlog.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlog.yaml"
     projectPath: Library\gfu\cache\gitlog.yaml
@@ -87,9 +126,19 @@ MonoBehaviour:
   - path: Library\gfu\cache\gitstatusentries.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitstatusentries.yaml"
     projectPath: Library\gfu\cache\gitstatusentries.yaml
+=======
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+>>>>>>> level4
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
+  - path: Library/metadata/65/651902019ad9fee4fb967b56b944d3b0
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/65/651902019ad9fee4fb967b56b944d3b0
+    projectPath: Library/metadata/65/651902019ad9fee4fb967b56b944d3b0
+=======
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gittrackingstatus.yaml"
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
@@ -135,6 +184,7 @@ MonoBehaviour:
   - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\obj\\Debug\\Assembly-CSharp.csprojAssemblyReference.cache"
     projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+>>>>>>> master
     originalPath: 
     status: 3
     staged: 0
