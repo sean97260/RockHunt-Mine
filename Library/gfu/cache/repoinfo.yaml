@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-07-14T19:37:26.656-04:00
-  initializedAtString: 2018-07-14T19:37:26.656-04:00
+  lastUpdatedAtString: 2018-07-15T13:10:33.897-04:00
+  initializedAtString: 2018-07-15T12:22:20.114-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/sean97260/RockHunt-Mine.git
@@ -23,14 +23,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: level5
+    tracking: origin/level5
   currentConfigBranch:
-    name: master
+    name: level5
     remote:
       name: origin
       url: https://github.com/sean97260/RockHunt-Mine.git
-    trackingBranch: master
+    trackingBranch: level5
   currentConfigRemote:
     name: origin
     url: https://github.com/sean97260/RockHunt-Mine.git
