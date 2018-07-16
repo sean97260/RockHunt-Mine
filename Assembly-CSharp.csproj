@@ -105,11 +105,11 @@
     <Compile Include="Assets\SignScript.cs" />
     <Compile Include="Assets\WizardDialogScript.cs" />
     <Compile Include="Assets\WizardScript.cs" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Clémence/Documents/GitHub/RockHunt-Mine/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Clémence/Documents/GitHub/RockHunt-Mine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/Clémence/Documents/GitHub/RockHunt-Mine/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
