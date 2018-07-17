@@ -12,7 +12,6 @@ public class ControllerScript : MonoBehaviour
     public float jump_timer = 0f;
     public float height;
 
-
     Animator anim;
 
     public Vector2 speed = new Vector2(10, 10);
@@ -32,12 +31,13 @@ public class ControllerScript : MonoBehaviour
     {
         anim = GetComponent<Animator>();
 		Body = this.GetComponent<Rigidbody2D> ();
-	}
+    }
 
     // Update is called once per frame
     void Update()
     {
-		if (GameObject.Find ("bag").GetComponent<BagScript> ().stopMoving == true) {
+		if ((GameObject.Find("bag").GetComponent<BagScript>() != null && GameObject.Find ("bag").GetComponent<BagScript> ().stopMoving == true)
+            || GameObject.Find("bag").GetComponent<BagScript05>() != null && GameObject.Find("bag").GetComponent<BagScript05>().stopMoving == true) {
 			float move = Input.GetAxis ("Horizontal");
 			if (HasParam (anim, "Speed")) {
 				anim.SetFloat ("Speed", Mathf.Abs (move));

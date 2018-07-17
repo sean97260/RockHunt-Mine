@@ -24,7 +24,7 @@ public class Dialog2 : MonoBehaviour
     {	
 
 		if (character.transform.position.x >= 16.8 && character.transform.position.x <= 22) {
-			print ("wind should go");
+			//print ("wind should go");
 			dialogAnimator.SetBool ("wind", true);
 		} 
 

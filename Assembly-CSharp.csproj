@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BagScript05.cs" />
     <Compile Include="Assets\camera.cs" />
     <Compile Include="Assets\camera_4.cs" />
     <Compile Include="Assets\camera_5.cs" />
@@ -74,11 +75,13 @@
     <Compile Include="Assets\Level4Button.cs" />
     <Compile Include="Assets\Map.cs" />
     <Compile Include="Assets\MinerDialogScript.cs" />
+    <Compile Include="Assets\MinerDialogScript05.cs" />
     <Compile Include="Assets\MinerScript.cs" />
     <Compile Include="Assets\number2.cs" />
     <Compile Include="Assets\portal_2.cs" />
     <Compile Include="Assets\ResearcherDialogScript.cs" />
     <Compile Include="Assets\ResearcherScript.cs" />
+    <Compile Include="Assets\SceneGranite05.cs" />
     <Compile Include="Assets\Scripts\Bag.cs" />
     <Compile Include="Assets\Scripts\BagScript.cs" />
     <Compile Include="Assets\Scripts\ButtonScript.cs" />
