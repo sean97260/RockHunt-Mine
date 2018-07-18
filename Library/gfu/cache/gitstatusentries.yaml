@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-19T06:36:14.417+08:00
+  lastUpdatedAtString: 2018-07-19T06:47:40.339+08:00
   initializedAtString: 2018-07-16T20:56:05.919-04:00
   entries:
   - path: .DS_Store
@@ -27,272 +27,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets/Animation _ Animator/Level 1/Cloud.controller
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Animation _ Animator/Level
-      1/Cloud.controller
-    projectPath: Assets/Animation _ Animator/Level 1/Cloud.controller
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Animation _ Animator/Level 1/Portal_0.controller
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Animation _ Animator/Level
-      1/Portal_0.controller
-    projectPath: Assets/Animation _ Animator/Level 1/Portal_0.controller
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Animation _ Animator/Level 1/Wizard.anim
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Animation _ Animator/Level
-      1/Wizard.anim
-    projectPath: Assets/Animation _ Animator/Level 1/Wizard.anim
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Animation _ Animator/Level 1/Wizard.controller
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Animation _ Animator/Level
-      1/Wizard.controller
-    projectPath: Assets/Animation _ Animator/Level 1/Wizard.controller
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/BagScript_2.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/BagScript_2.cs
-    projectPath: Assets/BagScript_2.cs
+  - path: Assets/ControllerScript_6.cs
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/ControllerScript_6.cs
+    projectPath: Assets/ControllerScript_6.cs
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/BagScript_3.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/BagScript_3.cs
-    projectPath: Assets/BagScript_3.cs
+  - path: Assets/Layer 6.png
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Layer 6.png
+    projectPath: Assets/Layer 6.png
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets/Compacting.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Compacting.png
-    projectPath: Assets/Compacting.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/control_panel_icon_meter_indicator_level_gauge_pressure_counter-512.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/control_panel_icon_meter_indicator_level_gauge_pressure_counter-512.png
-    projectPath: Assets/control_panel_icon_meter_indicator_level_gauge_pressure_counter-512.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Controller_Script_02.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Controller_Script_02.cs
-    projectPath: Assets/Controller_Script_02.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ControllerScript_1.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/ControllerScript_1.cs
-    projectPath: Assets/ControllerScript_1.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ControllerScript_2.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/ControllerScript_2.cs
-    projectPath: Assets/ControllerScript_2.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/ControllerScript_3.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/ControllerScript_3.cs
-    projectPath: Assets/ControllerScript_3.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Cooling.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Cooling.png
-    projectPath: Assets/Cooling.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/EventManager02.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/EventManager02.cs
-    projectPath: Assets/EventManager02.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/EventManager03.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/EventManager03.cs
-    projectPath: Assets/EventManager03.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/g29963-512.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/g29963-512.png
-    projectPath: Assets/g29963-512.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/heatAndPressure.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/heatAndPressure.png
-    projectPath: Assets/heatAndPressure.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/hello.anim
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/hello.anim
-    projectPath: Assets/hello.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Level01.unity
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Level01.unity
-    projectPath: Assets/Level01.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Level02.unity
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Level02.unity
-    projectPath: Assets/Level02.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Level03.unity
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Level03.unity
-    projectPath: Assets/Level03.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Level04.unity
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Level04.unity
-    projectPath: Assets/Level04.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Level05.unity
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Level05.unity
-    projectPath: Assets/Level05.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/magma.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/magma.png
-    projectPath: Assets/magma.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Melting.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Melting.png
-    projectPath: Assets/Melting.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/metamorphic 1.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/metamorphic 1.png
-    projectPath: Assets/metamorphic 1.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/metamorphic.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/metamorphic.png
-    projectPath: Assets/metamorphic.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/New Animation.anim
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/New Animation.anim
-    projectPath: Assets/New Animation.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/raining.anim
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/raining.anim
-    projectPath: Assets/raining.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/raining.controller
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/raining.controller
-    projectPath: Assets/raining.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/RockCycleDiagram .unity
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/RockCycleDiagram .unity
-    projectPath: Assets/RockCycleDiagram .unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Scripts/Bag.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Scripts/Bag.cs
-    projectPath: Assets/Scripts/Bag.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Sediment.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Sediment.png
-    projectPath: Assets/Sediment.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Sedimentary.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Sedimentary.png
-    projectPath: Assets/Sedimentary.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/Sprites/Level 1/idle.anim
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Sprites/Level 1/idle.anim
-    projectPath: Assets/Sprites/Level 1/idle.anim
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Sprites/Level 1/researcher.anim
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Sprites/Level 1/researcher.anim
-    projectPath: Assets/Sprites/Level 1/researcher.anim
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/Sprites/Level 2/Dialog/No magic/WizardDialog.controller
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Sprites/Level 2/Dialog/No
-      magic/WizardDialog.controller
-    projectPath: Assets/Sprites/Level 2/Dialog/No magic/WizardDialog.controller
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets/talk1.anim
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/talk1.anim
-    projectPath: Assets/talk1.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/weathering and erosion.png
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/weathering and erosion.png
-    projectPath: Assets/weathering and erosion.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/WizardDialog.controller
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/WizardDialog.controller
-    projectPath: Assets/WizardDialog.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/WizardDialog_1.controller
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/WizardDialog_1.controller
-    projectPath: Assets/WizardDialog_1.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/WizardDialog_2.controller
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/WizardDialog_2.controller
-    projectPath: Assets/WizardDialog_2.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/WizardDialogScript_2.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/WizardDialogScript_2.cs
-    projectPath: Assets/WizardDialogScript_2.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets/WizardScript_1.cs
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/WizardScript_1.cs
-    projectPath: Assets/WizardScript_1.cs
+  - path: Assets/Level06.unity
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assets/Level06.unity
+    projectPath: Assets/Level06.unity
     originalPath: 
     status: 1
     staged: 0
@@ -335,30 +84,6 @@ MonoBehaviour:
   - path: Library/gfu/cache/repoinfo.yaml
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/repoinfo.yaml
     projectPath: Library/gfu/cache/repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/InspectorExpandedItems.asset
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/InspectorExpandedItems.asset
-    projectPath: Library/InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/21/21e6db204933cd4499b71256f6d0f0f0
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/21/21e6db204933cd4499b71256f6d0f0f0
-    projectPath: Library/metadata/21/21e6db204933cd4499b71256f6d0f0f0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/65/651902019ad9fee4fb967b56b944d3b0
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/65/651902019ad9fee4fb967b56b944d3b0
-    projectPath: Library/metadata/65/651902019ad9fee4fb967b56b944d3b0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/76/76e768c021bc74429ad92c28bb4ce4d3
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/76/76e768c021bc74429ad92c28bb4ce4d3
-    projectPath: Library/metadata/76/76e768c021bc74429ad92c28bb4ce4d3
     originalPath: 
     status: 3
     staged: 0

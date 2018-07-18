@@ -60,6 +60,7 @@
      <Compile Include="Assets\ControllerScript_1.cs" />
      <Compile Include="Assets\ControllerScript_2.cs" />
      <Compile Include="Assets\ControllerScript_3.cs" />
+     <Compile Include="Assets\ControllerScript_6.cs" />
      <Compile Include="Assets\Drill.cs" />
      <Compile Include="Assets\EventManager.cs" />
      <Compile Include="Assets\EventManager02.cs" />
