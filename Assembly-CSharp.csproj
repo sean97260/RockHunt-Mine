@@ -107,7 +107,9 @@
     <Compile Include="Assets\Scripts\useScript.cs" />
     <Compile Include="Assets\SignScript.cs" />
     <Compile Include="Assets\WizardDialogScript.cs" />
+    <Compile Include="Assets\WizardDialogScript05.cs" />
     <Compile Include="Assets\WizardScript.cs" />
+    <Compile Include="Assets\WizardScript05.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Clémence/Documents/GitHub/RockHunt-Mine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

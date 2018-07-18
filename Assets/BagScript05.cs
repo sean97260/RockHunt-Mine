@@ -16,7 +16,7 @@ public class BagScript05 : MonoBehaviour
 
     GameObject graniteInfo, sandInfo, sandstoneInfo;
 
-    public bool twosand;
+    public bool sandstoneInBag;
 
     public bool stopMoving;
 
@@ -154,7 +154,8 @@ public class BagScript05 : MonoBehaviour
         {
             Put(sand_3);
         }
-        if ((int)objectList.GetValue(4) == 1) {
+        if ((int)objectList.GetValue(4) == 1)
+        {
             Put(sandstone);
         }
         bookOpened = true;
@@ -281,17 +282,6 @@ public class BagScript05 : MonoBehaviour
             Erase(select_4);
             Erase(select_5);
         }
-
-        if ((int)objectList.GetValue(2) == 1 && (int)objectList.GetValue(3) == 1)
-        {
-            twosand = true;
-        }
-        else
-        {
-            twosand = false;
-        }
-
-
     }
 
     public void addObject(GameObject item)
@@ -335,6 +325,7 @@ public class BagScript05 : MonoBehaviour
             objectList.SetValue(0, 3);
             objectList.SetValue(1, 4);
             item.SetActive(false);
+            sandstoneInBag = true;
         }
         int pos;
         if (item.name == "PitSand (2)")
@@ -414,6 +405,7 @@ public class BagScript05 : MonoBehaviour
         }
         else if (iconLocator >= 5 && sandstone.activeSelf) {
             RemoveAndTake(sandstone, 4);
+            sandstoneInBag = false;
         }
         CloseBook();
     }

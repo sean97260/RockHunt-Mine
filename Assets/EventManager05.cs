@@ -47,7 +47,7 @@ public class EventManager05 : MonoBehaviour
         pitSand_3.SetActive(false);
         sandstone.SetActive(false);
 
-        time = 5.0f;
+        time = 2.5f;
     }
 
     void CheckSandPit(GameObject sand, GameObject bottom, GameObject pitSand) {

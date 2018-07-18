@@ -51,7 +51,7 @@ public class SceneGranite05 : MonoBehaviour
             {
                 timer += Time.deltaTime;
 
-                if (timer >= 10)
+                if (timer >= 5)
                 {
                     timer = 0f;
                     this.gameObject.GetComponent<Animator>().SetBool("transform", true);
@@ -69,7 +69,7 @@ public class SceneGranite05 : MonoBehaviour
             {
                 timer += Time.deltaTime;
 
-                if (timer >= 10)
+                if (timer >= 5)
                 {
                     timer = 0f;
                     this.gameObject.GetComponent<Animator>().SetBool("transform", true);
