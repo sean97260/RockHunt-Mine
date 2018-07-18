@@ -12,8 +12,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-19T07:31:15.348+08:00
   initializedAtString: 2018-07-19T07:29:51.125+08:00
+=======
+  lastUpdatedAtString: 2018-07-18T19:43:17.403-04:00
+  initializedAtString: 2018-07-18T19:43:17.377-04:00
+>>>>>>> level5
   localBranches:
   - name: level5
     tracking: origin/level5
