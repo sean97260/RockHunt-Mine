@@ -7,6 +7,7 @@ public class ResearcherDialogScript05 : MonoBehaviour
 
     GameObject character;
     Animator anim;
+    float timer = .1f;
 
     // Use this for initialization
     void Start()
@@ -19,6 +20,16 @@ public class ResearcherDialogScript05 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameObject.Find("bag").GetComponent<BagScript05>().bookOpened)
+        {
+            timer = 0.1f;
+        }
+        if (timer > 0)
+        {
+            timer = timer - Time.deltaTime;
+            return; // Prevent dialog if user pressed space to choose something from the book.
+        }
+
         if (Input.GetKeyDown("space"))
         {
             anim.SetTrigger("Space");

@@ -8,7 +8,7 @@ public class MinerDialogScript05 : MonoBehaviour
 
     GameObject character;
     Animator anim;
-    float timer = 1f;
+    float timer = .1f;
 
     // Use this for initialization
     void Start()
@@ -24,7 +24,7 @@ public class MinerDialogScript05 : MonoBehaviour
     {
         if (GameObject.Find("bag").GetComponent<BagScript05>().bookOpened)
         {
-            timer = 1f;
+            timer = .1f;
         }
         if (timer > 0)
         {

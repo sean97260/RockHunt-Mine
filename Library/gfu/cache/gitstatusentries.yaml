@@ -12,18 +12,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-18T18:40:02.617-04:00
+  lastUpdatedAtString: 2018-07-18T18:46:34.143-04:00
   initializedAtString: 2018-07-18T17:26:17.001-04:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assembly-CSharp.csproj"
-    projectPath: Assembly-CSharp.csproj
+  - path: Assets\Animation _ Animator\Level 1\SceneGranite.anim
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\Level 1\\SceneGranite.anim"
+    projectPath: Assets\Animation _ Animator\Level 1\SceneGranite.anim
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\EventManager05.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\EventManager05.cs"
-    projectPath: Assets\EventManager05.cs
+  - path: Assets\Level05.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level05.unity"
+    projectPath: Assets\Level05.unity
     originalPath: 
     status: 3
     staged: 0
@@ -37,113 +38,53 @@ MonoBehaviour:
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\ResearcherDialogScript05.cs"
     projectPath: Assets\ResearcherDialogScript05.cs
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Level05\Dialog\Intro.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Intro.anim"
-    projectPath: Assets\Sprites\Level05\Dialog\Intro.anim
-    originalPath: 
     status: 3
-    staged: 0
-  - path: Assets\Sprites\Level05\Dialog\IsThatSandstone.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\IsThatSandstone.anim"
-    projectPath: Assets\Sprites\Level05\Dialog\IsThatSandstone.anim
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Sprites\Level05\Dialog\ItLooksLike.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\ItLooksLike.anim"
-    projectPath: Assets\Sprites\Level05\Dialog\ItLooksLike.anim
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Sprites\Level05\Dialog\Miner\i-dug-up-more-granite-use-it-as_frame_0047.jpg
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Miner\\i-dug-up-more-granite-use-it-as_frame_0047.jpg"
-    projectPath: Assets\Sprites\Level05\Dialog\Miner\i-dug-up-more-granite-use-it-as_frame_0047.jpg
-    originalPath: 
-    status: 1
     staged: 0
   - path: Assets\Sprites\Level05\Dialog\Miner\MinerDialog.controller
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Miner\\MinerDialog.controller"
     projectPath: Assets\Sprites\Level05\Dialog\Miner\MinerDialog.controller
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Level05\Dialog\Miner\ooh-a-sandstone-how-d-you-make_frame_0041.jpg
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Miner\\ooh-a-sandstone-how-d-you-make_frame_0041.jpg"
-    projectPath: Assets\Sprites\Level05\Dialog\Miner\ooh-a-sandstone-how-d-you-make_frame_0041.jpg
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Level05\Dialog\Miner\so-much-sand-how-boring-if_frame_0082.jpg
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Miner\\so-much-sand-how-boring-if_frame_0082.jpg"
-    projectPath: Assets\Sprites\Level05\Dialog\Miner\so-much-sand-how-boring-if_frame_0082.jpg
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\Sprites\Level05\Dialog\Miner\Talk1.anim
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Miner\\Talk1.anim"
     projectPath: Assets\Sprites\Level05\Dialog\Miner\Talk1.anim
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\Sprites\Level05\Dialog\Miner\Talk2.anim
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Miner\\Talk2.anim"
     projectPath: Assets\Sprites\Level05\Dialog\Miner\Talk2.anim
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\Sprites\Level05\Dialog\Miner\Talk3.anim
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Miner\\Talk3.anim"
     projectPath: Assets\Sprites\Level05\Dialog\Miner\Talk3.anim
     originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Level05\Dialog\Researcher\hey-between-you-and-me-press_frame_0081.jpg
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Researcher\\hey-between-you-and-me-press_frame_0081.jpg"
-    projectPath: Assets\Sprites\Level05\Dialog\Researcher\hey-between-you-and-me-press_frame_0081.jpg
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Level05\Dialog\Researcher\i-see-you-took-my-advice-you-re_frame_0084.jpg
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Researcher\\i-see-you-took-my-advice-you-re_frame_0084.jpg"
-    projectPath: Assets\Sprites\Level05\Dialog\Researcher\i-see-you-took-my-advice-you-re_frame_0084.jpg
-    originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\Sprites\Level05\Dialog\Researcher\ResearcherDialog.controller
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Researcher\\ResearcherDialog.controller"
     projectPath: Assets\Sprites\Level05\Dialog\Researcher\ResearcherDialog.controller
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\Sprites\Level05\Dialog\Researcher\Talk1.anim
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Researcher\\Talk1.anim"
     projectPath: Assets\Sprites\Level05\Dialog\Researcher\Talk1.anim
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\Sprites\Level05\Dialog\Researcher\Talk2.anim
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Researcher\\Talk2.anim"
     projectPath: Assets\Sprites\Level05\Dialog\Researcher\Talk2.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Level05\Dialog\WizardDialog.controller
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\WizardDialog.controller"
-    projectPath: Assets\Sprites\Level05\Dialog\WizardDialog.controller
     originalPath: 
     status: 3
     staged: 0
   - path: Library\assetDatabase3
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\assetDatabase3"
     projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\CurrentLayout.dwlt
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\CurrentLayout.dwlt"
-    projectPath: Library\CurrentLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
@@ -174,18 +115,6 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gittrackingstatus.yaml"
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\repoinfo.yaml"
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\LastSceneManagerSetup.txt"
-    projectPath: Library\LastSceneManagerSetup.txt
     originalPath: 
     status: 3
     staged: 0
