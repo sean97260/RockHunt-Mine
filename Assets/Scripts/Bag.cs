@@ -8,13 +8,11 @@ public class Bag : MonoBehaviour {
 	GameObject alchemistBackground;
 	GameObject rain;
 	GameObject cloud;
-	GameObject use;
 	public bool bookOpened;
 
 	// Use this for initialization
 	void Start () {
-		use = GameObject.Find ("Use");
-		use.SetActive (false);
+
 		bookOpened = false;
 		grid = GameObject.Find("InventoryGrid");
 		alchemistBackground = GameObject.Find("alchemistBackground");
@@ -40,8 +38,6 @@ public class Bag : MonoBehaviour {
 	}
 
 	public void CloseBook(){
-		grid.SetActive (false);
-//		rain.SetActive (false);
 	}
 
 	public void OpenBook(){
@@ -51,11 +47,6 @@ public class Bag : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (this.gameObject.GetComponent<Animator> ().GetBool ("use") == true  && use.activeSelf == false) {
-			use.SetActive (true);
-		} else if (this.gameObject.GetComponent<Animator> ().GetBool ("use") == false && use.activeSelf == true) {
-			use.SetActive (false);
-		}
 
 		if (this.GetComponent<Animator>().GetBool("closeBook") == true) {
 			this.GetComponent<Animator> ().SetBool ("closeBook", false);

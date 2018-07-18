@@ -51,11 +51,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BagScript_2.cs" />
+     <Compile Include="Assets\BagScript_3.cs" />
      <Compile Include="Assets\camera.cs" />
      <Compile Include="Assets\camera_4.cs" />
      <Compile Include="Assets\camera_5.cs" />
+     <Compile Include="Assets\Controller_Script_02.cs" />
+     <Compile Include="Assets\ControllerScript_1.cs" />
+     <Compile Include="Assets\ControllerScript_2.cs" />
+     <Compile Include="Assets\ControllerScript_3.cs" />
      <Compile Include="Assets\Drill.cs" />
      <Compile Include="Assets\EventManager.cs" />
+     <Compile Include="Assets\EventManager02.cs" />
      <Compile Include="Assets\EventManager03.cs" />
      <Compile Include="Assets\EventManager05.cs" />
      <Compile Include="Assets\Granite02.cs" />
@@ -94,7 +101,9 @@
      <Compile Include="Assets\Scripts\useScript.cs" />
      <Compile Include="Assets\SignScript.cs" />
      <Compile Include="Assets\WizardDialogScript.cs" />
+     <Compile Include="Assets\WizardDialogScript_2.cs" />
      <Compile Include="Assets\WizardScript.cs" />
+     <Compile Include="Assets\WizardScript_1.cs" />
  <Reference Include="UnityEngine.UIAutomation">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>

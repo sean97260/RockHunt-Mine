@@ -32,25 +32,25 @@ public class EventManager03 : MonoBehaviour
     {
         if (granite_1 != null && character.GetComponent<Collider2D>().IsTouching(granite_1.GetComponent<Collider2D>()))
         {
-            bag.GetComponent<BagScript>().addObject(granite_1);
+            bag.GetComponent<BagScript_3>().addObject(granite_1);
         }
 
 
         if (sand_1 != null && character.GetComponent<Collider2D>().IsTouching(sand_1.GetComponent<Collider2D>()))
         {
             print("touch sand");
-            bag.GetComponent<BagScript>().addObject(sand_1);
+            bag.GetComponent<BagScript_3>().addObject(sand_1);
         }
 
         if (sand_2 != null && character.GetComponent<Collider2D>().IsTouching(sand_2.GetComponent<Collider2D>()))
         {
-            bag.GetComponent<BagScript>().addObject(sand_2);
+            bag.GetComponent<BagScript_3>().addObject(sand_2);
         }
     }
 
     public void takeFromBag(GameObject item)
     {
-        if (character.GetComponent<ControllerScript>().facingRight == true)
+        if (character.GetComponent<ControllerScript_3>().facingRight == true)
         {
             offset = -2.3f;
         }
