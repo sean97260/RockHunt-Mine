@@ -15,6 +15,7 @@ public class MinerDialogScript05 : MonoBehaviour
     {
         character = GameObject.Find("Character");
         anim = this.GetComponent<Animator>();
+        anim.SetBool("Granite", false);
 
     }
 
@@ -30,48 +31,27 @@ public class MinerDialogScript05 : MonoBehaviour
             timer = timer - Time.deltaTime;
             return;
         }
+
+        if (Input.GetKeyDown("space"))
+        {
+            anim.SetTrigger("Space");
+        }
+        else {
+            anim.ResetTrigger("Space");
+        }
+
+        if (GameObject.Find("SceneGranite") && GameObject.Find("SceneGranite").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp"))
+        {
+            anim.SetBool("GraniteTransformed", true);
+        }
+
         if (character.transform.position.x >= 12.5 && character.transform.position.x <= 17.3)
         {
-            anim.SetBool("back", false);
-
-            if (anim.GetCurrentAnimatorStateInfo(0).IsName("idle") && Input.GetKeyDown("space"))
-            {
-                anim.SetBool("talk1", true);
-                anim.SetBool("finishTalk", false);
-            }
-
-            if (anim.GetCurrentAnimatorStateInfo(0).IsName("talk1") && Input.GetKeyDown("space"))
-            {
-                anim.SetBool("talk1", false);
-                anim.SetBool("talk2", true);
-            }
-
-            if (anim.GetCurrentAnimatorStateInfo(0).IsName("talk2") && Input.GetKeyDown("space"))
-            {
-                anim.SetBool("talk2", false);
-                anim.SetBool("finishTalk", true);
-            }
-
-            if (anim.GetCurrentAnimatorStateInfo(0).IsName("talk3") && Input.GetKeyDown("space"))
-            {
-                anim.SetBool("talk1", false);
-                anim.SetBool("talk4", true);
-            }
-
-            if (anim.GetCurrentAnimatorStateInfo(0).IsName("talk4") && Input.GetKeyDown("space"))
-            {
-                anim.SetBool("talk4", false);
-                anim.SetBool("finishTalk", true);
-            }
-
+            anim.SetBool("Back", false);
         }
         else
         {
-            anim.SetBool("talk1", false);
-            anim.SetBool("talk2", false);
-            anim.SetBool("talk4", false);
-            anim.SetBool("finishTalk", false);
-            anim.SetBool("back", true);
+            anim.SetBool("Back", true);
         }
 
     }

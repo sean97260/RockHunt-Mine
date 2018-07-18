@@ -156,6 +156,7 @@ public class EventManager05 : MonoBehaviour
             time = time - Time.deltaTime;
             if (time <= 0f)
             {
+                Physics2D.IgnoreCollision(sandstone.GetComponent<BoxCollider2D>(), pitSand_1.GetComponent<BoxCollider2D>());
                 PutSandstone();
             }
         }
@@ -171,7 +172,8 @@ public class EventManager05 : MonoBehaviour
 
     void PutSandstone() {
         sandstone.SetActive(true);
-        GameObject.Find("Dialog generator").GetComponent<Animator>().SetTrigger("Sandstone");
+        GameObject.Find("MinerDialog").GetComponent<Animator>().SetBool("Sandstone", true);
+        GameObject.Find("ResearcherDialog").GetComponent<Animator>().SetBool("Sandstone", true);
     }
 
     public void takeFromBag(GameObject item)

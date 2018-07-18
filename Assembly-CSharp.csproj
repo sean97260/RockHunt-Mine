@@ -80,6 +80,7 @@
     <Compile Include="Assets\number2.cs" />
     <Compile Include="Assets\portal_2.cs" />
     <Compile Include="Assets\ResearcherDialogScript.cs" />
+    <Compile Include="Assets\ResearcherDialogScript05.cs" />
     <Compile Include="Assets\ResearcherScript.cs" />
     <Compile Include="Assets\SceneGranite05.cs" />
     <Compile Include="Assets\Scripts\Bag.cs" />
