@@ -363,10 +363,6 @@ public class BagScript : MonoBehaviour
         {
             eventManager.GetComponent<EventManager03>().takeFromBag(item);
         }
-        else if (eventManager.GetComponent<EventManager05>() != null)
-        {
-            eventManager.GetComponent<EventManager05>().takeFromBag(item);
-        }
         else
         {
             eventManager.GetComponent<EventManager>().takeFromBag(item);

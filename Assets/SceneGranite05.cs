@@ -20,7 +20,8 @@ public class SceneGranite05 : MonoBehaviour
     void Update()
     {
 
-        if (this.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("granite pieces"))
+        if (this.gameObject.GetComponent<Animator>() && 
+            this.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("granite pieces"))
         {
             timer2 += Time.deltaTime;
             if (timer2 >= 7)
@@ -82,7 +83,8 @@ public class SceneGranite05 : MonoBehaviour
         }
 
 
-        if (this.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp"))
+        if (this.gameObject.GetComponent<Animator>() && 
+            this.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp"))
         {
             GameObject.Find("Dialog generator").GetComponent<Animator>().SetBool("gotSand", true);
 

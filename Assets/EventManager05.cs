@@ -10,6 +10,9 @@ public class EventManager05 : MonoBehaviour
     GameObject sand_1, sand_2, sand_3;
     GameObject granite;
     GameObject pitSand_1, pitSand_2, pitSand_3;
+
+    public int sand1Order, sand2Order, sand3Order; // Keep track of which pile is associated with which pit
+
     GameObject sandstone;
     GameObject bottomCollider;
     Animator anim;
@@ -20,6 +23,8 @@ public class EventManager05 : MonoBehaviour
 
     public bool waterUsed;
     public bool windUsed;
+
+    public bool graniteTransformed = false;
 
     // Use this for initialization
     void Start()
@@ -50,6 +55,49 @@ public class EventManager05 : MonoBehaviour
             return;
         }
         if (sand.GetComponent<Collider2D>().IsTouching(bottom.GetComponent<Collider2D>())) {
+            if (bottom.name == "BottomCollider")
+            {
+                if (sand.name == "SceneSand")
+                {
+                    sand2Order = 1;
+                }
+                else if (sand.name == "SceneSand (1)")
+                {
+                    sand3Order = 1;
+                }
+                else if (sand.name == "SceneGranite") {
+                    sand1Order = 1;
+                }
+            }
+            else if (bottom.name == "PitSand")
+            {
+                if (sand.name == "SceneSand")
+                {
+                    sand2Order = 2;
+                }
+                else if (sand.name == "SceneSand (1)")
+                {
+                    sand3Order = 2;
+                }
+                else if (sand.name == "SceneGranite")
+                {
+                    sand1Order = 2;
+                }
+            }
+            else if (bottom.name == "PitSand (1)") {
+                if (sand.name == "SceneSand")
+                {
+                    sand2Order = 3;
+                }
+                else if (sand.name == "SceneSand (1)")
+                {
+                    sand3Order = 3;
+                }
+                else if (sand.name == "SceneGranite")
+                {
+                    sand1Order = 3;
+                }
+            }
             pitSand.SetActive(true);
             sand.SetActive(false);
         }
@@ -58,8 +106,14 @@ public class EventManager05 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (sand_1 != null)
+        {
+            sand_1.GetComponent<Animator>().Play("SandShowUp");
+        }
+
         if (granite != null && granite.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp")) {
             sand_1 = granite;
+            graniteTransformed = true;
             granite = null;
         }
         if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence")) {
@@ -80,19 +134,21 @@ public class EventManager05 : MonoBehaviour
         CheckAndAdd(sand_2);
         CheckAndAdd(sand_3);
 
+        CheckAndAdd(sandstone);
+
         if (pitSand_1 != null && character.GetComponent<Collider2D>().IsTouching(pitSand_1.GetComponent<Collider2D>()))
         {
-            bag.GetComponent<BagScript05>().addObject(sand_1);
+            bag.GetComponent<BagScript05>().addObject(pitSand_1);
             pitSand_1.SetActive(false);
         }
         if (pitSand_2 != null && character.GetComponent<Collider2D>().IsTouching(pitSand_2.GetComponent<Collider2D>()))
         {
-            bag.GetComponent<BagScript05>().addObject(sand_2);
+            bag.GetComponent<BagScript05>().addObject(pitSand_2);
             pitSand_2.SetActive(false);
         }
         if (pitSand_3 != null && character.GetComponent<Collider2D>().IsTouching(pitSand_3.GetComponent<Collider2D>()))
         {
-            bag.GetComponent<BagScript05>().addObject(sand_3);
+            bag.GetComponent<BagScript05>().addObject(pitSand_3);
             pitSand_3.SetActive(false);
         }
         if (pitSand_1.activeSelf && pitSand_2.activeSelf && pitSand_3.activeSelf)
@@ -108,6 +164,7 @@ public class EventManager05 : MonoBehaviour
     void CheckAndAdd(GameObject item) {
         if (item != null && character.GetComponent<Collider2D>().IsTouching(item.GetComponent<Collider2D>()))
         {
+            Debug.Log(item.name);
             bag.GetComponent<BagScript05>().addObject(item);
         }
     }
@@ -128,13 +185,15 @@ public class EventManager05 : MonoBehaviour
             offset = 2.3f;
         }
 
-         if (item.name == "SandIcon_1")
+        Debug.Log(item.name);
+
+         if (sand_1 != null && item.name == "SandIcon_1")
         {
             sand_1.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
             sand_1.SetActive(true);
         }
 
-        if (item.name == "SandIcon_2")
+        if (sand_2 != null && item.name == "SandIcon_2")
         {
             sand_2.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
             sand_2.SetActive(true);
@@ -150,6 +209,12 @@ public class EventManager05 : MonoBehaviour
         {
             granite.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
             granite.SetActive(true);
+        }
+
+        if (sandstone != null && item.name == "SandstoneIcon")
+        {
+            sandstone.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
+            sandstone.SetActive(true);
         }
     }
 }
