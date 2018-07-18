@@ -12,6 +12,133 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-19T06:51:22.535+08:00
   initializedAtString: 2018-07-16T20:56:05.919-04:00
   entries: []
+=======
+  lastUpdatedAtString: 2018-07-18T18:46:34.143-04:00
+  initializedAtString: 2018-07-18T17:26:17.001-04:00
+  entries:
+  - path: Assets\Animation _ Animator\Level 1\SceneGranite.anim
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\Level 1\\SceneGranite.anim"
+    projectPath: Assets\Animation _ Animator\Level 1\SceneGranite.anim
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Level05.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level05.unity"
+    projectPath: Assets\Level05.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\MinerDialogScript05.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\MinerDialogScript05.cs"
+    projectPath: Assets\MinerDialogScript05.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\ResearcherDialogScript05.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\ResearcherDialogScript05.cs"
+    projectPath: Assets\ResearcherDialogScript05.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sprites\Level05\Dialog\Miner\MinerDialog.controller
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Miner\\MinerDialog.controller"
+    projectPath: Assets\Sprites\Level05\Dialog\Miner\MinerDialog.controller
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sprites\Level05\Dialog\Miner\Talk1.anim
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Miner\\Talk1.anim"
+    projectPath: Assets\Sprites\Level05\Dialog\Miner\Talk1.anim
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sprites\Level05\Dialog\Miner\Talk2.anim
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Miner\\Talk2.anim"
+    projectPath: Assets\Sprites\Level05\Dialog\Miner\Talk2.anim
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sprites\Level05\Dialog\Miner\Talk3.anim
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Miner\\Talk3.anim"
+    projectPath: Assets\Sprites\Level05\Dialog\Miner\Talk3.anim
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sprites\Level05\Dialog\Researcher\ResearcherDialog.controller
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Researcher\\ResearcherDialog.controller"
+    projectPath: Assets\Sprites\Level05\Dialog\Researcher\ResearcherDialog.controller
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sprites\Level05\Dialog\Researcher\Talk1.anim
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Researcher\\Talk1.anim"
+    projectPath: Assets\Sprites\Level05\Dialog\Researcher\Talk1.anim
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sprites\Level05\Dialog\Researcher\Talk2.anim
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\Dialog\\Researcher\\Talk2.anim"
+    projectPath: Assets\Sprites\Level05\Dialog\Researcher\Talk2.anim
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\assetDatabase3
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\assetDatabase3"
+    projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\branches.yaml"
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlocks.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlocks.yaml"
+    projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlog.yaml"
+    projectPath: Library\gfu\cache\gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitstatusentries.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitstatusentries.yaml"
+    projectPath: Library\gfu\cache\gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gittrackingstatus.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gittrackingstatus.yaml"
+    projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll.mdb"
+    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    originalPath: 
+    status: 3
+    staged: 0
+>>>>>>> origin/level5

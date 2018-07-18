@@ -150,7 +150,7 @@ public class BagScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		print (stopMoving);
+
         if (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift))
         {
             if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence")
@@ -292,7 +292,6 @@ public class BagScript : MonoBehaviour
 
         if (item.name == "SceneSand")
         {
-            print("herehere");
             objectList.SetValue(1, 2);
             item.SetActive(false);
         }
@@ -339,58 +338,35 @@ public class BagScript : MonoBehaviour
         print("drop");
         if (iconLocator <= 1 && GameObject.Find("SceneGranite") == null && granite_1.activeSelf == true)
         {
-            granite_1.SetActive(false);
-            objectList.SetValue(0, 0);
-            if (eventManager.GetComponent<EventManager03>() != null)
-            {
-                eventManager.GetComponent<EventManager03>().takeFromBag(granite_1);
-            }
-            else
-            {
-                eventManager.GetComponent<EventManager>().takeFromBag(granite_1);
-            }
+            CheckAndTake(granite_1, 0);  
         }
         else if (iconLocator == 2 && GameObject.Find("SceneGranite (1)") == null && granite_2.activeSelf == true)
         {
-            granite_2.SetActive(false);
-            objectList.SetValue(0, 1);
-            if (eventManager.GetComponent<EventManager03>() != null)
-            {
-                eventManager.GetComponent<EventManager03>().takeFromBag(granite_2);
-            }
-            else
-            {
-                eventManager.GetComponent<EventManager>().takeFromBag(granite_2);
-            }
+            CheckAndTake(granite_2, 1);
         }
         else if (iconLocator == 3 && sand_1.activeSelf == true)
         {
-            sand_1.SetActive(false);
-            objectList.SetValue(0, 2);
-            if (eventManager.GetComponent<EventManager03>() != null)
-            {
-                eventManager.GetComponent<EventManager03>().takeFromBag(sand_1);
-            }
-            else
-            {
-                eventManager.GetComponent<EventManager>().takeFromBag(sand_1);
-            }
+            CheckAndTake(sand_1, 2);
         }
         else if (iconLocator >= 4 && sand_2.activeSelf == true)
         {
-            sand_2.SetActive(false);
-            objectList.SetValue(0, 3);
-            if (eventManager.GetComponent<EventManager03>() != null)
-            {
-                eventManager.GetComponent<EventManager03>().takeFromBag(sand_2);
-            }
-            else
-            {
-                eventManager.GetComponent<EventManager>().takeFromBag(sand_2);
-            }
+            CheckAndTake(sand_2, 3);
         }
 
         CloseBook();
+    }
+
+    void CheckAndTake(GameObject item, int position) {
+        item.SetActive(false);
+        objectList.SetValue(0, position);
+        if (eventManager.GetComponent<EventManager03>() != null)
+        {
+            eventManager.GetComponent<EventManager03>().takeFromBag(item);
+        }
+        else
+        {
+            eventManager.GetComponent<EventManager>().takeFromBag(item);
+        }
     }
 
 }
