@@ -3,7 +3,7 @@
 --- !u!114 &1
 MonoBehaviour:
   m_ObjectHideFlags: 61
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-07-19T06:54:23.239+08:00
-  initializedAtString: 2018-07-19T06:54:23.239+08:00
+  lastUpdatedAtString: 2018-07-19T08:26:35.121+08:00
+  initializedAtString: 2018-07-19T08:26:35.121+08:00
   currentGitRemote:
     name: origin
     url: https://github.com/sean97260/RockHunt-Mine.git
