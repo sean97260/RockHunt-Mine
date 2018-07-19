@@ -69,21 +69,21 @@ public class EventManager : MonoBehaviour
         }
 
         if (windUsed == true)
-        {
+        {/*
             if (GameObject.Find("Wind") != null)
             {
                 GameObject.Find("Wind").SetActive(false);
             }
             dialogAnim.SetBool("windgone", true);
 			minerAnim.SetBool("windgone", true);
-			minerDialogAnim.SetBool("windgone", true);
+			minerDialogAnim.SetBool("windgone", true);*/
         }
 
         if (waterUsed == true)
-        {
+        {/*
 			dialogAnim.SetBool("watergone", true);
 			researcherAnim.SetBool("watergone", true);
-			researcherDialogAnim.SetBool("watergone", true);
+			researcherDialogAnim.SetBool("watergone", true);*/
         }
     }
 

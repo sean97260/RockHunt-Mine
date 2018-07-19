@@ -12,54 +12,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-19T10:56:35.294-04:00
+  lastUpdatedAtString: 2018-07-19T11:05:20.804-04:00
   initializedAtString: 2018-07-18T20:03:06.197-04:00
   entries:
-  - path: Assets\camera_4.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\camera_4.cs"
-    projectPath: Assets\camera_4.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Level04.unity
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level04.unity"
-    projectPath: Assets\Level04.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Level05.unity
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level05.unity"
-    projectPath: Assets\Level05.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Map.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Map.cs"
-    projectPath: Assets\Map.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Map.unity
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Map.unity"
-    projectPath: Assets\Map.unity
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scripts\BagScript.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\BagScript.cs"
-    projectPath: Assets\Scripts\BagScript.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scripts\Dialog.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\Dialog.cs"
-    projectPath: Assets\Scripts\Dialog.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Scripts\portal.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\portal.cs"
-    projectPath: Assets\Scripts\portal.cs
+  - path: Assets\EventManager.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\EventManager.cs"
+    projectPath: Assets\EventManager.cs
     originalPath: 
     status: 3
     staged: 0
@@ -105,9 +63,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\87\87d76bdfd7f79bf47ace357433a1c864
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\87\\87d76bdfd7f79bf47ace357433a1c864"
-    projectPath: Library\metadata\87\87d76bdfd7f79bf47ace357433a1c864
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\repoinfo.yaml"
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -117,21 +75,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\b5\b52e5d2f1ccd64611979c390796c685b
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\b5\\b52e5d2f1ccd64611979c390796c685b"
-    projectPath: Library\metadata\b5\b52e5d2f1ccd64611979c390796c685b
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\bf\bf868ebd2826e486ea8593085e864cc0
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\bf\\bf868ebd2826e486ea8593085e864cc0"
-    projectPath: Library\metadata\bf\bf868ebd2826e486ea8593085e864cc0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\f5\f5876a1c154ad49fd874bae585551301
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\f5\\f5876a1c154ad49fd874bae585551301"
-    projectPath: Library\metadata\f5\f5876a1c154ad49fd874bae585551301
+  - path: Library\metadata\f7\f7ba2fcfbf7c64aa28ce628118fb0971
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\f7\\f7ba2fcfbf7c64aa28ce628118fb0971"
+    projectPath: Library\metadata\f7\f7ba2fcfbf7c64aa28ce628118fb0971
     originalPath: 
     status: 3
     staged: 0
@@ -144,12 +90,6 @@ MonoBehaviour:
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll.mdb"
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
-    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0

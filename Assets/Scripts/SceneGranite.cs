@@ -25,10 +25,10 @@ public class SceneGranite : MonoBehaviour
 			if (timer2 >= 7) {
 				this.gameObject.GetComponent<Animator> ().SetBool ("sand", true);
 				if (transform.position.x >= 29 && transform.position.x <= 33) {
-					GameObject.Find ("EventManager").GetComponent<EventManager> ().windUsed = true;
+				//	GameObject.Find ("EventManager").GetComponent<EventManager> ().windUsed = true;
 					GameObject.Find ("Dialog generator").GetComponent<Animator> ().SetBool ("windgone", true);
 				} else if (transform.position.x >= 56 && transform.position.x <= 62.3) {
-					GameObject.Find ("EventManager").GetComponent<EventManager> ().waterUsed = true;
+				//	GameObject.Find ("EventManager").GetComponent<EventManager> ().waterUsed = true;
 					GameObject.Find ("Dialog generator").GetComponent<Animator>().SetBool("watergone",true);
 				}
 			}
