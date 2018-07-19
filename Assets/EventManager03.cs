@@ -20,10 +20,7 @@ public class EventManager03 : MonoBehaviour
         character = GameObject.Find("Character");
         granite_1 = GameObject.Find("SceneGranite");
         sand_1 = GameObject.Find("SceneSand");
-        sand_2 = GameObject.Find("SceneSand (1)");
         if (sand_1 != null) { sand_1.SetActive(true); }
-        Debug.Log(sand_1 == null);
-        if (sand_2 != null) { sand_2.SetActive(true); }
 
     }
 
@@ -32,19 +29,11 @@ public class EventManager03 : MonoBehaviour
     {
         if (granite_1 != null && character.GetComponent<Collider2D>().IsTouching(granite_1.GetComponent<Collider2D>()))
         {
-            bag.GetComponent<BagScript>().addObject(granite_1);
+            bag.GetComponent<BagScript03>().addObject(granite_1);
         }
-
-
         if (sand_1 != null && character.GetComponent<Collider2D>().IsTouching(sand_1.GetComponent<Collider2D>()))
         {
-            print("touch sand");
-            bag.GetComponent<BagScript>().addObject(sand_1);
-        }
-
-        if (sand_2 != null && character.GetComponent<Collider2D>().IsTouching(sand_2.GetComponent<Collider2D>()))
-        {
-            bag.GetComponent<BagScript>().addObject(sand_2);
+            bag.GetComponent<BagScript03>().addObject(sand_1);
         }
     }
 
@@ -67,14 +56,14 @@ public class EventManager03 : MonoBehaviour
 
         if (item.name == "SandIcon_1")
         {
-            sand_1.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
-            sand_1.SetActive(true);
+            granite_1.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
+            granite_1.SetActive(true);
         }
 
         if (item.name == "SandIcon_2")
         {
-            sand_2.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
-            sand_2.SetActive(true);
+            sand_1.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
+            sand_1.SetActive(true);
         }
     }
 }

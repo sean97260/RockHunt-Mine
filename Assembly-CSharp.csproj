@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\BagScript02.cs" />
+    <Compile Include="Assets\BagScript03.cs" />
     <Compile Include="Assets\BagScript05.cs" />
     <Compile Include="Assets\camera.cs" />
     <Compile Include="Assets\camera_4.cs" />

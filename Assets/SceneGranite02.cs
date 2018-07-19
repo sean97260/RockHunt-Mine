@@ -19,7 +19,8 @@ public class SceneGranite02 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.Find("bag").GetComponent<BagScript02>().sandTransformed) {
+        if ((GameObject.Find("bag").GetComponent<BagScript02>() && GameObject.Find("bag").GetComponent<BagScript02>().sandTransformed)
+            ||( GameObject.Find("bag").GetComponent<BagScript03>() && GameObject.Find("bag").GetComponent<BagScript03>().sandTransformed)) {
             this.gameObject.GetComponent<Animator>().Play("SandShowUp");
         }
         if (this.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("granite pieces"))
