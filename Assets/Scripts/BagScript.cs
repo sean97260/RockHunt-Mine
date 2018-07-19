@@ -45,8 +45,8 @@ public class BagScript : MonoBehaviour
 
 		sandInfo = GameObject.Find ("SandInfo");
 		graniteInfo = GameObject.Find("graniteInfo");
-		sandInfo.SetActive (false);
-		graniteInfo.SetActive (false);
+        Erase(sandInfo);
+        Erase(graniteInfo);
 
         Erase(granite_1);
         Erase(granite_2);
@@ -242,8 +242,8 @@ public class BagScript : MonoBehaviour
         else
         {
 			stopMoving = true;
-			sandInfo.SetActive (false);
-			graniteInfo.SetActive (false);
+            Erase(sandInfo);
+            Erase(graniteInfo);
             Erase(select_1);
             Erase(select_2);
             Erase(select_3);
