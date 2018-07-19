@@ -45,8 +45,8 @@ public class BagScript : MonoBehaviour
 
 		sandInfo = GameObject.Find ("SandInfo");
 		graniteInfo = GameObject.Find("graniteInfo");
-        Erase(sandInfo);
-        Erase(graniteInfo);
+		sandInfo.SetActive (false);
+		graniteInfo.SetActive (false);
 
         Erase(granite_1);
         Erase(granite_2);
@@ -207,43 +207,43 @@ public class BagScript : MonoBehaviour
 
 			if (iconLocator <= 1)
             {   
-				if(GameObject.Find("SceneGranite") == null && granite_1 && granite_1.activeSelf == true){
-                    Erase(sandInfo);
-                    Put(graniteInfo);
+				if(GameObject.Find("SceneGranite") == null && granite_1.activeSelf == true){
+					sandInfo.SetActive (false);
+					graniteInfo.SetActive (true);
 				}
                 Put(select_1);
             }
 			else if (iconLocator == 2)
 			{		
-				if(GameObject.Find("SceneGranite (1)") == null && granite_2 && granite_2.activeSelf == true){
-                    Erase(sandInfo);
-                    Put(graniteInfo);
-                }
+				if(GameObject.Find("SceneGranite (1)") == null && granite_2.activeSelf == true){
+					sandInfo.SetActive (false);
+					graniteInfo.SetActive (true);
+				}
                 Put(select_2);
             }
 			else if (iconLocator == 3)
             {
-				if(GameObject.Find("SceneSand") == null && sand_1 && sand_1.activeSelf == true){
-                    Put(sandInfo);
-                    Erase(graniteInfo);
-                }
+				if(GameObject.Find("SceneSand") == null && sand_1.activeSelf == true){
+					sandInfo.SetActive (true);
+					graniteInfo.SetActive (false);
+				}
 
                 Put(select_3);
             }
 			else if (iconLocator >= 4)
             {
-				if(GameObject.Find("SceneSand (1)") == null && sand_2 && sand_2.activeSelf == true){
-                    Put(sandInfo);
-                    Erase(graniteInfo);
-                }
+				if(GameObject.Find("SceneSand (1)") == null && sand_2.activeSelf == true){
+					sandInfo.SetActive (true);
+					graniteInfo.SetActive (false);
+				}
                 Put(select_4);
             }
         }
         else
         {
 			stopMoving = true;
-            Erase(sandInfo);
-            Erase(graniteInfo);
+			sandInfo.SetActive (false);
+			graniteInfo.SetActive (false);
             Erase(select_1);
             Erase(select_2);
             Erase(select_3);
@@ -363,10 +363,7 @@ public class BagScript : MonoBehaviour
         {
             eventManager.GetComponent<EventManager03>().takeFromBag(item);
         }
-        else if (eventManager.GetComponent<EventManager02>()) {
-            eventManager.GetComponent<EventManager02>().takeFromBag(item);
-
-        } else
+        else
         {
             eventManager.GetComponent<EventManager>().takeFromBag(item);
         }

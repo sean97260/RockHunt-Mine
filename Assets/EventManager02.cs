@@ -8,29 +8,27 @@ public class EventManager02 : MonoBehaviour
     GameObject bag;
     GameObject character;
     GameObject granite;
+    GameObject sand_1;
     Animator dialogAnim;
 
     float offset;
 
-    public bool waterUsed;
-    public bool windUsed;
-
     // Use this for initialization
     void Start()
     {
-        dialogAnim = GameObject.Find("Dialog generator").GetComponent<Animator>();
         bag = GameObject.Find("bag");
         character = GameObject.Find("Character");
         granite = GameObject.Find("SceneGranite");
+        sand_1 = null;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-
         if (granite != null && character.GetComponent<Collider2D>().IsTouching(granite.GetComponent<Collider2D>()))
         {
-            bag.GetComponent<BagScript>().addObject(granite);
+            bag.GetComponent<BagScript02>().addObject(granite);
         }
     }
 
@@ -50,5 +48,11 @@ public class EventManager02 : MonoBehaviour
             granite.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
             granite.SetActive(true);
         }
+        if (granite && item.name == "SandIcon_1")
+        {
+            granite.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
+            granite.SetActive(true);
+        }
+
     }
 }

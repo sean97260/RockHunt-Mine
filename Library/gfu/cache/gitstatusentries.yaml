@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-18T21:41:56.747-04:00
+  lastUpdatedAtString: 2018-07-19T00:53:25.907-04:00
   initializedAtString: 2018-07-18T20:03:06.197-04:00
   entries:
   - path: Assembly-CSharp.csproj
@@ -21,11 +21,38 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Assets\Animation _ Animator\Level02\Dialog generator.controller
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\Level02\\Dialog generator.controller"
+    projectPath: Assets\Animation _ Animator\Level02\Dialog generator.controller
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Animation _ Animator\Level02\ListenUp.anim
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\Level02\\ListenUp.anim"
+    projectPath: Assets\Animation _ Animator\Level02\ListenUp.anim
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Animation _ Animator\Level02\WhenYouCollect.anim
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\Level02\\WhenYouCollect.anim"
+    projectPath: Assets\Animation _ Animator\Level02\WhenYouCollect.anim
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\BagScript02.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\BagScript02.cs"
+    projectPath: Assets\BagScript02.cs
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Assets\EventManager02.cs
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\EventManager02.cs"
     projectPath: Assets\EventManager02.cs
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\Level02.unity
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level02.unity"
@@ -33,11 +60,73 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Assets\SceneGranite02.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\SceneGranite02.cs"
+    projectPath: Assets\SceneGranite02.cs
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Assets\Scripts\BagScript.cs
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\BagScript.cs"
     projectPath: Assets\Scripts\BagScript.cs
     originalPath: 
     status: 3
+    staged: 0
+  - path: Assets\Scripts\ControllerScript.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\ControllerScript.cs"
+    projectPath: Assets\Scripts\ControllerScript.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sprites\Level 1\Dialog\hi there\Dialog generator.controller
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level
+      1\\Dialog\\hi there\\Dialog generator.controller"
+    projectPath: Assets\Sprites\Level 1\Dialog\hi there\Dialog generator.controller
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sprites\Level 1\Dialog\hi there\TryThis.anim
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level
+      1\\Dialog\\hi there\\TryThis.anim"
+    projectPath: Assets\Sprites\Level 1\Dialog\hi there\TryThis.anim
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Sprites\Level02\i-see-the-power-of-sand-you-r_frame_0076.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level02\\i-see-the-power-of-sand-you-r_frame_0076.jpg"
+    projectPath: Assets\Sprites\Level02\i-see-the-power-of-sand-you-r_frame_0076.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Level02\now-tell-me-where-do-you-wanna-_frame_0072.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level02\\now-tell-me-where-do-you-wanna-_frame_0072.jpg"
+    projectPath: Assets\Sprites\Level02\now-tell-me-where-do-you-wanna-_frame_0072.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Level02\useful-for-transporting-items-_frame_0033.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level02\\useful-for-transporting-items-_frame_0033.jpg"
+    projectPath: Assets\Sprites\Level02\useful-for-transporting-items-_frame_0033.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Level02\WizardDialog.controller
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level02\\WizardDialog.controller"
+    projectPath: Assets\Sprites\Level02\WizardDialog.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\WizardDialogScript02.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\WizardDialogScript02.cs"
+    projectPath: Assets\WizardDialogScript02.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\WizardScript02.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\WizardScript02.cs"
+    projectPath: Assets\WizardScript02.cs
+    originalPath: 
+    status: 1
     staged: 0
   - path: Library\assetDatabase3
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\assetDatabase3"
@@ -75,6 +164,18 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\repoinfo.yaml"
+    projectPath: Library\gfu\cache\repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\da\dac1355daca0e4202a3ac13875cd21db
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\da\\dac1355daca0e4202a3ac13875cd21db"
+    projectPath: Library\metadata\da\dac1355daca0e4202a3ac13875cd21db
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -84,6 +185,12 @@ MonoBehaviour:
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll.mdb"
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0

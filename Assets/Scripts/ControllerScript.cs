@@ -37,7 +37,8 @@ public class ControllerScript : MonoBehaviour
     void Update()
     {
 		if ((GameObject.Find("bag").GetComponent<BagScript>() != null && GameObject.Find ("bag").GetComponent<BagScript> ().stopMoving == true)
-            || GameObject.Find("bag").GetComponent<BagScript05>() != null && GameObject.Find("bag").GetComponent<BagScript05>().stopMoving) {
+            || GameObject.Find("bag").GetComponent<BagScript05>() != null && GameObject.Find("bag").GetComponent<BagScript05>().stopMoving
+            || GameObject.Find("bag").GetComponent<BagScript02>() && GameObject.Find("bag").GetComponent<BagScript02>().stopMoving) {
 			float move = Input.GetAxis ("Horizontal");
 			if (HasParam (anim, "Speed")) {
 				anim.SetFloat ("Speed", Mathf.Abs (move));

@@ -61,6 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BagScript02.cs" />
     <Compile Include="Assets\BagScript05.cs" />
     <Compile Include="Assets\camera.cs" />
     <Compile Include="Assets\camera_4.cs" />
@@ -83,6 +84,7 @@
     <Compile Include="Assets\ResearcherDialogScript.cs" />
     <Compile Include="Assets\ResearcherDialogScript05.cs" />
     <Compile Include="Assets\ResearcherScript.cs" />
+    <Compile Include="Assets\SceneGranite02.cs" />
     <Compile Include="Assets\SceneGranite05.cs" />
     <Compile Include="Assets\Scripts\Bag.cs" />
     <Compile Include="Assets\Scripts\BagScript.cs" />
@@ -109,8 +111,10 @@
     <Compile Include="Assets\Scripts\useScript.cs" />
     <Compile Include="Assets\SignScript.cs" />
     <Compile Include="Assets\WizardDialogScript.cs" />
+    <Compile Include="Assets\WizardDialogScript02.cs" />
     <Compile Include="Assets\WizardDialogScript05.cs" />
     <Compile Include="Assets\WizardScript.cs" />
+    <Compile Include="Assets\WizardScript02.cs" />
     <Compile Include="Assets\WizardScript05.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Clémence/Documents/GitHub/RockHunt-Mine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
