@@ -12,24 +12,42 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-19T07:58:57.790+08:00
-  initializedAtString: 2018-07-19T07:58:56.217+08:00
+  lastUpdatedAtString: 2018-07-19T08:15:47.893+08:00
+  initializedAtString: 2018-07-19T08:14:27.355+08:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library/assetDatabase3
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/assetDatabase3
     projectPath: Library/assetDatabase3
     originalPath: 
     status: 3
     staged: 0
+  - path: Library/CurrentLayout.dwlt
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/expandedItems
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/expandedItems
+    projectPath: Library/expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/branches.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library/gfu/cache/gitlocks.yaml
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gitlocks.yaml
     projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -51,387 +69,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library/metadata/00/00000000000000002000000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/00000000000000002000000000000000
-    projectPath: Library/metadata/00/00000000000000002000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000004000000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/00000000000000004000000000000000
-    projectPath: Library/metadata/00/00000000000000004000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000004100000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/00000000000000004100000000000000
-    projectPath: Library/metadata/00/00000000000000004100000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000005000000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/00000000000000005000000000000000
-    projectPath: Library/metadata/00/00000000000000005000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000005100000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/00000000000000005100000000000000
-    projectPath: Library/metadata/00/00000000000000005100000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000006000000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/00000000000000006000000000000000
-    projectPath: Library/metadata/00/00000000000000006000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000006100000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/00000000000000006100000000000000
-    projectPath: Library/metadata/00/00000000000000006100000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000007000000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/00000000000000007000000000000000
-    projectPath: Library/metadata/00/00000000000000007000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000007100000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/00000000000000007100000000000000
-    projectPath: Library/metadata/00/00000000000000007100000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000008000000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/00000000000000008000000000000000
-    projectPath: Library/metadata/00/00000000000000008000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/00000000000000009000000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/00000000000000009000000000000000
-    projectPath: Library/metadata/00/00000000000000009000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/0000000000000000a000000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/0000000000000000a000000000000000
-    projectPath: Library/metadata/00/0000000000000000a000000000000000
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/00/0000000000000000a100000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/0000000000000000a100000000000000
-    projectPath: Library/metadata/00/0000000000000000a100000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/0000000000000000b000000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/0000000000000000b000000000000000
-    projectPath: Library/metadata/00/0000000000000000b000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/00/0000000000000000c000000000000000
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/00/0000000000000000c000000000000000
-    projectPath: Library/metadata/00/0000000000000000c000000000000000
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/08/08804e26f978d4e38b6245cb3242ef15
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/08/08804e26f978d4e38b6245cb3242ef15
-    projectPath: Library/metadata/08/08804e26f978d4e38b6245cb3242ef15
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/0a/0af8e54fb8cef4606a62731a498b80d2
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/0a/0af8e54fb8cef4606a62731a498b80d2
-    projectPath: Library/metadata/0a/0af8e54fb8cef4606a62731a498b80d2
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/15/155fd61ca100f1540b9f1f2988979283
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/15/155fd61ca100f1540b9f1f2988979283
-    projectPath: Library/metadata/15/155fd61ca100f1540b9f1f2988979283
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/16/165fc55bad813c44faf322d68cf51eb5
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/16/165fc55bad813c44faf322d68cf51eb5
-    projectPath: Library/metadata/16/165fc55bad813c44faf322d68cf51eb5
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/1b/1b7ffeb5a4b92fb438a3fda704025861
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/1b/1b7ffeb5a4b92fb438a3fda704025861
-    projectPath: Library/metadata/1b/1b7ffeb5a4b92fb438a3fda704025861
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/1b/1beb93a1b52444b21a833e9fd8bd5028
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/1b/1beb93a1b52444b21a833e9fd8bd5028
-    projectPath: Library/metadata/1b/1beb93a1b52444b21a833e9fd8bd5028
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/1e/1eb3dfa2b3e814845bd1aecc004f514a
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/1e/1eb3dfa2b3e814845bd1aecc004f514a
-    projectPath: Library/metadata/1e/1eb3dfa2b3e814845bd1aecc004f514a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/1f/1fd02a3adbc4f48d9bb718216fa21681
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/1f/1fd02a3adbc4f48d9bb718216fa21681
-    projectPath: Library/metadata/1f/1fd02a3adbc4f48d9bb718216fa21681
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/21/21de198137a90604fbb88b4e74e49897
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/21/21de198137a90604fbb88b4e74e49897
-    projectPath: Library/metadata/21/21de198137a90604fbb88b4e74e49897
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/23/2300b8bbeae29cd4eb564fbc7c9bffd5
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/23/2300b8bbeae29cd4eb564fbc7c9bffd5
-    projectPath: Library/metadata/23/2300b8bbeae29cd4eb564fbc7c9bffd5
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/26/26d1a986fa2952046944b3e5eb204a29
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/26/26d1a986fa2952046944b3e5eb204a29
-    projectPath: Library/metadata/26/26d1a986fa2952046944b3e5eb204a29
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/31/31919f6cac1284e2fa17412429521103
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/31/31919f6cac1284e2fa17412429521103
-    projectPath: Library/metadata/31/31919f6cac1284e2fa17412429521103
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/3e/3ef02052dc120ef4b92ef51fb11eb4ef
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/3e/3ef02052dc120ef4b92ef51fb11eb4ef
-    projectPath: Library/metadata/3e/3ef02052dc120ef4b92ef51fb11eb4ef
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/44/4450c2833836283408a8c83d1a34dfcd
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/44/4450c2833836283408a8c83d1a34dfcd
-    projectPath: Library/metadata/44/4450c2833836283408a8c83d1a34dfcd
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/4f/4faaac748c6244e48a4e9a3569779731
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/4f/4faaac748c6244e48a4e9a3569779731
-    projectPath: Library/metadata/4f/4faaac748c6244e48a4e9a3569779731
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/52/52b7e3a1a1f1a4f76a8af98e8bc2bdfd
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/52/52b7e3a1a1f1a4f76a8af98e8bc2bdfd
-    projectPath: Library/metadata/52/52b7e3a1a1f1a4f76a8af98e8bc2bdfd
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/6f/6fad45316097647c1bf616ea2ecbca39
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/6f/6fad45316097647c1bf616ea2ecbca39
-    projectPath: Library/metadata/6f/6fad45316097647c1bf616ea2ecbca39
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/71/7196df0a46d1fd147893b414904feaeb
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/71/7196df0a46d1fd147893b414904feaeb
-    projectPath: Library/metadata/71/7196df0a46d1fd147893b414904feaeb
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/74/74427b109a0adc540b36ab8d07c8dabd
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/74/74427b109a0adc540b36ab8d07c8dabd
-    projectPath: Library/metadata/74/74427b109a0adc540b36ab8d07c8dabd
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/78/78fce76afcfe56a4c9779aa7f8118f9f
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/78/78fce76afcfe56a4c9779aa7f8118f9f
-    projectPath: Library/metadata/78/78fce76afcfe56a4c9779aa7f8118f9f
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/87/875bd808c56e4406d97942802bbb9bf4
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/87/875bd808c56e4406d97942802bbb9bf4
-    projectPath: Library/metadata/87/875bd808c56e4406d97942802bbb9bf4
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/89/8996acac388f83d46bfd17947506f625
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/89/8996acac388f83d46bfd17947506f625
-    projectPath: Library/metadata/89/8996acac388f83d46bfd17947506f625
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/90/90ea530ff83814afeb3737fedfcf9802
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/90/90ea530ff83814afeb3737fedfcf9802
-    projectPath: Library/metadata/90/90ea530ff83814afeb3737fedfcf9802
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/93/933cce8e40221394c941fdfba6bc2cf9
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/93/933cce8e40221394c941fdfba6bc2cf9
-    projectPath: Library/metadata/93/933cce8e40221394c941fdfba6bc2cf9
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/97/97003c2f71b7e40c29d3f789073a2b7c
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/97/97003c2f71b7e40c29d3f789073a2b7c
-    projectPath: Library/metadata/97/97003c2f71b7e40c29d3f789073a2b7c
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
-    projectPath: Library/metadata/99/99b48d4d4f6a66340ab06bd487d70a45
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/a0/a045c13a19d044663bd4dd59b4334095
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/a0/a045c13a19d044663bd4dd59b4334095
-    projectPath: Library/metadata/a0/a045c13a19d044663bd4dd59b4334095
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
-    projectPath: Library/metadata/a0/a0ded7adcc817ce489fec07977f16d13
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/ac/acf3af4531aa74b35993f4b2e1c2f628
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/ac/acf3af4531aa74b35993f4b2e1c2f628
-    projectPath: Library/metadata/ac/acf3af4531aa74b35993f4b2e1c2f628
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/ad/ad669a568fc05482a85e4c50d2f6793d
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/ad/ad669a568fc05482a85e4c50d2f6793d
-    projectPath: Library/metadata/ad/ad669a568fc05482a85e4c50d2f6793d
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/ae/ae326eb366232034abeac5f91e9c7620
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/ae/ae326eb366232034abeac5f91e9c7620
-    projectPath: Library/metadata/ae/ae326eb366232034abeac5f91e9c7620
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/b8/b8a0574e92bd43a59e19d6c3c6ae54c7
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/b8/b8a0574e92bd43a59e19d6c3c6ae54c7
-    projectPath: Library/metadata/b8/b8a0574e92bd43a59e19d6c3c6ae54c7
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/bd/bd2273209fe2d5c46ac8afe6d3b64652
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/bd/bd2273209fe2d5c46ac8afe6d3b64652
-    projectPath: Library/metadata/bd/bd2273209fe2d5c46ac8afe6d3b64652
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/c1/c174ce04d713240d0aa949cb85a79bf0
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/c1/c174ce04d713240d0aa949cb85a79bf0
-    projectPath: Library/metadata/c1/c174ce04d713240d0aa949cb85a79bf0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/c7/c73de36340116e9458542bb14f456f3d
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/c7/c73de36340116e9458542bb14f456f3d
-    projectPath: Library/metadata/c7/c73de36340116e9458542bb14f456f3d
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/c7/c768acbc9cf24d398488bb4c93b91288
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/c7/c768acbc9cf24d398488bb4c93b91288
-    projectPath: Library/metadata/c7/c768acbc9cf24d398488bb4c93b91288
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/ca/cad92998c5182496e8b989b406d9f156
-    projectPath: Library/metadata/ca/cad92998c5182496e8b989b406d9f156
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/cd/cddbf5c17659d1d4a9d97c79f10d5a5e
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/cd/cddbf5c17659d1d4a9d97c79f10d5a5e
-    projectPath: Library/metadata/cd/cddbf5c17659d1d4a9d97c79f10d5a5e
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/ce/ce1104cdcad72b64ba738b146b44b2f6
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/ce/ce1104cdcad72b64ba738b146b44b2f6
-    projectPath: Library/metadata/ce/ce1104cdcad72b64ba738b146b44b2f6
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/ce/ceb17b28572b6ca4ca71feb9c8c0d4a0
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/ce/ceb17b28572b6ca4ca71feb9c8c0d4a0
-    projectPath: Library/metadata/ce/ceb17b28572b6ca4ca71feb9c8c0d4a0
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/d5/d52167294ad3f074d826e9a910c02807
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/d5/d52167294ad3f074d826e9a910c02807
-    projectPath: Library/metadata/d5/d52167294ad3f074d826e9a910c02807
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/d8/d8bea5b955382d04f8052b1f9e49e95d
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/d8/d8bea5b955382d04f8052b1f9e49e95d
-    projectPath: Library/metadata/d8/d8bea5b955382d04f8052b1f9e49e95d
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/db/dbb348a293a06f64fb7d17e5a08ee515
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/db/dbb348a293a06f64fb7d17e5a08ee515
-    projectPath: Library/metadata/db/dbb348a293a06f64fb7d17e5a08ee515
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/e4/e4a0589833d6b4cdc9eb0d1d8465badd
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/e4/e4a0589833d6b4cdc9eb0d1d8465badd
-    projectPath: Library/metadata/e4/e4a0589833d6b4cdc9eb0d1d8465badd
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/f2/f23b9a4f7069546f2a5d87407ed2561a
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/f2/f23b9a4f7069546f2a5d87407ed2561a
-    projectPath: Library/metadata/f2/f23b9a4f7069546f2a5d87407ed2561a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/f4/f42d9bd7219cb9e40b1af760a8c21d22
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/f4/f42d9bd7219cb9e40b1af760a8c21d22
-    projectPath: Library/metadata/f4/f42d9bd7219cb9e40b1af760a8c21d22
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/f5/f5b306cc487a345a6b947f7e48e7b69e
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/f5/f5b306cc487a345a6b947f7e48e7b69e
-    projectPath: Library/metadata/f5/f5b306cc487a345a6b947f7e48e7b69e
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/f5/f5d141c9d2a744cc487fdbbabaabb55a
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/f5/f5d141c9d2a744cc487fdbbabaabb55a
-    projectPath: Library/metadata/f5/f5d141c9d2a744cc487fdbbabaabb55a
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library/metadata/fe/fe9692b9c35c24531a0a8fceca32627b
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/metadata/fe/fe9692b9c35c24531a0a8fceca32627b
-    projectPath: Library/metadata/fe/fe9692b9c35c24531a0a8fceca32627b
+  - path: Library/LastSceneManagerSetup.txt
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/LastSceneManagerSetup.txt
+    projectPath: Library/LastSceneManagerSetup.txt
     originalPath: 
     status: 3
     staged: 0
@@ -441,9 +81,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: ProjectSettings/ProjectVersion.txt
-    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /ProjectSettings/ProjectVersion.txt
-    projectPath: ProjectSettings/ProjectVersion.txt
+  - path: Library/SpriteAtlasDatabase.asset
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/SpriteAtlasDatabase.asset
+    projectPath: Library/SpriteAtlasDatabase.asset
     originalPath: 
     status: 3
     staged: 0
