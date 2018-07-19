@@ -291,20 +291,20 @@ public class BagScript05 : MonoBehaviour
             if (eventManager.GetComponent<EventManager05>().graniteTransformed) {
                 item.SetActive(true);
                 item.GetComponent<Animator>().Play("SandShowUp");
-                Debug.Log("HERE");
             }
-            Debug.Log(item.activeSelf);
             item.GetComponent<Animator>().Play("SandShowUp");
-            Debug.Log(item.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp"));
             if (item.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp"))
             {
-                Debug.Log("granite is transformed");
                 objectList.SetValue(0, 0);
-                objectList.SetValue(1, 1);
+                int granitePos = 1;
+                while ((int)objectList.GetValue(1) != 0)
+                {
+                    granitePos++;
+                }
+                objectList.SetValue(1, granitePos);
             }
             else
             {
-                Debug.Log("granite is the same");
                 objectList.SetValue(1, 0);
             }
             item.SetActive(false);
@@ -331,6 +331,16 @@ public class BagScript05 : MonoBehaviour
         if (item.name == "PitSand (2)")
         {
             pos = eventManager.GetComponent<EventManager05>().sand3Order;
+            while ((int)objectList.GetValue(pos) == 1) {
+                if (pos == 3)
+                {
+                    pos = 1;
+                }
+                else
+                {
+                    pos++;
+                }
+            } 
             objectList.SetValue(1, pos);
             item.SetActive(false);
         }
@@ -338,6 +348,17 @@ public class BagScript05 : MonoBehaviour
         if (item.name == "PitSand (1)")
         {
             pos = eventManager.GetComponent<EventManager05>().sand2Order;
+            while ((int)objectList.GetValue(pos) == 1)
+            {
+                if (pos == 3)
+                {
+                    pos = 1;
+                }
+                else
+                {
+                    pos++;
+                }
+            }
 
             objectList.SetValue(1, pos);
             item.SetActive(false);
@@ -345,6 +366,17 @@ public class BagScript05 : MonoBehaviour
         if (item.name == "PitSand")
         {
             pos = eventManager.GetComponent<EventManager05>().sand1Order;
+            while ((int)objectList.GetValue(pos) == 1)
+            {
+                if (pos == 3)
+                {
+                    pos = 1;
+                }
+                else
+                {
+                    pos++;
+                }
+            }
 
             objectList.SetValue(1, pos);
             item.SetActive(false);

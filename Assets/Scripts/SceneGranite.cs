@@ -22,7 +22,7 @@ public class SceneGranite : MonoBehaviour
 
 		if (this.gameObject.GetComponent<Animator> ().GetCurrentAnimatorStateInfo (0).IsName ("granite pieces")) {
 			timer2 += Time.deltaTime;
-			if (timer2 >= 7) {
+			if (timer2 >= 2) {
 				this.gameObject.GetComponent<Animator> ().SetBool ("sand", true);
 				if (transform.position.x >= 29 && transform.position.x <= 33) {
 				//	GameObject.Find ("EventManager").GetComponent<EventManager> ().windUsed = true;
@@ -41,7 +41,7 @@ public class SceneGranite : MonoBehaviour
 			if (GameObject.Find ("EventManager").GetComponent<EventManager> ().windUsed == false) {
 				timer += Time.deltaTime;
 
-				if (timer >= 5) {
+				if (timer >= 2) {
 					timer = 0f;
 					this.gameObject.GetComponent<Animator> ().SetBool ("transform", true);
 				}
