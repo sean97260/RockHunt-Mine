@@ -45,8 +45,8 @@ public class BagScript : MonoBehaviour
 
 		sandInfo = GameObject.Find ("SandInfo");
 		graniteInfo = GameObject.Find("graniteInfo");
-		sandInfo.SetActive (false);
-		graniteInfo.SetActive (false);
+        Erase(sandInfo);
+        Erase(graniteInfo);
 
         Erase(granite_1);
         Erase(granite_2);
@@ -208,24 +208,24 @@ public class BagScript : MonoBehaviour
 			if (iconLocator <= 1)
             {   
 				if(GameObject.Find("SceneGranite") == null && granite_1.activeSelf == true){
-					sandInfo.SetActive (false);
-					graniteInfo.SetActive (true);
-				}
+                    Erase(sandInfo);
+                    Put(graniteInfo);
+                }
                 Put(select_1);
             }
 			else if (iconLocator == 2)
 			{		
 				if(GameObject.Find("SceneGranite (1)") == null && granite_2.activeSelf == true){
-					sandInfo.SetActive (false);
-					graniteInfo.SetActive (true);
-				}
+                    Erase(sandInfo);
+                    Put(graniteInfo);
+                }
                 Put(select_2);
             }
 			else if (iconLocator == 3)
             {
 				if(GameObject.Find("SceneSand") == null && sand_1.activeSelf == true){
-					sandInfo.SetActive (true);
-					graniteInfo.SetActive (false);
+                    Put(sandInfo);
+                    Erase(graniteInfo);
 				}
 
                 Put(select_3);
@@ -233,17 +233,17 @@ public class BagScript : MonoBehaviour
 			else if (iconLocator >= 4)
             {
 				if(GameObject.Find("SceneSand (1)") == null && sand_2.activeSelf == true){
-					sandInfo.SetActive (true);
-					graniteInfo.SetActive (false);
-				}
+                    Put(sandInfo);
+                    Erase(graniteInfo);
+                }
                 Put(select_4);
             }
         }
         else
         {
 			stopMoving = true;
-			sandInfo.SetActive (false);
-			graniteInfo.SetActive (false);
+            Erase(sandInfo);
+            Erase(graniteInfo);
             Erase(select_1);
             Erase(select_2);
             Erase(select_3);

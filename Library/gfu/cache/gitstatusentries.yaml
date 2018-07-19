@@ -12,121 +12,60 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-19T10:24:19.136-04:00
+  lastUpdatedAtString: 2018-07-19T10:56:35.294-04:00
   initializedAtString: 2018-07-18T20:03:06.197-04:00
   entries:
-  - path: Assembly-CSharp.csproj
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assembly-CSharp.csproj"
-    projectPath: Assembly-CSharp.csproj
+  - path: Assets\camera_4.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\camera_4.cs"
+    projectPath: Assets\camera_4.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Animation _ Animator\Level03\Talk1.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\Level03\\Talk1.anim"
-    projectPath: Assets\Animation _ Animator\Level03\Talk1.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\Level03\TopRightCornerWait.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\Level03\\TopRightCornerWait.anim"
-    projectPath: Assets\Animation _ Animator\Level03\TopRightCornerWait.anim
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets\Animation _ Animator\Level03\TopRightCornerWait.anim.meta
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\Level03\\TopRightCornerWait.anim.meta"
-    projectPath: Assets\Animation _ Animator\Level03\TopRightCornerWait.anim.meta
-    originalPath: 
-    status: 5
-    staged: 0
-  - path: Assets\BagScript03.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\BagScript03.cs"
-    projectPath: Assets\BagScript03.cs
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\EventManager03.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\EventManager03.cs"
-    projectPath: Assets\EventManager03.cs
+  - path: Assets\Level04.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level04.unity"
+    projectPath: Assets\Level04.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Layer 3.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Layer
-      3.png"
-    projectPath: Assets\Layer 3.png
+  - path: Assets\Level05.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level05.unity"
+    projectPath: Assets\Level05.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Level03.unity
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level03.unity"
-    projectPath: Assets\Level03.unity
+  - path: Assets\Map.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Map.cs"
+    projectPath: Assets\Map.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\SceneGranite02.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\SceneGranite02.cs"
-    projectPath: Assets\SceneGranite02.cs
+  - path: Assets\Map.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Map.unity"
+    projectPath: Assets\Map.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\ControllerScript.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\ControllerScript.cs"
-    projectPath: Assets\Scripts\ControllerScript.cs
+  - path: Assets\Scripts\BagScript.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\BagScript.cs"
+    projectPath: Assets\Scripts\BagScript.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\SandScript.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\SandScript.cs"
-    projectPath: Assets\Scripts\SandScript.cs
+  - path: Assets\Scripts\Dialog.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\Dialog.cs"
+    projectPath: Assets\Scripts\Dialog.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Sprites\Level 1\Dialog\End\end.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level
-      1\\Dialog\\End\\end.anim"
-    projectPath: Assets\Sprites\Level 1\Dialog\End\end.anim
+  - path: Assets\Scripts\portal.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\portal.cs"
+    projectPath: Assets\Scripts\portal.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Sprites\Level 1\Dialog\End\endWait.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level
-      1\\Dialog\\End\\endWait.anim"
-    projectPath: Assets\Sprites\Level 1\Dialog\End\endWait.anim
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Sprites\Level02\NowListenUp\WhenYouCollectWait.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level02\\NowListenUp\\WhenYouCollectWait.anim"
-    projectPath: Assets\Sprites\Level02\NowListenUp\WhenYouCollectWait.anim
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Sprites\Level02\WizardDialog.controller
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level02\\WizardDialog.controller"
-    projectPath: Assets\Sprites\Level02\WizardDialog.controller
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\Sprites\Level03\great-now-make-sand-from-the-g (1)_frame_0070.jpg
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level03\\great-now-make-sand-from-the-g
-      (1)_frame_0070.jpg"
-    projectPath: Assets\Sprites\Level03\great-now-make-sand-from-the-g (1)_frame_0070.jpg
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Level03\WizardDialog.controller
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level03\\WizardDialog.controller"
-    projectPath: Assets\Sprites\Level03\WizardDialog.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\WizardScript02.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\WizardScript02.cs"
-    projectPath: Assets\WizardScript02.cs
+  - path: Assets\Scripts\SceneGranite.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\SceneGranite.cs"
+    projectPath: Assets\Scripts\SceneGranite.cs
     originalPath: 
     status: 3
     staged: 0
@@ -166,39 +105,33 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\repoinfo.yaml"
-    projectPath: Library\gfu\cache\repoinfo.yaml
+  - path: Library\metadata\87\87d76bdfd7f79bf47ace357433a1c864
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\87\\87d76bdfd7f79bf47ace357433a1c864"
+    projectPath: Library\metadata\87\87d76bdfd7f79bf47ace357433a1c864
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\21\21e6db204933cd4499b71256f6d0f0f0
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\21\\21e6db204933cd4499b71256f6d0f0f0"
-    projectPath: Library\metadata\21\21e6db204933cd4499b71256f6d0f0f0
+  - path: Library\metadata\9b\9bfbd2ccfb0945c4f8c6c1c7df7a26e2
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\9b\\9bfbd2ccfb0945c4f8c6c1c7df7a26e2"
+    projectPath: Library\metadata\9b\9bfbd2ccfb0945c4f8c6c1c7df7a26e2
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\46\468b5d01b5996442aaa6b02476cfd5f7
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\46\\468b5d01b5996442aaa6b02476cfd5f7"
-    projectPath: Library\metadata\46\468b5d01b5996442aaa6b02476cfd5f7
+  - path: Library\metadata\b5\b52e5d2f1ccd64611979c390796c685b
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\b5\\b52e5d2f1ccd64611979c390796c685b"
+    projectPath: Library\metadata\b5\b52e5d2f1ccd64611979c390796c685b
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\a4\a412a8a830e2c5743a6fdddd24474b0a
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\a4\\a412a8a830e2c5743a6fdddd24474b0a"
-    projectPath: Library\metadata\a4\a412a8a830e2c5743a6fdddd24474b0a
+  - path: Library\metadata\bf\bf868ebd2826e486ea8593085e864cc0
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\bf\\bf868ebd2826e486ea8593085e864cc0"
+    projectPath: Library\metadata\bf\bf868ebd2826e486ea8593085e864cc0
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\a4\a412a8a830e2c5743a6fdddd24474b0a.info
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\a4\\a412a8a830e2c5743a6fdddd24474b0a.info"
-    projectPath: Library\metadata\a4\a412a8a830e2c5743a6fdddd24474b0a.info
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\da\dac1355daca0e4202a3ac13875cd21db
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\da\\dac1355daca0e4202a3ac13875cd21db"
-    projectPath: Library\metadata\da\dac1355daca0e4202a3ac13875cd21db
+  - path: Library\metadata\f5\f5876a1c154ad49fd874bae585551301
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\f5\\f5876a1c154ad49fd874bae585551301"
+    projectPath: Library\metadata\f5\f5876a1c154ad49fd874bae585551301
     originalPath: 
     status: 3
     staged: 0

@@ -41,7 +41,7 @@ public class SceneGranite : MonoBehaviour
 			if (GameObject.Find ("EventManager").GetComponent<EventManager> ().windUsed == false) {
 				timer += Time.deltaTime;
 
-				if (timer >= 10) {
+				if (timer >= 5) {
 					timer = 0f;
 					this.gameObject.GetComponent<Animator> ().SetBool ("transform", true);
 				}
@@ -54,7 +54,7 @@ public class SceneGranite : MonoBehaviour
 			if (GameObject.Find("EventManager").GetComponent<EventManager>().waterUsed == false){
 				timer += Time.deltaTime;
 
-				if (timer >= 10) {
+				if (timer >= 5) {
 					timer = 0f;
 					this.gameObject.GetComponent<Animator> ().SetBool ("transform", true);
 				} 

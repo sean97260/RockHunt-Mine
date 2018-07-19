@@ -19,6 +19,11 @@ public class Dialog : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        if (GameObject.Find("Sand") && GameObject.Find("Character").GetComponent<BoxCollider2D>().IsTouching(GameObject.Find("Sand").GetComponent<BoxCollider2D>()))
+        {
+            dialogAnimator.SetBool("SandFound", true);
+        }
+
         if (GameObject.Find("SceneSand (1)") == null) {
             dialogAnimator.SetBool("SandInBag", true);
         }
