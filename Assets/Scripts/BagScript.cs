@@ -207,35 +207,35 @@ public class BagScript : MonoBehaviour
 
 			if (iconLocator <= 1)
             {   
-				if(GameObject.Find("SceneGranite") == null && granite_1.activeSelf == true){
-					sandInfo.SetActive (false);
-					graniteInfo.SetActive (true);
+				if(GameObject.Find("SceneGranite") == null && granite_1 && granite_1.activeSelf == true){
+                    Erase(sandInfo);
+                    Put(graniteInfo);
 				}
                 Put(select_1);
             }
 			else if (iconLocator == 2)
 			{		
-				if(GameObject.Find("SceneGranite (1)") == null && granite_2.activeSelf == true){
-					sandInfo.SetActive (false);
-					graniteInfo.SetActive (true);
-				}
+				if(GameObject.Find("SceneGranite (1)") == null && granite_2 && granite_2.activeSelf == true){
+                    Erase(sandInfo);
+                    Put(graniteInfo);
+                }
                 Put(select_2);
             }
 			else if (iconLocator == 3)
             {
-				if(GameObject.Find("SceneSand") == null && sand_1.activeSelf == true){
-					sandInfo.SetActive (true);
-					graniteInfo.SetActive (false);
-				}
+				if(GameObject.Find("SceneSand") == null && sand_1 && sand_1.activeSelf == true){
+                    Put(sandInfo);
+                    Erase(graniteInfo);
+                }
 
                 Put(select_3);
             }
 			else if (iconLocator >= 4)
             {
-				if(GameObject.Find("SceneSand (1)") == null && sand_2.activeSelf == true){
-					sandInfo.SetActive (true);
-					graniteInfo.SetActive (false);
-				}
+				if(GameObject.Find("SceneSand (1)") == null && sand_2 && sand_2.activeSelf == true){
+                    Put(sandInfo);
+                    Erase(graniteInfo);
+                }
                 Put(select_4);
             }
         }
@@ -363,7 +363,10 @@ public class BagScript : MonoBehaviour
         {
             eventManager.GetComponent<EventManager03>().takeFromBag(item);
         }
-        else
+        else if (eventManager.GetComponent<EventManager02>()) {
+            eventManager.GetComponent<EventManager02>().takeFromBag(item);
+
+        } else
         {
             eventManager.GetComponent<EventManager>().takeFromBag(item);
         }

@@ -67,6 +67,7 @@
     <Compile Include="Assets\camera_5.cs" />
     <Compile Include="Assets\Drill.cs" />
     <Compile Include="Assets\EventManager.cs" />
+    <Compile Include="Assets\EventManager02.cs" />
     <Compile Include="Assets\EventManager03.cs" />
     <Compile Include="Assets\EventManager05.cs" />
     <Compile Include="Assets\Granite02.cs" />
