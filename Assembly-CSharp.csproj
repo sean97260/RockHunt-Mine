@@ -10,11 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-<<<<<<< HEAD
-    <ProjectGuid>{A77EB22D-EB40-5767-8D3B-21ACCF4C2A5D}</ProjectGuid>
-=======
-    <ProjectGuid>{0F8D2D9E-53C4-C98F-8C9C-B07BCFB71FED}</ProjectGuid>
->>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
+    <ProjectGuid>{A0B5D42B-ABFB-D90F-861A-9A4D98D86008}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,16 +61,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
     <Compile Include="Assets\BagScript_2.cs" />
     <Compile Include="Assets\BagScript_3.cs" />
-=======
->>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
     <Compile Include="Assets\BagScript05.cs" />
     <Compile Include="Assets\camera.cs" />
     <Compile Include="Assets\camera_4.cs" />
     <Compile Include="Assets\camera_5.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\Controller_Script_02.cs" />
     <Compile Include="Assets\ControllerScript_1.cs" />
     <Compile Include="Assets\ControllerScript_2.cs" />
@@ -83,10 +75,6 @@
     <Compile Include="Assets\Drill.cs" />
     <Compile Include="Assets\EventManager.cs" />
     <Compile Include="Assets\EventManager02.cs" />
-=======
-    <Compile Include="Assets\Drill.cs" />
-    <Compile Include="Assets\EventManager.cs" />
->>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
     <Compile Include="Assets\EventManager03.cs" />
     <Compile Include="Assets\EventManager05.cs" />
     <Compile Include="Assets\Granite02.cs" />
@@ -128,36 +116,22 @@
     <Compile Include="Assets\Scripts\useScript.cs" />
     <Compile Include="Assets\SignScript.cs" />
     <Compile Include="Assets\WizardDialogScript.cs" />
-<<<<<<< HEAD
     <Compile Include="Assets\WizardDialogScript_2.cs" />
     <Compile Include="Assets\WizardDialogScript05.cs" />
     <Compile Include="Assets\WizardScript.cs" />
     <Compile Include="Assets\WizardScript_1.cs" />
     <Compile Include="Assets\WizardScript05.cs" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/yechengsong/Desktop/RockHunt Mine  7.05.57 AM/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/yechengsong/Desktop/RockHunt Mine  7.05.57 AM/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/yechengsong/Desktop/RockHunt Mine  7.05.57 AM/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-=======
-    <Compile Include="Assets\WizardDialogScript05.cs" />
-    <Compile Include="Assets\WizardScript.cs" />
-    <Compile Include="Assets\WizardScript05.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/yechengsong/Desktop/RockHunt Mine /Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/yechengsong/Desktop/RockHunt Mine/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/yechengsong/Desktop/RockHunt Mine /Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/yechengsong/Desktop/RockHunt Mine/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/yechengsong/Desktop/RockHunt Mine /Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/yechengsong/Desktop/RockHunt Mine/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/yechengsong/Desktop/RockHunt Mine /Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
->>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
+      <HintPath>/Users/yechengsong/Desktop/RockHunt Mine/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -357,21 +331,9 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
-<<<<<<< HEAD
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/Users/yechengsong/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/yechengsong/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>/Users/yechengsong/Library/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
-=======
-    <Reference Include="UnityEngine.Analytics">
-      <HintPath>/Users/yechengsong/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
-    </Reference>
->>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/yechengsong/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
     </Reference>
