@@ -3,7 +3,7 @@
 --- !u!114 &1
 MonoBehaviour:
   m_ObjectHideFlags: 61
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   lastUpdatedAtString: 2018-07-19T06:51:22.385+08:00
@@ -36,13 +37,17 @@ MonoBehaviour:
   - name: level5
     tracking: origin/level5
 >>>>>>> origin/level5
+=======
+  lastUpdatedAtString: 2018-07-19T07:59:38.080+08:00
+  initializedAtString: 2018-07-19T07:59:37.935+08:00
+  localBranches:
+>>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
   - name: master
     tracking: origin/master
-  - name: old-level5
-    tracking: origin/old-level5
   remoteBranches:
   - name: origin/HEAD
     tracking: '[None]'
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   - name: origin/level5
@@ -63,12 +68,10 @@ MonoBehaviour:
   - name: origin/level5
     tracking: '[None]'
 >>>>>>> origin/RockCycleDiagram
+=======
+>>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
   - name: origin/master
 >>>>>>> origin/level5
-    tracking: '[None]'
-  - name: origin/old-level5
-    tracking: '[None]'
-  - name: origin/RockCycleDiagram
     tracking: '[None]'
   remotes:
   - name: origin
@@ -81,6 +84,7 @@ MonoBehaviour:
   localConfigBranches:
     keys:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - level6
 =======
     - level1
@@ -88,9 +92,11 @@ MonoBehaviour:
     - level4
     - level5
 >>>>>>> origin/level5
+=======
+>>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
     - master
-    - old-level5
     values:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - name: level6
       remote:
@@ -119,22 +125,20 @@ MonoBehaviour:
         url: https://github.com/sean97260/RockHunt-Mine.git
       trackingBranch: level5
 >>>>>>> origin/level5
+=======
+>>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
     - name: master
       remote:
         name: origin
         url: https://github.com/sean97260/RockHunt-Mine.git
       trackingBranch: master
-    - name: old-level5
-      remote:
-        name: origin
-        url: https://github.com/sean97260/RockHunt-Mine.git
-      trackingBranch: old-level5
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       - level5
@@ -152,6 +156,9 @@ MonoBehaviour:
       - old-level5
       - RockCycleDiagram
 >>>>>>> origin/level5
+=======
+      - master
+>>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
     subKeyValues:
     - Values:
       - name: HEAD
@@ -159,6 +166,7 @@ MonoBehaviour:
           name: origin
           url: https://github.com/sean97260/RockHunt-Mine.git
         trackingBranch: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -195,18 +203,10 @@ MonoBehaviour:
         trackingBranch: 
 =======
 >>>>>>> origin/RockCycleDiagram
+=======
+>>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
       - name: master
 >>>>>>> origin/level5
-        remote:
-          name: origin
-          url: https://github.com/sean97260/RockHunt-Mine.git
-        trackingBranch: 
-      - name: old-level5
-        remote:
-          name: origin
-          url: https://github.com/sean97260/RockHunt-Mine.git
-        trackingBranch: 
-      - name: RockCycleDiagram
         remote:
           name: origin
           url: https://github.com/sean97260/RockHunt-Mine.git

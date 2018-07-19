@@ -13,6 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cacheType: 5
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-19T08:29:09.579+08:00
   initializedAtString: 2018-07-19T08:26:49.941+08:00
   entries:
@@ -11020,6 +11021,80 @@ MonoBehaviour:
   - path: Library/metadata/fb/fb81e347faff060448117780f36c93ab
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine  7.05.57 AM/Library/metadata/fb/fb81e347faff060448117780f36c93ab
     projectPath: Library/metadata/fb/fb81e347faff060448117780f36c93ab
+=======
+  lastUpdatedAtString: 2018-07-19T08:15:47.893+08:00
+  initializedAtString: 2018-07-19T08:14:27.355+08:00
+  entries:
+  - path: Library/assetDatabase3
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/assetDatabase3
+    projectPath: Library/assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/CurrentLayout.dwlt
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/CurrentLayout.dwlt
+    projectPath: Library/CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/expandedItems
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/expandedItems
+    projectPath: Library/expandedItems
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/branches.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlocks.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gitlocks.yaml
+    projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitstatusentries.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gitstatusentries.yaml
+    projectPath: Library/gfu/cache/gitstatusentries.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gittrackingstatus.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gittrackingstatus.yaml
+    projectPath: Library/gfu/cache/gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/repoinfo.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/repoinfo.yaml
+    projectPath: Library/gfu/cache/repoinfo.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/LastSceneManagerSetup.txt
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/LastSceneManagerSetup.txt
+    projectPath: Library/LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/shadercompiler-UnityShaderCompiler0.log
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/shadercompiler-UnityShaderCompiler0.log
+    projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/SpriteAtlasDatabase.asset
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/SpriteAtlasDatabase.asset
+    projectPath: Library/SpriteAtlasDatabase.asset
+>>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
     originalPath: 
     status: 3
     staged: 0

@@ -13,12 +13,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cacheType: 1
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-19T08:26:35.121+08:00
   initializedAtString: 2018-07-19T08:26:35.121+08:00
 =======
   lastUpdatedAtString: 2018-07-14T19:41:47.029-04:00
   initializedAtString: 2018-07-14T19:37:26.656-04:00
 >>>>>>> origin/RockCycleDiagram
+=======
+  lastUpdatedAtString: 2018-07-19T08:14:26.812+08:00
+  initializedAtString: 2018-07-19T08:14:26.812+08:00
+>>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
   currentGitRemote:
     name: origin
     url: https://github.com/sean97260/RockHunt-Mine.git
@@ -28,6 +33,7 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
+<<<<<<< HEAD
     name: level6
     tracking: origin/level6
   currentConfigBranch:
@@ -36,6 +42,16 @@ MonoBehaviour:
       name: origin
       url: https://github.com/sean97260/RockHunt-Mine.git
     trackingBranch: level6
+=======
+    name: master
+    tracking: origin/master
+  currentConfigBranch:
+    name: master
+    remote:
+      name: origin
+      url: https://github.com/sean97260/RockHunt-Mine.git
+    trackingBranch: master
+>>>>>>> 1ff20439b731e8c8bc6e8ed6aa340794d7f70212
   currentConfigRemote:
     name: origin
     url: https://github.com/sean97260/RockHunt-Mine.git
