@@ -13,8 +13,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cacheType: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-19T06:51:22.385+08:00
   initializedAtString: 2018-07-16T20:56:29.076-04:00
+=======
+  lastUpdatedAtString: 2018-07-14T20:36:29.177-04:00
+  initializedAtString: 2018-07-14T19:40:22.946-04:00
+>>>>>>> origin/RockCycleDiagram
   localBranches:
   - name: level6
     tracking: origin/level6
@@ -39,6 +44,7 @@ MonoBehaviour:
   - name: origin/HEAD
     tracking: '[None]'
 <<<<<<< HEAD
+<<<<<<< HEAD
   - name: origin/level5
     tracking: '[None]'
   - name: origin/level6
@@ -53,6 +59,10 @@ MonoBehaviour:
     tracking: '[None]'
   - name: origin/level6
     tracking: '[None]'
+=======
+  - name: origin/level5
+    tracking: '[None]'
+>>>>>>> origin/RockCycleDiagram
   - name: origin/master
 >>>>>>> origin/level5
     tracking: '[None]'
@@ -126,6 +136,7 @@ MonoBehaviour:
     - Values:
       - HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       - level5
       - level6
 =======
@@ -134,6 +145,9 @@ MonoBehaviour:
       - level4
       - level5
       - level6
+=======
+      - level5
+>>>>>>> origin/RockCycleDiagram
       - master
       - old-level5
       - RockCycleDiagram
@@ -145,6 +159,7 @@ MonoBehaviour:
           name: origin
           url: https://github.com/sean97260/RockHunt-Mine.git
         trackingBranch: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
       - name: level1
@@ -163,11 +178,14 @@ MonoBehaviour:
           url: https://github.com/sean97260/RockHunt-Mine.git
         trackingBranch: 
 >>>>>>> origin/level5
+=======
+>>>>>>> origin/RockCycleDiagram
       - name: level5
         remote:
           name: origin
           url: https://github.com/sean97260/RockHunt-Mine.git
         trackingBranch: 
+<<<<<<< HEAD
       - name: level6
 <<<<<<< HEAD
 =======
@@ -175,6 +193,8 @@ MonoBehaviour:
           name: origin
           url: https://github.com/sean97260/RockHunt-Mine.git
         trackingBranch: 
+=======
+>>>>>>> origin/RockCycleDiagram
       - name: master
 >>>>>>> origin/level5
         remote:

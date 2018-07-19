@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-19T08:29:09.579+08:00
   initializedAtString: 2018-07-19T08:26:49.941+08:00
   entries:
@@ -24,12 +25,32 @@ MonoBehaviour:
   - path: Library/assetDatabase3
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine  7.05.57 AM/Library/assetDatabase3
     projectPath: Library/assetDatabase3
+=======
+  lastUpdatedAtString: 2018-07-14T19:55:09.128-04:00
+  initializedAtString: 2018-07-14T19:37:34.359-04:00
+  entries:
+  - path: Library/CurrentMaximizeLayout.dwlt
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/CurrentMaximizeLayout.dwlt
+    projectPath: Library/CurrentMaximizeLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/branches.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/branches.yaml
+    projectPath: Library/gfu/cache/branches.yaml
+>>>>>>> origin/RockCycleDiagram
     originalPath: 
     status: 3
     staged: 0
   - path: Library/gfu/cache/gitlocks.yaml
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine  7.05.57 AM/Library/gfu/cache/gitlocks.yaml
     projectPath: Library/gfu/cache/gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library/gfu/cache/gitlog.yaml
+    fullPath: /Users/yechengsong/Desktop/RockHunt Mine /Library/gfu/cache/gitlog.yaml
+    projectPath: Library/gfu/cache/gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -51,6 +72,7 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+<<<<<<< HEAD
   - path: Library/metadata/00/00000000000000001000000020000000
     fullPath: /Users/yechengsong/Desktop/RockHunt Mine  7.05.57 AM/Library/metadata/00/00000000000000001000000020000000
     projectPath: Library/metadata/00/00000000000000001000000020000000
@@ -11259,3 +11281,5 @@ MonoBehaviour:
     originalPath: 
     status: 5
     staged: 0
+=======
+>>>>>>> origin/RockCycleDiagram

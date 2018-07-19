@@ -12,6 +12,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
+<<<<<<< HEAD
   lastUpdatedAtString: 2018-07-19T08:29:12.025+08:00
   initializedAtString: 2018-07-19T08:26:52.314+08:00
+=======
+  lastUpdatedAtString: 2018-07-14T19:55:09.365-04:00
+  initializedAtString: 2018-07-14T19:37:26.965-04:00
+>>>>>>> origin/RockCycleDiagram
   gitLocks: []
