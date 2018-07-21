@@ -286,9 +286,10 @@ public class BagScript05 : MonoBehaviour
 
     public void addObject(GameObject item)
     {
+        int pos;
+
         if (item.name == "SceneGranite")
         {
-            Debug.Log("Adding granite");
             if (eventManager.GetComponent<EventManager05>().graniteTransformed) {
                 item.SetActive(true);
                 item.GetComponent<Animator>().Play("SandShowUp");
@@ -296,12 +297,8 @@ public class BagScript05 : MonoBehaviour
             if (item.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp"))
             {
                 objectList.SetValue(0, 0);
-                int granitePos = 1;
-                while ((int)objectList.GetValue(1) == 1)
-                {
-                    granitePos++;
-                }
-                objectList.SetValue(1, granitePos);
+                pos = 1;
+                FindEmptySpot(pos);
             }
             else
             {
@@ -311,13 +308,15 @@ public class BagScript05 : MonoBehaviour
         }
         if (item.name == "SceneSand")
         {
-            objectList.SetValue(1, 2);
+            pos = 2;
+            FindEmptySpot(pos);
             item.SetActive(false);
         }
 
         if (item.name == "SceneSand (1)")
         {
-            objectList.SetValue(1, 3);
+            pos = 3;
+            FindEmptySpot(pos);
             item.SetActive(false);
         }
         if (item.name == "Sandstone")
@@ -327,71 +326,49 @@ public class BagScript05 : MonoBehaviour
             item.SetActive(false);
             sandstoneInBag = true;
         }
-        int pos;
         if (item.name == "PitSand (2)")
         {
             pos = eventManager.GetComponent<EventManager05>().sand3Order;
-            if (pos == 0)
-            {
-                pos = 1;
-            }
-            while ((int)objectList.GetValue(pos) == 1) {
-                if (pos == 3)
-                {
-                    pos = 1;
-                }
-                else
-                {
-                    pos++;
-                }
-            } 
-            objectList.SetValue(1, pos);
+            FindEmptySpot(pos);
             item.SetActive(false);
         }
 
         if (item.name == "PitSand (1)")
         {
             pos = eventManager.GetComponent<EventManager05>().sand2Order;
-            if (pos == 0)
-            {
-                pos = 1;
-            }
-            while ((int)objectList.GetValue(pos) == 1)
-            {
-                if (pos == 3)
-                {
-                    pos = 1;
-                }
-                else
-                {
-                    pos++;
-                }
-            }
+            FindEmptySpot(pos);
 
             objectList.SetValue(1, pos);
             item.SetActive(false);
         }
         if (item.name == "PitSand")
         {
+            item.SetActive(false);
+            if (GameObject.Find("MinerDialog").GetComponent<Animator>().GetBool("Sandstone")) {
+                return;
+            }
             pos = eventManager.GetComponent<EventManager05>().sand1Order;
-            if (pos == 0) {
+            FindEmptySpot(pos);
+        }
+    }
+
+    void FindEmptySpot(int pos) {
+        if (pos == 0)
+        {
+            pos = 1;
+        }
+        while ((int)objectList.GetValue(pos) == 1)
+        {
+            if (pos == 3)
+            {
                 pos = 1;
             }
-            while ((int)objectList.GetValue(pos) == 1)
+            else
             {
-                if (pos == 3)
-                {
-                    pos = 1;
-                }
-                else
-                {
-                    pos++;
-                }
+                pos++;
             }
-
-            objectList.SetValue(1, pos);
-            item.SetActive(false);
         }
+        objectList.SetValue(1, pos);
     }
 
     void moveSelectIcon(string direction)

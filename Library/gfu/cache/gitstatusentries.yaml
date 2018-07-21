@@ -12,18 +12,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-21T15:36:37.180-04:00
-  initializedAtString: 2018-07-21T15:29:06.477-04:00
+  lastUpdatedAtString: 2018-07-21T17:18:16.173-04:00
+  initializedAtString: 2018-07-21T16:47:28.935-04:00
   entries:
   - path: Assets\BagScript05.cs
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\BagScript05.cs"
     projectPath: Assets\BagScript05.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\camera_4.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\camera_4.cs"
-    projectPath: Assets\camera_4.cs
     originalPath: 
     status: 3
     staged: 0
@@ -39,27 +33,9 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\CurrentLayout.dwlt
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\CurrentLayout.dwlt"
-    projectPath: Library\CurrentLayout.dwlt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\branches.yaml
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\branches.yaml"
-    projectPath: Library\gfu\cache\branches.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlocks.yaml"
     projectPath: Library\gfu\cache\gitlocks.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\gfu\cache\gitlog.yaml
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlog.yaml"
-    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
@@ -78,18 +54,6 @@ MonoBehaviour:
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\repoinfo.yaml"
     projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\LastSceneManagerSetup.txt"
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\b5\b52e5d2f1ccd64611979c390796c685b
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\b5\\b52e5d2f1ccd64611979c390796c685b"
-    projectPath: Library\metadata\b5\b52e5d2f1ccd64611979c390796c685b
     originalPath: 
     status: 3
     staged: 0

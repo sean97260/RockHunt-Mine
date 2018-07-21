@@ -111,12 +111,14 @@ public class EventManager05 : MonoBehaviour
             sand_1.GetComponent<Animator>().Play("SandShowUp");
         }
 
-        if (granite != null && granite.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp")) {
+        if (granite != null && granite.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SandShowUp"))
+        {
             sand_1 = granite;
             graniteTransformed = true;
             granite = null;
         }
-        if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence")) {
+        if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence"))
+        {
             GameObject.Find("Dialog generator").GetComponent<Animator>().ResetTrigger("Space");
         }
         CheckSandPit(sand_1, bottomCollider, pitSand_1);
@@ -160,8 +162,11 @@ public class EventManager05 : MonoBehaviour
                 PutSandstone();
             }
         }
-    //    Physics2D.IgnoreCollision(granite.GetComponent<BoxCollider2D>(), pitSand_1.GetComponent<BoxCollider2D>());
-    //    Physics2D.IgnoreCollision(granite.GetComponent<BoxCollider2D>(), pitSand_2.GetComponent<BoxCollider2D>());
+        if (granite != null)
+        {
+            Physics2D.IgnoreCollision(granite.GetComponent<BoxCollider2D>(), pitSand_1.GetComponent<BoxCollider2D>());
+            Physics2D.IgnoreCollision(granite.GetComponent<BoxCollider2D>(), pitSand_2.GetComponent<BoxCollider2D>());
+        }
     }
 
     void CheckAndAdd(GameObject item) {
