@@ -160,6 +160,8 @@ public class EventManager05 : MonoBehaviour
                 PutSandstone();
             }
         }
+    //    Physics2D.IgnoreCollision(granite.GetComponent<BoxCollider2D>(), pitSand_1.GetComponent<BoxCollider2D>());
+    //    Physics2D.IgnoreCollision(granite.GetComponent<BoxCollider2D>(), pitSand_2.GetComponent<BoxCollider2D>());
     }
 
     void CheckAndAdd(GameObject item) {
@@ -187,8 +189,25 @@ public class EventManager05 : MonoBehaviour
             offset = 2.3f;
         }
 
-        Debug.Log(item.name);
-
+        if (item.name == "SandIcon_1" || item.name == "SandIcon_2" || item.name == "SandIcon_3")
+        {
+            if (sand_1 != null && !sand_1.activeSelf)
+            {
+                sand_1.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
+                sand_1.SetActive(true);
+            }
+            else if (sand_2 != null && !sand_2.activeSelf)
+            {
+                sand_2.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
+                sand_2.SetActive(true);
+            }
+            else if (sand_3 != null && !sand_3.activeSelf)
+            {
+                sand_3.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
+                sand_3.SetActive(true);
+            }
+        }
+        /*
          if (sand_1 != null && item.name == "SandIcon_1")
         {
             sand_1.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
@@ -205,7 +224,7 @@ public class EventManager05 : MonoBehaviour
         {
             sand_3.transform.position = new Vector3(character.transform.position.x + offset, character.transform.position.y + 4f, character.transform.position.z);
             sand_3.SetActive(true);
-        }
+        }*/
 
         if (granite != null &&  item.name == "GraniteIcon_1")
         {
