@@ -12,20 +12,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-21T17:18:16.173-04:00
-  initializedAtString: 2018-07-21T16:47:28.935-04:00
+  lastUpdatedAtString: 2018-07-24T14:20:31.293-04:00
+  initializedAtString: 2018-07-23T19:54:21.993-04:00
   entries:
-  - path: Assets\BagScript05.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\BagScript05.cs"
-    projectPath: Assets\BagScript05.cs
+  - path: Assembly-CSharp.csproj
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assembly-CSharp.csproj"
+    projectPath: Assembly-CSharp.csproj
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\EventManager05.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\EventManager05.cs"
-    projectPath: Assets\EventManager05.cs
+  - path: Assets\DigSignScript.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\DigSignScript.cs"
+    projectPath: Assets\DigSignScript.cs
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Level05.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level05.unity"
+    projectPath: Assets\Level05.unity
     originalPath: 
     status: 3
+    staged: 0
+  - path: Assets\Sprites\Level05\DigInfo.png
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\DigInfo.png"
+    projectPath: Assets\Sprites\Level05\DigInfo.png
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\Level05\HoleCover.png
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level05\\HoleCover.png"
+    projectPath: Assets\Sprites\Level05\HoleCover.png
+    originalPath: 
+    status: 1
     staged: 0
   - path: Library\assetDatabase3
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\assetDatabase3"
@@ -33,9 +51,27 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\CurrentLayout.dwlt"
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\branches.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\branches.yaml"
+    projectPath: Library\gfu\cache\branches.yaml
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlocks.yaml"
     projectPath: Library\gfu\cache\gitlocks.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\gitlog.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlog.yaml"
+    projectPath: Library\gfu\cache\gitlog.yaml
     originalPath: 
     status: 3
     staged: 0
