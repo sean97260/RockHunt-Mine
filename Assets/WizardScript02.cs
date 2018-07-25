@@ -21,7 +21,7 @@ public class WizardScript02 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (character.transform.position.x >= -10 && character.transform.position.x <= -6)
+        if (character.transform.position.x >= -10 && character.transform.position.x <= -5)
         {
             PressToTalk.SetActive(true);
 

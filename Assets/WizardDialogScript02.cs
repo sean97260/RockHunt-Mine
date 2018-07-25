@@ -22,7 +22,7 @@ public class WizardDialogScript02 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (character.transform.position.x >= -10 && character.transform.position.x <= -7)
+        if (character.transform.position.x >= -10 && character.transform.position.x <= -5)
         {
             anim.SetBool("Back", false);
             if (Input.GetKeyDown("space"))

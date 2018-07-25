@@ -12,9 +12,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-25T17:35:46.391-04:00
+  lastUpdatedAtString: 2018-07-25T18:05:55.629-04:00
   initializedAtString: 2018-07-23T19:54:21.993-04:00
   entries:
+  - path: Assets\Level01.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level01.unity"
+    projectPath: Assets\Level01.unity
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\Scripts\BagScript.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\BagScript.cs"
+    projectPath: Assets\Scripts\BagScript.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\WizardDialogScript02.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\WizardDialogScript02.cs"
+    projectPath: Assets\WizardDialogScript02.cs
+    originalPath: 
+    status: 3
+    staged: 0
   - path: Assets\WizardScript02.cs
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\WizardScript02.cs"
     projectPath: Assets\WizardScript02.cs
@@ -31,7 +49,7 @@ MonoBehaviour:
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\branches.yaml"
     projectPath: Library\gfu\cache\branches.yaml
     originalPath: 
-    status: 5
+    status: 3
     staged: 0
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gitlocks.yaml"
@@ -57,12 +75,6 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\gfu\cache\repoinfo.yaml
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\repoinfo.yaml"
-    projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll"
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -72,6 +84,12 @@ MonoBehaviour:
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\ScriptAssemblies\\Assembly-CSharp.dll.mdb"
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\shadercompiler-UnityShaderCompiler.exe0.log
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\shadercompiler-UnityShaderCompiler.exe0.log"
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     status: 3
     staged: 0

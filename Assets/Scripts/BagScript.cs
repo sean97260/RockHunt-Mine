@@ -77,12 +77,12 @@ public class BagScript : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence")
+        /*if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence")
             || GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence 0")
             || GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence 1")
             || GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence 2")
             || GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence 3"))
-        {
+        {*/
             if (bookOpened)
             {
                 CloseBook();
@@ -91,7 +91,7 @@ public class BagScript : MonoBehaviour
             {
                 OpenBook();
             }
-        }
+       // }
     }
 
     public void CloseBook()
@@ -153,7 +153,7 @@ public class BagScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.RightShift) || Input.GetKeyDown(KeyCode.LeftShift))
         {
-            if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence")
+           /* if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence")
                || GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence 0")
                 || GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence 1")
                 || GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence 2")
@@ -164,7 +164,7 @@ public class BagScript : MonoBehaviour
                 || GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence 1 0")
                 || GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence 3 0")
                || GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("portal"))
-            {
+            {*/
                 if (bookOpened)
                 {
 					stopMoving = false;
@@ -175,13 +175,13 @@ public class BagScript : MonoBehaviour
 					stopMoving = true;
                     OpenBook();
                 }
-            }
+            //}
         }
 
-        if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence 1"))
+     /*   if (GameObject.Find("Dialog generator").GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Silence 1"))
         {
             GameObject.Find("Dialog generator").GetComponent<Animator>().ResetTrigger("Space");
-        }
+        }*/
 
         if (this.GetComponent<Animator>().GetBool("closeBook") == true)
         {
