@@ -34,7 +34,7 @@ public class WizardDialogScript02 : MonoBehaviour
                 anim.ResetTrigger("Space");
             }
 
-            if (anim.GetCurrentAnimatorStateInfo(0).IsName("end2") && Input.GetKeyDown("space"))
+            if (anim.GetCurrentAnimatorStateInfo(0).IsName("portal"))
             {
                 portal.SetActive(true);
             }

@@ -12,30 +12,43 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-25T18:05:55.629-04:00
+  lastUpdatedAtString: 2018-07-25T20:37:40.727-04:00
   initializedAtString: 2018-07-23T19:54:21.993-04:00
   entries:
+  - path: Assembly-CSharp.csproj
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assembly-CSharp.csproj"
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\EventManager01.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\EventManager01.cs"
+    projectPath: Assets\EventManager01.cs
+    originalPath: 
+    status: 1
+    staged: 0
   - path: Assets\Level01.unity
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level01.unity"
     projectPath: Assets\Level01.unity
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\BagScript.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\BagScript.cs"
-    projectPath: Assets\Scripts\BagScript.cs
+  - path: Assets\Sprites\Level 1\Dialog\hi there\Dialog generator.controller
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level
+      1\\Dialog\\hi there\\Dialog generator.controller"
+    projectPath: Assets\Sprites\Level 1\Dialog\hi there\Dialog generator.controller
     originalPath: 
     status: 3
+    staged: 0
+  - path: Assets\Sprites\Level01\WizardDialog.controller
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level01\\WizardDialog.controller"
+    projectPath: Assets\Sprites\Level01\WizardDialog.controller
+    originalPath: 
+    status: 1
     staged: 0
   - path: Assets\WizardDialogScript02.cs
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\WizardDialogScript02.cs"
     projectPath: Assets\WizardDialogScript02.cs
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Assets\WizardScript02.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\WizardScript02.cs"
-    projectPath: Assets\WizardScript02.cs
     originalPath: 
     status: 3
     staged: 0
@@ -72,6 +85,12 @@ MonoBehaviour:
   - path: Library\gfu\cache\gittrackingstatus.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gittrackingstatus.yaml"
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\gfu\cache\repoinfo.yaml
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\repoinfo.yaml"
+    projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     status: 3
     staged: 0
