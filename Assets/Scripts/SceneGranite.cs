@@ -25,10 +25,10 @@ public class SceneGranite : MonoBehaviour
 			if (timer2 >= 2) {
 				this.gameObject.GetComponent<Animator> ().SetBool ("sand", true);
 				if (transform.position.x >= 29 && transform.position.x <= 33) {
-				//	GameObject.Find ("EventManager").GetComponent<EventManager> ().windUsed = true;
+					GameObject.Find ("EventManager").GetComponent<EventManager> ().windUsed = true;
 					GameObject.Find ("Dialog generator").GetComponent<Animator> ().SetBool ("windgone", true);
 				} else if (transform.position.x >= 56 && transform.position.x <= 62.3) {
-				//	GameObject.Find ("EventManager").GetComponent<EventManager> ().waterUsed = true;
+					GameObject.Find ("EventManager").GetComponent<EventManager> ().waterUsed = true;
 					GameObject.Find ("Dialog generator").GetComponent<Animator>().SetBool("watergone",true);
 				}
 			}
@@ -38,20 +38,20 @@ public class SceneGranite : MonoBehaviour
 		}
 
 		if (transform.position.x >= 29 && transform.position.x <= 33) {
-			if (GameObject.Find ("EventManager").GetComponent<EventManager> ().windUsed == false) {
+		//	if (GameObject.Find ("EventManager").GetComponent<EventManager> ().windUsed == false) {
 				timer += Time.deltaTime;
 
 				if (timer >= 2) {
 					timer = 0f;
 					this.gameObject.GetComponent<Animator> ().SetBool ("transform", true);
 				}
-			}else {
+			/*}else {
 				timer = 0f;
-			}
+			}*/
 		} 
 
 		if (transform.position.x >= 56 && transform.position.x <= 62.3){
-			if (GameObject.Find("EventManager").GetComponent<EventManager>().waterUsed == false){
+		//	if (GameObject.Find("EventManager").GetComponent<EventManager>().waterUsed == false){
 				timer += Time.deltaTime;
 
 				if (timer >= 5) {
@@ -59,9 +59,9 @@ public class SceneGranite : MonoBehaviour
 					this.gameObject.GetComponent<Animator> ().SetBool ("transform", true);
 				} 
 
-			} else {
+		/*	} else {
 				timer = 0f;
-			}
+			}*/
 		} 
 
 

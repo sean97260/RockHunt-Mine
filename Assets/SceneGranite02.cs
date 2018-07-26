@@ -29,6 +29,7 @@ public class SceneGranite02 : MonoBehaviour
             if (timer2 >= 1)
             {
                 this.gameObject.GetComponent<Animator>().SetBool("sand", true);
+                GameObject.Find("Transition").GetComponent<Animator>().SetTrigger("RainOnSand");
             }
 
         }

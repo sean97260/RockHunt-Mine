@@ -16,6 +16,7 @@ public class EventManager : MonoBehaviour
 	Animator minerDialogAnim;
 	Animator researcherAnim;
 	Animator researcherDialogAnim;
+    GameObject transition;
 
     float offset;
 
@@ -40,6 +41,8 @@ public class EventManager : MonoBehaviour
         if (sand_2 != null) { sand_2.SetActive(false); }
         waterUsed = false;
         windUsed = false;
+        transition = GameObject.Find("Transition");
+
 
     }
 
@@ -67,9 +70,11 @@ public class EventManager : MonoBehaviour
         {
             bag.GetComponent<BagScript>().addObject(sand_2);
         }
-
         if (windUsed == true)
-        {/*
+        {
+            if (transition != null) {
+                transition.GetComponent<Animator>().SetBool("Wind", true);
+            }/*
             if (GameObject.Find("Wind") != null)
             {
                 GameObject.Find("Wind").SetActive(false);
@@ -80,7 +85,12 @@ public class EventManager : MonoBehaviour
         }
 
         if (waterUsed == true)
-        {/*
+        {
+            if (transition != null)
+            {
+                transition.GetComponent<Animator>().SetBool("Water", true);
+            }
+            /*
 			dialogAnim.SetBool("watergone", true);
 			researcherAnim.SetBool("watergone", true);
 			researcherDialogAnim.SetBool("watergone", true);*/
