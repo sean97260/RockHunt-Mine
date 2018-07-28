@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class SceneGranite05 : MonoBehaviour
 {
-
-    public GameObject obj;
+    public GameObject FastForward1; // For the wind
+    public GameObject FastForward2; // For the river
     float timer;
     float timer2;
 
@@ -51,7 +51,7 @@ public class SceneGranite05 : MonoBehaviour
             {
                 timer += Time.deltaTime;
 
-                if (timer >= 5)
+                if (timer >= 2)
                 {
                     timer = 0f;
                     this.gameObject.GetComponent<Animator>().SetBool("transform", true);
@@ -69,12 +69,11 @@ public class SceneGranite05 : MonoBehaviour
             {
                 timer += Time.deltaTime;
 
-                if (timer >= 5)
+                if (timer >= 2)
                 {
                     timer = 0f;
                     this.gameObject.GetComponent<Animator>().SetBool("transform", true);
                 }
-
             }
             else
             {
@@ -89,5 +88,37 @@ public class SceneGranite05 : MonoBehaviour
             GameObject.Find("Dialog generator").GetComponent<Animator>().SetBool("gotSand", true);
 
         }
+
+        if (FastForward1.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("FFInProgress")){
+            Debug.Log("Fast-forward in progress!");
+        }
+        // Prevent the character from interacting during Fast Forward or when the granite is in pieces.
+        if (FastForward1 != null)
+        {
+            if (FastForward1.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("FFInProgress")
+                || this.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("granite pieces")
+                || this.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Transform"))
+            {
+                Physics2D.IgnoreCollision(this.GetComponent<Collider2D>(), GameObject.Find("Character").GetComponent<Collider2D>());
+            }
+            else
+            {
+                Physics2D.IgnoreCollision(this.GetComponent<Collider2D>(), GameObject.Find("Character").GetComponent<Collider2D>(), false);
+            }
+        }
+        if (FastForward2 != null)
+        {
+            if (FastForward2.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("FFInProgress")
+                || this.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("granite pieces")
+                || this.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Transform"))
+            {
+                Physics2D.IgnoreCollision(this.GetComponent<Collider2D>(), GameObject.Find("Character").GetComponent<Collider2D>());
+            }
+            else
+            {
+                Physics2D.IgnoreCollision(this.GetComponent<Collider2D>(), GameObject.Find("Character").GetComponent<Collider2D>(), false);
+            }
+        }
+
     }
 }

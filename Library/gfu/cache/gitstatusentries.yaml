@@ -12,55 +12,40 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-26T12:32:03.280-04:00
-  initializedAtString: 2018-07-23T19:54:21.993-04:00
+  lastUpdatedAtString: 2018-07-28T18:28:10.597-04:00
+  initializedAtString: 2018-07-27T15:21:12.291-04:00
   entries:
-  - path: Assets\Animation _ Animator\Level04\Both.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\Level04\\Both.anim"
-    projectPath: Assets\Animation _ Animator\Level04\Both.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\Level04\QuestionMarks.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\Level04\\QuestionMarks.anim"
-    projectPath: Assets\Animation _ Animator\Level04\QuestionMarks.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\Level04\Transition.controller
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\Level04\\Transition.controller"
-    projectPath: Assets\Animation _ Animator\Level04\Transition.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\Level04\WaterOnly.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\Level04\\WaterOnly.anim"
-    projectPath: Assets\Animation _ Animator\Level04\WaterOnly.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Animation _ Animator\Level04\WindOnly.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\Level04\\WindOnly.anim"
-    projectPath: Assets\Animation _ Animator\Level04\WindOnly.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\arrow.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\arrow.png"
-    projectPath: Assets\arrow.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\EventManager.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\EventManager.cs"
-    projectPath: Assets\EventManager.cs
+  - path: Assembly-CSharp.csproj
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assembly-CSharp.csproj"
+    projectPath: Assembly-CSharp.csproj
     originalPath: 
     status: 3
+    staged: 0
+  - path: Assets\Animation _ Animator\FFMessage.anim
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\FFMessage.anim"
+    projectPath: Assets\Animation _ Animator\FFMessage.anim
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\FFMessage.controller
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\FFMessage.controller"
+    projectPath: Assets\Animation _ Animator\FFMessage.controller
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\EventManager05.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\EventManager05.cs"
+    projectPath: Assets\EventManager05.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\FFScript.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\FFScript.cs"
+    projectPath: Assets\FFScript.cs
+    originalPath: 
+    status: 1
     staged: 0
   - path: Assets\Level02.unity
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level02.unity"
@@ -80,15 +65,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\QuestionMark.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\QuestionMark.png"
-    projectPath: Assets\QuestionMark.png
+  - path: Assets\Level05.unity
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Level05.unity"
+    projectPath: Assets\Level05.unity
     originalPath: 
-    status: 1
+    status: 3
     staged: 0
   - path: Assets\SceneGranite02.cs
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\SceneGranite02.cs"
     projectPath: Assets\SceneGranite02.cs
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Assets\SceneGranite05.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\SceneGranite05.cs"
+    projectPath: Assets\SceneGranite05.cs
     originalPath: 
     status: 3
     staged: 0
@@ -98,81 +89,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Sprites\BlankDiagram.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\BlankDiagram.png"
-    projectPath: Assets\Sprites\BlankDiagram.png
+  - path: Assets\Sprites\FFMessage.png
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\FFMessage.png"
+    projectPath: Assets\Sprites\FFMessage.png
     originalPath: 
     status: 1
-    staged: 0
-  - path: Assets\Sprites\GraniteToSand2QM.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\GraniteToSand2QM.png"
-    projectPath: Assets\Sprites\GraniteToSand2QM.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\GraniteToSandBoth.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\GraniteToSandBoth.png"
-    projectPath: Assets\Sprites\GraniteToSandBoth.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\GraniteToSandQM.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\GraniteToSandQM.png"
-    projectPath: Assets\Sprites\GraniteToSandQM.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\GraniteToSandRain.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\GraniteToSandRain.png"
-    projectPath: Assets\Sprites\GraniteToSandRain.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\GraniteToSandWaterOnly.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\GraniteToSandWaterOnly.png"
-    projectPath: Assets\Sprites\GraniteToSandWaterOnly.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\GraniteToSandWindOnly.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\GraniteToSandWindOnly.png"
-    projectPath: Assets\Sprites\GraniteToSandWindOnly.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Level02\QuestionMark.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level02\\QuestionMark.anim"
-    projectPath: Assets\Sprites\Level02\QuestionMark.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Level02\RainTransition.anim
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level02\\RainTransition.anim"
-    projectPath: Assets\Sprites\Level02\RainTransition.anim
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\Sprites\Level02\Transition.controller
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\Level02\\Transition.controller"
-    projectPath: Assets\Sprites\Level02\Transition.controller
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\wave.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\wave.png"
-    projectPath: Assets\wave.png
-    originalPath: 
-    status: 1
-    staged: 0
-  - path: Assets\WizardDialogScript02.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\WizardDialogScript02.cs"
-    projectPath: Assets\WizardDialogScript02.cs
-    originalPath: 
-    status: 3
     staged: 0
   - path: Library\assetDatabase3
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\assetDatabase3"
     projectPath: Library\assetDatabase3
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\CurrentLayout.dwlt
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\CurrentLayout.dwlt"
+    projectPath: Library\CurrentLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
@@ -218,15 +149,21 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\9b\9bfbd2ccfb0945c4f8c6c1c7df7a26e2
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\9b\\9bfbd2ccfb0945c4f8c6c1c7df7a26e2"
-    projectPath: Library\metadata\9b\9bfbd2ccfb0945c4f8c6c1c7df7a26e2
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\InspectorExpandedItems.asset"
+    projectPath: Library\InspectorExpandedItems.asset
     originalPath: 
     status: 3
     staged: 0
-  - path: Library\metadata\f7\f7ba2fcfbf7c64aa28ce628118fb0971
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\f7\\f7ba2fcfbf7c64aa28ce628118fb0971"
-    projectPath: Library\metadata\f7\f7ba2fcfbf7c64aa28ce628118fb0971
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\LastSceneManagerSetup.txt"
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    status: 3
+    staged: 0
+  - path: Library\metadata\9b\9bfbd2ccfb0945c4f8c6c1c7df7a26e2
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\9b\\9bfbd2ccfb0945c4f8c6c1c7df7a26e2"
+    projectPath: Library\metadata\9b\9bfbd2ccfb0945c4f8c6c1c7df7a26e2
     originalPath: 
     status: 3
     staged: 0

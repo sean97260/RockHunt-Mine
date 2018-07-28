@@ -17,8 +17,6 @@ public class EventManager05 : MonoBehaviour
     GameObject bottomCollider;
     Animator anim;
 
-    float time;
-
     float offset;
 
     public bool waterUsed;
@@ -46,8 +44,6 @@ public class EventManager05 : MonoBehaviour
         pitSand_2.SetActive(false);
         pitSand_3.SetActive(false);
         sandstone.SetActive(false);
-
-        time = 2.5f;
     }
 
     void CheckSandPit(GameObject sand, GameObject bottom, GameObject pitSand) {
@@ -153,13 +149,12 @@ public class EventManager05 : MonoBehaviour
             bag.GetComponent<BagScript05>().addObject(pitSand_3);
             pitSand_3.SetActive(false);
         }
-        if (pitSand_1.activeSelf && pitSand_2.activeSelf && pitSand_3.activeSelf)
+        if (Input.GetKeyDown("x"))
         {
-            time = time - Time.deltaTime;
-            if (time <= 0f)
+            if (pitSand_1.activeSelf && pitSand_2.activeSelf && pitSand_3.activeSelf)
             {
                 Physics2D.IgnoreCollision(sandstone.GetComponent<BoxCollider2D>(), pitSand_1.GetComponent<BoxCollider2D>());
-                PutSandstone();
+                    PutSandstone();
             }
         }
         if (granite != null)
