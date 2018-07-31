@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 5
-  lastUpdatedAtString: 2018-07-28T18:28:10.597-04:00
-  initializedAtString: 2018-07-27T15:21:12.291-04:00
+  lastUpdatedAtString: 2018-07-31T15:15:59.046-04:00
+  initializedAtString: 2018-07-31T14:59:42.720-04:00
   entries:
   - path: Assembly-CSharp.csproj
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assembly-CSharp.csproj"
@@ -21,29 +21,213 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Animation _ Animator\FFMessage.anim
+  - path: Assets\Animation _ Animator\TimeTravel.anim
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\FFMessage.anim"
-    projectPath: Assets\Animation _ Animator\FFMessage.anim
+      _ Animator\\TimeTravel.anim"
+    projectPath: Assets\Animation _ Animator\TimeTravel.anim
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\Animation _ Animator\FFMessage.controller
+  - path: Assets\Animation _ Animator\TimeTravel.controller
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
-      _ Animator\\FFMessage.controller"
-    projectPath: Assets\Animation _ Animator\FFMessage.controller
+      _ Animator\\TimeTravel.controller"
+    projectPath: Assets\Animation _ Animator\TimeTravel.controller
     originalPath: 
     status: 1
     staged: 0
-  - path: Assets\EventManager05.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\EventManager05.cs"
-    projectPath: Assets\EventManager05.cs
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0001.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0001.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0001.jpg
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Assets\FFScript.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\FFScript.cs"
-    projectPath: Assets\FFScript.cs
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0002.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0002.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0002.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0003.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0003.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0003.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0004.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0004.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0004.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0005.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0005.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0005.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0006.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0006.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0006.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0007.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0007.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0007.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0008.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0008.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0008.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0009.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0009.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0009.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0010.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0010.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0010.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0011.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0011.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0011.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0012.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0012.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0012.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0013.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0013.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0013.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0014.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0014.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0014.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0015.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0015.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0015.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0016.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0016.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0016.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0017.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0017.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0017.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0018.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0018.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0018.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0019.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0019.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0019.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0020.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0020.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0020.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0021.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0021.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0021.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0022.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0022.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0022.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0023.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0023.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0023.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0024.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0024.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0024.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0025.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0025.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0025.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0026.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0026.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0026.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0027.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0027.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0027.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Animation _ Animator\TimeTravel\clocks_frame_0028.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Animation
+      _ Animator\\TimeTravel\\clocks_frame_0028.jpg"
+    projectPath: Assets\Animation _ Animator\TimeTravel\clocks_frame_0028.jpg
     originalPath: 
     status: 1
     staged: 0
@@ -71,39 +255,501 @@ MonoBehaviour:
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\SceneGranite02.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\SceneGranite02.cs"
-    projectPath: Assets\SceneGranite02.cs
-    originalPath: 
-    status: 3
-    staged: 0
   - path: Assets\SceneGranite05.cs
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\SceneGranite05.cs"
     projectPath: Assets\SceneGranite05.cs
     originalPath: 
     status: 3
     staged: 0
-  - path: Assets\Scripts\SceneGranite.cs
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Scripts\\SceneGranite.cs"
-    projectPath: Assets\Scripts\SceneGranite.cs
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0001.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0001.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0001.jpg
     originalPath: 
-    status: 3
+    status: 1
     staged: 0
-  - path: Assets\Sprites\FFMessage.png
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\FFMessage.png"
-    projectPath: Assets\Sprites\FFMessage.png
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0002.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0002.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0002.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0003.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0003.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0003.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0004.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0004.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0004.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0005.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0005.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0005.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0006.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0006.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0006.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0007.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0007.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0007.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0008.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0008.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0008.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0009.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0009.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0009.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0010.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0010.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0010.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0011.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0011.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0011.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0012.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0012.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0012.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0013.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0013.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0013.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0014.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0014.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0014.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0015.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0015.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0015.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0016.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0016.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0016.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0017.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0017.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0017.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0018.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0018.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0018.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0019.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0019.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0019.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0020.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0020.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0020.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0021.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0021.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0021.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0022.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0022.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0022.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0023.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0023.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0023.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0024.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0024.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0024.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0025.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0025.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0025.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0026.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0026.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0026.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0027.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0027.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0027.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0028.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0028.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0028.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0029.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0029.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0029.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0030.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0030.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0030.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0031.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0031.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0031.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0032.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0032.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0032.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0033.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0033.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0033.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0034.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0034.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0034.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0035.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0035.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0035.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0036.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0036.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0036.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0037.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0037.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0037.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0038.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0038.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0038.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0039.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0039.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0039.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0040.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0040.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0040.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0041.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0041.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0041.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0042.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0042.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0042.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0043.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0043.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0043.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0044.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0044.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0044.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0045.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0045.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0045.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0046.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0046.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0046.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0047.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0047.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0047.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0048.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0048.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0048.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0049.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0049.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0049.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0050.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0050.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0050.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0051.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0051.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0051.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0052.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0052.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0052.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0053.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0053.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0053.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0054.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0054.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0054.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0055.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0055.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0055.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0056.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0056.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0056.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0057.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0057.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0057.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0058.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0058.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0058.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0059.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0059.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0059.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0060.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0060.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0060.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0061.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0061.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0061.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0062.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0062.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0062.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0063.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0063.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0063.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0064.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0064.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0064.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0065.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0065.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0065.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0066.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0066.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0066.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0067.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0067.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0067.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0068.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0068.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0068.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0069.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0069.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0069.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0070.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0070.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0070.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0071.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0071.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0071.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0072.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0072.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0072.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0073.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0073.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0073.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0074.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0074.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0074.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0075.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0075.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0075.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0076.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0076.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0076.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0077.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0077.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0077.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0078.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0078.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0078.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0079.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0079.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0079.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\Sprites\clocks-frames\zelda-clocks_frame_0080.jpg
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\Sprites\\clocks-frames\\zelda-clocks_frame_0080.jpg"
+    projectPath: Assets\Sprites\clocks-frames\zelda-clocks_frame_0080.jpg
+    originalPath: 
+    status: 1
+    staged: 0
+  - path: Assets\TimeTravelScript.cs
+    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Assets\\TimeTravelScript.cs"
+    projectPath: Assets\TimeTravelScript.cs
     originalPath: 
     status: 1
     staged: 0
   - path: Library\assetDatabase3
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\assetDatabase3"
     projectPath: Library\assetDatabase3
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\CurrentLayout.dwlt
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\CurrentLayout.dwlt"
-    projectPath: Library\CurrentLayout.dwlt
     originalPath: 
     status: 3
     staged: 0
@@ -141,29 +787,11 @@ MonoBehaviour:
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\gittrackingstatus.yaml"
     projectPath: Library\gfu\cache\gittrackingstatus.yaml
     originalPath: 
-    status: 3
+    status: 5
     staged: 0
   - path: Library\gfu\cache\repoinfo.yaml
     fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\gfu\\cache\\repoinfo.yaml"
     projectPath: Library\gfu\cache\repoinfo.yaml
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\InspectorExpandedItems.asset"
-    projectPath: Library\InspectorExpandedItems.asset
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\LastSceneManagerSetup.txt
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\LastSceneManagerSetup.txt"
-    projectPath: Library\LastSceneManagerSetup.txt
-    originalPath: 
-    status: 3
-    staged: 0
-  - path: Library\metadata\9b\9bfbd2ccfb0945c4f8c6c1c7df7a26e2
-    fullPath: "C:\\Users\\Cl\xE9mence\\Documents\\GitHub\\RockHunt-Mine\\Library\\metadata\\9b\\9bfbd2ccfb0945c4f8c6c1c7df7a26e2"
-    projectPath: Library\metadata\9b\9bfbd2ccfb0945c4f8c6c1c7df7a26e2
     originalPath: 
     status: 3
     staged: 0

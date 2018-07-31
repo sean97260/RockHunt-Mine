@@ -45,7 +45,8 @@ public class SceneGranite05 : MonoBehaviour
             timer2 = 0f;
         }
 
-        if (transform.position.x >= 29 && transform.position.x <= 33)
+        if (transform.position.x >= 29 && transform.position.x <= 33 && 
+        (FastForward1 == null || FastForward1.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("FFInProgress")))
         {
             if (GameObject.Find("EventManager").GetComponent<EventManager05>().windUsed == false)
             {
@@ -63,7 +64,8 @@ public class SceneGranite05 : MonoBehaviour
             }
         }
 
-        if (transform.position.x >= 56 && transform.position.x <= 62.3)
+        if (transform.position.x >= 56 && transform.position.x <= 62.3 &&
+        (FastForward2 == null || FastForward2.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("FFInProgress")))
         {
             if (GameObject.Find("EventManager").GetComponent<EventManager05>().waterUsed == false)
             {

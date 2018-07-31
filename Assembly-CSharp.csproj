@@ -114,6 +114,7 @@
     <Compile Include="Assets\Scripts\Spell.cs" />
     <Compile Include="Assets\Scripts\useScript.cs" />
     <Compile Include="Assets\SignScript.cs" />
+    <Compile Include="Assets\TimeTravelScript.cs" />
     <Compile Include="Assets\WizardDialogScript.cs" />
     <Compile Include="Assets\WizardDialogScript02.cs" />
     <Compile Include="Assets\WizardDialogScript05.cs" />
