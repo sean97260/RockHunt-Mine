@@ -22,9 +22,12 @@ public class TimeTravelScript : MonoBehaviour {
                 {
                     this.GetComponent<Animator>().SetTrigger("PlayTimeTravel");
                 }
+                if (FF.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("End")) {
+                    this.GetComponent<Animator>().ResetTrigger("PlayTimeTravel");
+                }
             }
         }
-	}
+    }
 
     // Find FastForward obj
     GameObject FindFF(int i)
