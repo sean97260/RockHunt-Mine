@@ -23,7 +23,8 @@ public class DigSignScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (character.transform.position.x >= this.transform.position.x - 1 && character.transform.position.x <= this.transform.position.x + 1)
+        if (GameObject.Find("Cover") != null &&
+            character.transform.position.x >= this.transform.position.x - 1 && character.transform.position.x <= this.transform.position.x + 1)
         {
             digInfo.SetActive(true);
             if (Input.GetKeyDown(KeyCode.X)) {
