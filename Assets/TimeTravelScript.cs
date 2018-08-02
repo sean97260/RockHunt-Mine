@@ -20,7 +20,7 @@ public class TimeTravelScript : MonoBehaviour {
             {
                 if (FF.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("FFInProgress"))
                 {
-                    this.GetComponent<Animator>().Play("TimeTravel");
+                    this.GetComponent<Animator>().SetTrigger("PlayTimeTravel");
                 }
             }
         }

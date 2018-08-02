@@ -11,6 +11,8 @@ public class EventManager05 : MonoBehaviour
     GameObject granite;
     GameObject pitSand_1, pitSand_2, pitSand_3;
 
+    Animator transitionAnim;
+
     public int sand1Order, sand2Order, sand3Order; // Keep track of which pile is associated with which pit
 
     GameObject sandstone;
@@ -39,7 +41,10 @@ public class EventManager05 : MonoBehaviour
         pitSand_3 = GameObject.Find("PitSand (2)");
         sandstone = GameObject.Find("Sandstone");
         bottomCollider = GameObject.Find("BottomCollider");
-
+        if (GameObject.Find("Transition") != null)
+        {
+            transitionAnim = GameObject.Find("Transition").GetComponent<Animator>();
+        }
         pitSand_1.SetActive(false);
         pitSand_2.SetActive(false);
         pitSand_3.SetActive(false);
@@ -102,6 +107,21 @@ public class EventManager05 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transitionAnim != null)
+        {
+            if (windUsed)
+            {
+                transitionAnim.SetBool("Wind", true);
+            }
+            if (waterUsed)
+            {
+                transitionAnim.SetBool("Water", true);
+            }
+            if (sandstone.activeSelf)
+            {
+                transitionAnim.SetBool("Sandstone", true);
+            }
+        }
         if (sand_1 != null)
         {
             sand_1.GetComponent<Animator>().Play("SandShowUp");

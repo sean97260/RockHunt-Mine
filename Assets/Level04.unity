@@ -1102,7 +1102,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rock: {fileID: 1347609370}
-  leftOffset: -3.5
+  leftOffset: -4
   rightOffset: 3.5
 --- !u!95 &485038396
 Animator:
@@ -4181,7 +4181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec7ef1da6fc66ca46a2978f334c911ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numFF: 2
+  numFF: 4
 --- !u!95 &1806629714
 Animator:
   serializedVersion: 3
