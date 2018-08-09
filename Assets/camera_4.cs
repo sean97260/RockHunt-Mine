@@ -18,7 +18,7 @@ public class camera_4 : MonoBehaviour {
 	// LateUpdate is called after Update each frame
 	void LateUpdate () 
 	{
-		if(player.transform.position.x >= - 4.58 && player.transform.position.x <= 52)
+		if(player.transform.position.x >= - 2.9 && player.transform.position.x <= 52.8)
 		// Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance.
 		transform.position = new Vector3(player.transform.position.x + offset.x, transform.position.y, transform.position.z);
 	}

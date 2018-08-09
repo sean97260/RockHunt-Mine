@@ -5,14 +5,16 @@ using UnityEngine;
 public class TimeTravelScript : MonoBehaviour {
 
     public int numFF; // How many FastForward objects?
+    GameObject sound;
 
 	// Use this for initialization
 	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
+        sound = GameObject.Find("Crystal Sound");
+
+    }
+
+    // Update is called once per frame
+    void Update () {
         for (int i = 0; i < numFF; i++)
         {
             GameObject FF = FindFF(i);
@@ -21,6 +23,16 @@ public class TimeTravelScript : MonoBehaviour {
                 if (FF.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("FFInProgress"))
                 {
                     this.GetComponent<Animator>().SetTrigger("PlayTimeTravel");
+                    if (sound != null && !sound.activeSelf)
+                    {
+                        sound.SetActive(true);
+                    }
+                }
+                else {
+                    if (sound != null)
+                    {
+                        sound.SetActive(false);
+                    }
                 }
                 if (FF.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("End")) {
                     this.GetComponent<Animator>().ResetTrigger("PlayTimeTravel");
