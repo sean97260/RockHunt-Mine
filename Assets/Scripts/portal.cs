@@ -31,6 +31,10 @@ public class portal : MonoBehaviour
             else if (Map.CurrLevel <= 4 && SceneManager.GetActiveScene().name == "Level04") {
                 Map.CurrLevel = 5;
             }
+            else if (Map.CurrLevel <= 5 && SceneManager.GetActiveScene().name == "Level05")
+            {
+                Map.CurrLevel = 6;
+            }
             SceneManager.LoadScene("Map");
         }
     }

@@ -13,7 +13,7 @@ public class Map : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        for (int i = 5; i > CurrLevel; i--) {
+        for (int i = 6; i > CurrLevel; i--) {
             string NumName = "N" + i.ToString();
             if (GameObject.Find(NumName) != null)
             {
