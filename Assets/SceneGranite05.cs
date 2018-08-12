@@ -24,7 +24,7 @@ public class SceneGranite05 : MonoBehaviour
             this.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("granite pieces"))
         {
             timer2 += Time.deltaTime;
-            if (timer2 >= 7)
+            if (timer2 >= 2)
             {
                 this.gameObject.GetComponent<Animator>().SetBool("sand", true);
                 if (transform.position.x >= 29 && transform.position.x <= 33)
