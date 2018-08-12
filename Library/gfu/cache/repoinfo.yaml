@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-08-12T11:44:59.926-04:00
-  initializedAtString: 2018-08-12T11:44:59.926-04:00
+  lastUpdatedAtString: 2018-08-12T14:29:25.500-04:00
+  initializedAtString: 2018-08-12T14:29:25.500-04:00
   currentGitRemote:
     name: origin
     url: https://github.com/sean97260/RockHunt-Mine.git
