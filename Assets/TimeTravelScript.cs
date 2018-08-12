@@ -10,7 +10,6 @@ public class TimeTravelScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         sound = GameObject.Find("Crystal Sound");
-
     }
 
     // Update is called once per frame
@@ -23,20 +22,24 @@ public class TimeTravelScript : MonoBehaviour {
                 if (FF.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("FFInProgress"))
                 {
                     this.GetComponent<Animator>().SetTrigger("PlayTimeTravel");
-                    if (sound != null && !sound.activeSelf)
-                    {
-                        sound.SetActive(true);
-                    }
-                }
-                else {
-                    if (sound != null)
-                    {
-                        sound.SetActive(false);
-                    }
                 }
                 if (FF.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("End")) {
                     this.GetComponent<Animator>().ResetTrigger("PlayTimeTravel");
                 }
+            }
+        }
+        if (this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("TimeTravel"))
+        {
+            if (sound != null && !sound.activeSelf)
+            {
+                sound.SetActive(true);
+            }
+        }
+        else
+        {
+            if (sound != null)
+            {
+                sound.SetActive(false);
             }
         }
     }
