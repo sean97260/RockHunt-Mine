@@ -12,14 +12,14 @@ EditorBuildSettings:
     path: Assets/Start.unity
     guid: 3593a97e0f49db24daf32e7992b9b6d7
   - enabled: 1
+    path: Assets/RockCycleDiagram .unity
+    guid: dfd550c02da164feb9a8dd3782d8c0c4
+  - enabled: 1
     path: Assets/Map.unity
     guid: bdda4ca9c41a64af792329033b446879
   - enabled: 0
     path: Assets/Level1.unity
     guid: a68775c5d8fcc4a2fabc7003435f4c03
-  - enabled: 1
-    path: Assets/Level04.unity
-    guid: ba4b04f3d20219048b3307fb0f8732b4
   - enabled: 0
     path: Assets/Map2.unity
     guid: e88a29f7d341b44af9fe16197ad4c549
@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level03.unity
     guid: 23967f43d8e4ced4bae8e4d68a91638c
+  - enabled: 1
+    path: Assets/Level04.unity
+    guid: ba4b04f3d20219048b3307fb0f8732b4
   - enabled: 0
     path: Assets/OldLevel05.unity
     guid: 68f7c8e42fcb08e43afa300314061f69
@@ -41,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Level6/Level06.unity
     guid: 741ca7e1d889f4f3388acd2abb7e2bbd
+  - enabled: 1
+    path: Assets/RockCycle.unity
+    guid: ef1a0dc89d7477145b9bb4bf0a5269ad
   m_configObjects: {}

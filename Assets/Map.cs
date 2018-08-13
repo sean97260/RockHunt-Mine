@@ -20,5 +20,10 @@ public class Map : MonoBehaviour {
                 GameObject.Find(NumName).SetActive(false);
             }
         }
-	}
+        if (CurrLevel > 1) {
+            if (GameObject.Find("DialogFirst") != null) { GameObject.Find("DialogFirst").SetActive(false); }
+            if (GameObject.Find("DialogSecond") != null)
+            { GameObject.Find("DialogSecond").SetActive(false); }
+        }
+    }
 }

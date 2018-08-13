@@ -19,6 +19,6 @@ public class StarScript : MonoBehaviour
 
     void OnMouseDown()
     {
-            SceneManager.LoadScene("RockCycleDiagram");
+        SceneManager.LoadScene("RockCycle");
     }
 }

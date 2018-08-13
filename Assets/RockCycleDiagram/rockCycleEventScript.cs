@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class rockCycleEventScript : MonoBehaviour {
 
@@ -133,6 +134,9 @@ public class rockCycleEventScript : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("q")) {
+            SceneManager.LoadScene("Map");
+        }
         if (f1 && f2 && f3 && f4 && f5 && f6 && f7 && f8 && f9 && f10){
             print("good to go!");
             done.SetActive(true);
