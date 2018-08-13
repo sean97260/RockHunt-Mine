@@ -7,6 +7,8 @@ public class magma7 : MonoBehaviour
 
     private Vector3 screenPoint;
     private Vector3 offset;
+    public GameObject tag;
+
 
     void OnMouseDown()
     {
@@ -14,17 +16,27 @@ public class magma7 : MonoBehaviour
         offset = this.transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z));
     }
 
+    void OnMouseUp()
+    {
+        tag.SetActive(false);
+    }
     void OnMouseDrag()
     {
         Vector3 cursorPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
         Vector3 cursorPosition = Camera.main.ScreenToWorldPoint(cursorPoint) + offset;
         this.transform.position = cursorPosition;
+        tag.SetActive(true);
+
     }
 
     // Use this for initialization
     void Start()
     {
-
+        if (tag == null)
+        {
+            tag = GameObject.Find("magmaTag");
+        }
+        tag.SetActive(false);
     }
 
     // Update is called once per frame

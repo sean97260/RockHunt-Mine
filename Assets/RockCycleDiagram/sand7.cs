@@ -8,6 +8,8 @@ public class sand7 : MonoBehaviour
     private Vector3 screenPoint;
     private Vector3 offset;
 
+    public GameObject tag;
+
     void OnMouseDown()
     {
         screenPoint = Camera.main.WorldToScreenPoint(this.transform.position);
@@ -19,11 +21,20 @@ public class sand7 : MonoBehaviour
         Vector3 cursorPoint = new Vector3(Input.mousePosition.x, Input.mousePosition.y, screenPoint.z);
         Vector3 cursorPosition = Camera.main.ScreenToWorldPoint(cursorPoint) + offset;
         this.transform.position = cursorPosition;
+        tag.SetActive(true);
+    }
+
+    void OnMouseUp() {
+        tag.SetActive(false);
     }
 
     // Use this for initialization
     void Start()
     {
+        if (tag == null) {
+            tag = GameObject.Find("sandTag");
+        }
+        tag.SetActive(false);
 
     }
 

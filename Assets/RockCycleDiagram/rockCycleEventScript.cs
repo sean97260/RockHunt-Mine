@@ -64,6 +64,8 @@ public class rockCycleEventScript : MonoBehaviour {
     GameObject change4;
     GameObject change5;
 
+    GameObject done;
+
 
     bool f1, f2, f3, f4, f5, f6, f7, f8, f9, f10, f11, f12, f13 = false;
 
@@ -96,6 +98,8 @@ public class rockCycleEventScript : MonoBehaviour {
         sandPos_x = GameObject.Find("select (1)").transform.position.x;
         sandPos_y = GameObject.Find("select (1)").transform.position.y;
 
+        done = GameObject.Find("Done");
+
         granite = GameObject.Find("Granite");
         sand = GameObject.Find("sand");
         pressure = GameObject.Find("pressure");
@@ -122,25 +126,16 @@ public class rockCycleEventScript : MonoBehaviour {
         change4.SetActive(false);
         change5.SetActive(false);
 
+        done.SetActive(false);
+
 	}
 
     // Update is called once per frame
     void Update()
     {
-        if (!f1) { print("f1"); }
-        if (!f2) { print("f2"); }
-        if (!f3) { print("f3"); }
-        if (!f4) { print("f4"); }
-        if (!f5) { print("f5"); }
-        if (!f6) { print("f6"); }
-        if (!f7) { print("f7"); }
-        if (!f8) { print("f8"); }
-        if (!f9) { print("f9"); }
-        if (!f10) { print("f10"); }
-
-
         if (f1 && f2 && f3 && f4 && f5 && f6 && f7 && f8 && f9 && f10){
             print("good to go!");
+            done.SetActive(true);
         }
         if (closeTo(granite.transform.position.x, granite.transform.position.y, granitePos_x, granitePos_y))
         {
@@ -297,10 +292,6 @@ public class rockCycleEventScript : MonoBehaviour {
         else
         {
             f9 = false;
-            print(magma.transform.position.x);
-            print(magma.transform.position.y);
-            print(magmaPos_x);
-            print(magmaPos_y);
         }
 
         if (closeTo(cooling.transform.position.x, cooling.transform.position.y, coolingPos_x, coolingPos_y))

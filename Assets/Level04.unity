@@ -403,6 +403,142 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9743926, y: 0.64482296}
   m_EdgeRadius: 0
+--- !u!1 &181318018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 181318021}
+  - component: {fileID: 181318020}
+  - component: {fileID: 181318019}
+  m_Layer: 0
+  m_Name: Background Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &181318019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 181318018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f5e79648f28da44d953573199b239ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!82 &181318020
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 181318018}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 79bf2deeec3be874794b82f28b871761, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.5
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 155
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &181318021
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 181318018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.4551253, y: 4.337816, z: -0.024931043}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &201252249
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,8 +790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bfbd2ccfb0945c4f8c6c1c7df7a26e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FastForward1: {fileID: 0}
-  FastForward2: {fileID: 0}
+  obj: {fileID: 0}
 --- !u!50 &308689538
 Rigidbody2D:
   serializedVersion: 4
@@ -2908,8 +3043,8 @@ GameObject:
   - component: {fileID: 1280922875}
   - component: {fileID: 1280922874}
   - component: {fileID: 1280922873}
-  - component: {fileID: 1280922872}
   - component: {fileID: 1280922871}
+  - component: {fileID: 1280922872}
   m_Layer: 0
   m_Name: SceneGranite (1)
   m_TagString: Untagged
@@ -2943,11 +3078,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1280922870}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbd2ccfb0945c4f8c6c1c7df7a26e2, type: 3}
+  m_Script: {fileID: 11500000, guid: c726f401b21c4224d913d8c686d9ad94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FastForward1: {fileID: 1750055909}
-  FastForward2: {fileID: 915144765}
+  FastForward1: {fileID: 0}
+  FastForward2: {fileID: 0}
 --- !u!50 &1280922873
 Rigidbody2D:
   serializedVersion: 4
@@ -3160,8 +3295,8 @@ GameObject:
   - component: {fileID: 1347609371}
   - component: {fileID: 1347609374}
   - component: {fileID: 1347609373}
-  - component: {fileID: 1347609375}
   - component: {fileID: 1347609376}
+  - component: {fileID: 1347609375}
   m_Layer: 0
   m_Name: SceneGranite
   m_TagString: Untagged
@@ -3280,11 +3415,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1347609370}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbd2ccfb0945c4f8c6c1c7df7a26e2, type: 3}
+  m_Script: {fileID: 11500000, guid: c726f401b21c4224d913d8c686d9ad94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FastForward1: {fileID: 1772729295}
-  FastForward2: {fileID: 485038394}
+  FastForward1: {fileID: 0}
+  FastForward2: {fileID: 0}
 --- !u!95 &1347609376
 Animator:
   serializedVersion: 3

@@ -73,6 +73,7 @@
     <Compile Include="Assets\EventManager03.cs" />
     <Compile Include="Assets\EventManager05.cs" />
     <Compile Include="Assets\FFScript.cs" />
+    <Compile Include="Assets\finalInfoScript.cs" />
     <Compile Include="Assets\Granite02.cs" />
     <Compile Include="Assets\HeatPressureScript.cs" />
     <Compile Include="Assets\Level2Button.cs" />
@@ -101,6 +102,7 @@
     <Compile Include="Assets\MinerDialogScript.cs" />
     <Compile Include="Assets\MinerDialogScript05.cs" />
     <Compile Include="Assets\MinerScript.cs" />
+    <Compile Include="Assets\MusicScript.cs" />
     <Compile Include="Assets\number2.cs" />
     <Compile Include="Assets\portal_2.cs" />
     <Compile Include="Assets\ResearcherDialogScript.cs" />
@@ -112,6 +114,7 @@
     <Compile Include="Assets\RockCycleDiagram\magma7.cs" />
     <Compile Include="Assets\RockCycleDiagram\metaq7.cs" />
     <Compile Include="Assets\RockCycleDiagram\pressure7.cs" />
+    <Compile Include="Assets\RockCycleDiagram\Rain7 copy.cs" />
     <Compile Include="Assets\RockCycleDiagram\river7.cs" />
     <Compile Include="Assets\RockCycleDiagram\rockCycleEventScript.cs" />
     <Compile Include="Assets\RockCycleDiagram\sand7.cs" />
