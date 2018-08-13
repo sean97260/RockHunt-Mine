@@ -26,6 +26,7 @@ public class MetaqScript : MonoBehaviour
             if (timer >= 2f)
             {
                 this.GetComponent<Animator>().SetBool("transform", true);
+                GameObject.Find("Transition").GetComponent<Animator>().SetTrigger("Magma");
                 timer = 0;
             }
         }

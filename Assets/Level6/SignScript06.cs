@@ -8,6 +8,7 @@ public class SignScript06 : MonoBehaviour
     GameObject moveInfo;
     GameObject spaceInfo;
     GameObject shiftInfo;
+    GameObject restart;
 
     GameObject character;
 
@@ -18,9 +19,11 @@ public class SignScript06 : MonoBehaviour
         spaceInfo = GameObject.Find("space info");
         shiftInfo = GameObject.Find("shift info");
         character = GameObject.Find("Character");
+        restart = GameObject.Find("restart");
         moveInfo.SetActive(false);
         spaceInfo.SetActive(false);
         shiftInfo.SetActive(false);
+        restart.SetActive(false);
     }
 
     // Update is called once per frame
@@ -31,12 +34,14 @@ public class SignScript06 : MonoBehaviour
             moveInfo.SetActive(true);
             spaceInfo.SetActive(true);
             shiftInfo.SetActive(true);
+            restart.SetActive(true);
         }
         else
         {
             moveInfo.SetActive (false);   
             spaceInfo.SetActive(false);
             shiftInfo.SetActive(false);
+            restart.SetActive(false);
         }
     }
 }

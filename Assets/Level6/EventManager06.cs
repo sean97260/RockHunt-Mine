@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EventManager06 : MonoBehaviour
 {
@@ -51,6 +52,9 @@ public class EventManager06 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown("r")) {
+            SceneManager.LoadScene("Level06");
+        }
         if (granite_1 != null && character.GetComponent<Collider2D>().IsTouching(granite_1.GetComponent<Collider2D>()))
         {
             if(granite_1.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("magma")){

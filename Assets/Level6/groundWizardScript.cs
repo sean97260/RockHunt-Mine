@@ -28,6 +28,7 @@ public class groundWizardScript : MonoBehaviour
             {
                 wizardDialogAnim.SetBool("two magma", true);
                 wizardDialogAnim.SetBool("pass2", true);
+                GameObject.Find("Transition").GetComponent<Animator>().SetTrigger("OldManSatisfied");
             }
             else
             {

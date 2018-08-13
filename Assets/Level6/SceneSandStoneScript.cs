@@ -21,6 +21,8 @@ public class SceneSandStoneScript : MonoBehaviour
     {
         if(transform.position.x >= 22 && transform.position.x <= 29.8 && transform.position.y <= -21.2 && transform.position.x >= -23.3){
             this.GetComponent<Animator>().SetBool("transform", true);
+            GameObject.Find("Transition").GetComponent<Animator>().SetTrigger("Metaquartzite");
+
         }
     }
 }

@@ -29,6 +29,7 @@ public class FireWizardScript : MonoBehaviour
             {
                 wizardDialogAnim.SetBool("twoGranites", true);
                 wizardDialogAnim.SetBool("pass1", true);
+                GameObject.Find("Transition").GetComponent<Animator>().SetTrigger("FireSatisfied");
             }
             else
             {

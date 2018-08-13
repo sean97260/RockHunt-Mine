@@ -21,6 +21,8 @@ public class MagmaScript : MonoBehaviour
     {
         if (timer >= 2.0f && this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SceneMagma")){
             this.GetComponent<Animator>().SetBool("transform", true);
+            GameObject.Find("Transition").GetComponent<Animator>().SetTrigger("Granite");
+
             timer = 0;
         } else if(this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("SceneMagma")){
             timer += Time.deltaTime;
