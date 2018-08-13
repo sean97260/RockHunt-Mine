@@ -132,6 +132,7 @@
     <Compile Include="Assets\Scripts\Spell.cs" />
     <Compile Include="Assets\Scripts\useScript.cs" />
     <Compile Include="Assets\SignScript.cs" />
+    <Compile Include="Assets\StarScript.cs" />
     <Compile Include="Assets\StartButtonScript.cs" />
     <Compile Include="Assets\TimeTravelScript.cs" />
     <Compile Include="Assets\TransitionScript.cs" />
