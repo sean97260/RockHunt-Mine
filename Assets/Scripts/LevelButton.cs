@@ -8,13 +8,14 @@ public class LevelButton : MonoBehaviour
 
     bool activated = true;
     public string CurrentScene;
+    GameObject DialogFirst;
 
     public string CurrentLevelName;
 
     // Use this for initialization
     void Start()
     {
-
+        DialogFirst = GameObject.Find("DialogFirst");
     }
 
     // Update is called once per frame
@@ -34,7 +35,7 @@ public class LevelButton : MonoBehaviour
 
     void OnMouseDown()
     {
-        if (activated == true)
+        if (activated == true && GameObject.Find("DialogFirst") == null)
         {
             SceneManager.LoadScene(CurrentScene);
         }

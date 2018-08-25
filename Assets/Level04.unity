@@ -3081,8 +3081,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c726f401b21c4224d913d8c686d9ad94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FastForward1: {fileID: 0}
-  FastForward2: {fileID: 0}
+  FastForward1: {fileID: 1750055909}
+  FastForward2: {fileID: 915144765}
 --- !u!50 &1280922873
 Rigidbody2D:
   serializedVersion: 4
@@ -3418,8 +3418,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c726f401b21c4224d913d8c686d9ad94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FastForward1: {fileID: 0}
-  FastForward2: {fileID: 0}
+  FastForward1: {fileID: 1772729295}
+  FastForward2: {fileID: 485038394}
 --- !u!95 &1347609376
 Animator:
   serializedVersion: 3

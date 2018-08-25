@@ -15,7 +15,7 @@ public class groundDialogScript : MonoBehaviour
         character = GameObject.Find("Character");
         anim = this.GetComponent<Animator>();
         portal = GameObject.Find("Portal_2");
-   //     portal.SetActive(false);
+        portal.SetActive(false);
 
     }
 

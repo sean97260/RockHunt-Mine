@@ -22,7 +22,7 @@ public class SceneGranite04 : MonoBehaviour
         if (this.gameObject.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("granite pieces"))
         {
             timer2 += Time.deltaTime;
-            if (timer2 >= 3)
+            if (timer2 >= 2.5)
             {
                 this.gameObject.GetComponent<Animator>().SetBool("sand", true);
                 if (transform.position.x >= 29 && transform.position.x <= 33)
@@ -46,9 +46,10 @@ public class SceneGranite04 : MonoBehaviour
         if ((FastForward1 == null || FastForward1.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("FFInProgress"))
             && transform.position.x >= 29 && transform.position.x <= 33)
         {
+            print(timer);
             timer += Time.deltaTime;
 
-            if (timer >= 3)
+            if (timer >= 2.5)
             {
                 timer = 0f;
                 this.gameObject.GetComponent<Animator>().SetBool("transform", true);
@@ -60,7 +61,7 @@ public class SceneGranite04 : MonoBehaviour
         {
             timer += Time.deltaTime;
 
-            if (timer >= 3)
+            if (timer >= 2.5)
             {
                 timer = 0f;
                 this.gameObject.GetComponent<Animator>().SetBool("transform", true);

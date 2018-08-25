@@ -65,19 +65,20 @@ public class DialogFirstScript : MonoBehaviour
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("7") && (Input.GetKeyDown("space") || Input.GetMouseButtonDown(0)))
         {
             anim.SetBool("8", true);
-            wizardIcon.SetActive(false);
-            characterIcon.SetActive(true);
+            
         }
 
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("8") && (Input.GetKeyDown("space") || Input.GetMouseButtonDown(0)))
         {
-            wizardIcon.SetActive(true);
-            characterIcon.SetActive(false);
+            wizardIcon.SetActive(false);
+            characterIcon.SetActive(true);
             anim.SetBool("9", true);
         }
 
         if (anim.GetCurrentAnimatorStateInfo(0).IsName("9") && (Input.GetKeyDown("space") || Input.GetMouseButtonDown(0)))
         {
+            wizardIcon.SetActive(true);
+            characterIcon.SetActive(false);
             anim.SetBool("10", true);
 
         }
