@@ -1,6 +1,6 @@
-WindowsStandalone
+OSXStandalone
 PlayerPath?
-C:/Users/Clémence/Documents/Documents.exe
+C:/Users/Clémence/Documents/GitHub/RockHunt-Mine/MacBuild.app
 SceneListBegin?
 Assets/Start.unity
 Assets/RockCycleDiagram .unity
